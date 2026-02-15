@@ -1,0 +1,18 @@
+mixin {
+    if (file("src/main/resources/usermixins.noir_smp.json").exists()) {
+        config 'usermixins.noir_smp.json'
+    }
+}
+
+jar {
+    var mixins = new ArrayList<String>()
+    if (file("src/main/resources/noir_smp.mixins.json").exists()) {
+        mixins.add("noir_smp.mixins.json")
+    }
+    if (file("src/main/resources/usermixins.noir_smp.json").exists()) {
+        mixins.add("usermixins.noir_smp.json")
+    }
+    manifest.attributes([
+            "MixinConfigs": String.join(",",mixins)
+    ])
+}

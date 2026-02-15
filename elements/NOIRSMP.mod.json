@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "N.O.I.R SMP",
+    "icon": {
+      "value": "Blocks.REDSTONE_BLOCK"
+    },
+    "showSearch": true
+  }
+}
