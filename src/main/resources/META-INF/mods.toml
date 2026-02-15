@@ -1,14 +1,16 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Not specified"
+license="All Rights Reserved"
 
 [[mods]]
 modId="noir_smp"
 version="1.0.0"
 displayName="N.O.I.R SMP"
-displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="MCreator"
+displayURL="https://discord.gg/vv5rmYKEkG"
+logoFile="logo.png"
+credits="Mod feito pela equipe da NOIR SMP"
+authors="CiborgLuiz"
+description="NOIR SMP"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
@@ -24,6 +26,24 @@ side="BOTH"
 
 
 # Start of user code block dependencies configuration
+[[dependencies.memory_of_the_past]]
+modId="jauml"
+mandatory=true
+versionRange="[1.1.0,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.memory_of_the_past]]
+modId="jauml"
+mandatory=true
+versionRange="[1.1.0,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.memory_of_the_past]]
+modId="jauml"
+mandatory=true
+versionRange="[1.1.0,)"
+ordering="NONE"
+side="BOTH"
 [[dependencies.memory_of_the_past]]
 modId="jauml"
 mandatory=true
