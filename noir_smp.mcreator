@@ -1,0 +1,41 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/mcreator/noirsmp/NoirSmpMod.java",
+      "src/main/resources/META-INF/accesstransformer.cfg"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "noir_smp",
+    "modName": "N.O.I.R SMP",
+    "version": "1.0.0",
+    "description": "NOIR SMP",
+    "author": "CiborgLuiz",
+    "websiteURL": "https://discord.gg/vv5rmYKEkG",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "logo2",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Mod feito pela equipe da NOIR SMP",
+    "modElementsPackage": "net.mcreator.noirsmp"
+  },
+  "mcreatorVersion": 202500345720
+}
