@@ -37,12 +37,12 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModPaintings.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModPaintings.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/noirsmp/NoirSmpMod.java",
       "src/main/resources/META-INF/mods.toml",
-      "src/main/java/net/mcreator/noirsmp/NoirSmpMod.java"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {

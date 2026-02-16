@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------
+
+Command-Line:
+ - /home/danilow/Downloads/MCreator/MCreator20253/jdk/bin/java
+ - -jar
+ - /home/danilow/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/mergetool/1.1.7/3d41564f78f123d64573cae7948014baf3aaba3f/mergetool-1.1.7-fatjar.jar
+ - --strip
+ - --input
+ - /home/danilow/.mcreator/gradle/caches/neoformruntime/intermediate_results/rename_8abf458bf60da4f27be102b947a8834d3eb0aeef_output.jar
+ - --output
+ - ./output.jar
+ - --data
+ - sas/forge.sas
+--------------------------------------------------------------------------------
+
+Input:  /home/danilow/.mcreator/gradle/caches/neoformruntime/intermediate_results/rename_8abf458bf60da4f27be102b947a8834d3eb0aeef_output.jar
+Output: /home/danilow/N.O.I.R/build/tmp/neoformruntime/20260216-003548_stripSideAnnotations/./output.jar
+Data:   /home/danilow/N.O.I.R/build/tmp/neoformruntime/20260216-003548_stripSideAnnotations/sas/forge.sas
