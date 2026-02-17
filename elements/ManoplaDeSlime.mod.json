@@ -1,0 +1,46 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "vazio",
+    "customModelName": "manopla_de_slime:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "§a§lManopla De Slime",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:NOIRSmp"
+      }
+    ],
+    "efficiency": 10.0,
+    "attackSpeed": 1.7,
+    "enchantability": 20,
+    "damageVsEntity": 6.0,
+    "usageCount": 350,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.SLIME_BALL"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ManoplaDeSlimeLivingEntityIsHitWithTool"
+    },
+    "onItemInUseTick": {
+      "name": "ManoplaDeSlimeToolInInventoryTick"
+    }
+  }
+}
