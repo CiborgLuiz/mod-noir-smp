@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="noir"></stringAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="N.O.I.R"></stringAttribute>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="net.neoforged.devlaunch.Main"></stringAttribute>
-    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value=" @/home/ciborg/MCreatorWorkspaces/noir/build/moddev/clientRunProgramArgs.txt"></stringAttribute>
-    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value=" @/home/ciborg/MCreatorWorkspaces/noir/build/moddev/clientRunVmArgs.txt -Dfml.modFolders=mcreator%%/home/ciborg/MCreatorWorkspaces/noir/bin/main"></stringAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value=" @/home/danilow/N.O.I.R/build/moddev/clientRunProgramArgs.txt"></stringAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value=" @/home/danilow/N.O.I.R/build/moddev/clientRunVmArgs.txt -Dfml.modFolders=mcreator%%/home/danilow/N.O.I.R/bin/main"></stringAttribute>
     <mapAttribute key="org.eclipse.debug.core.environmentVariables">
-        <mapEntry key="MOD_CLASSES" value="mcreator%%/home/ciborg/MCreatorWorkspaces/noir/bin/main"></mapEntry>
+        <mapEntry key="MOD_CLASSES" value="mcreator%%/home/danilow/N.O.I.R/bin/main"></mapEntry>
     </mapAttribute>
-    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="/home/ciborg/MCreatorWorkspaces/noir/run"></stringAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="/home/danilow/N.O.I.R/run"></stringAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.STOP_IN_MAIN" value="false"></booleanAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"></booleanAttribute>
 </launchConfiguration>

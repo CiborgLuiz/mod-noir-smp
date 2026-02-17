@@ -85,25 +85,6 @@
         ]
       },
       "path": "~/Armas"
-    },
-    {
-      "name": "ManoplaDeSlimeToolInInventoryTick",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "manopla_de_slime_tool_in_inventory_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/noirsmp/procedures/ManoplaDeSlimeToolInInventoryTickProcedure.java"
-        ]
-      },
-      "path": "~/Armas"
     }
   ],
   "variable_elements": [],
@@ -132,14 +113,14 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModPaintings.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
+      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModPaintings.java",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModItems.java",
-      "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModTabs.java",
+      "src/main/java/net/mcreator/noirsmp/NoirSmpMod.java",
       "src/main/resources/META-INF/mods.toml",
-      "src/main/java/net/mcreator/noirsmp/NoirSmpMod.java"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
