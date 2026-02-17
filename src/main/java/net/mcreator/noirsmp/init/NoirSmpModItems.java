@@ -10,13 +10,16 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.noirsmp.item.ManoplaDeSlimeItem;
+import net.mcreator.noirsmp.item.DadoFeuralItem;
 import net.mcreator.noirsmp.NoirSmpMod;
 
 public class NoirSmpModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, NoirSmpMod.MODID);
 	public static final RegistryObject<Item> MANOPLA_DE_SLIME;
+	public static final RegistryObject<Item> DADO_FEURAL;
 	static {
 		MANOPLA_DE_SLIME = REGISTRY.register("manopla_de_slime", ManoplaDeSlimeItem::new);
+		DADO_FEURAL = REGISTRY.register("dado_feural", DadoFeuralItem::new);
 	}
 	// Start of user code block custom items
 	// End of user code block custom items
