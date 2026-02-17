@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/manopla_de_slime",
+  "textures": {
+    "0": "noir_smp:block/manopla_slime_tex",
+    "particle": "noir_smp:item/vazio"
+  }
+}
