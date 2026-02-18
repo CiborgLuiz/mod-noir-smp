@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "noir_smp:item/sinos_de_marfin_light_gray"
+  }
+}

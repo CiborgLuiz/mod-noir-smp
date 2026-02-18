@@ -20,5 +20,14 @@ public class NoirSmpModTabs {
 				tabData.accept(NoirSmpModItems.MANOPLA_DE_SLIME.get());
 				tabData.accept(NoirSmpModItems.DADO_FEURAL.get());
 				tabData.accept(NoirSmpModItems.LAMINA_DO_ARAUTO_PLUMIFERO.get());
+				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_SPEED.get());
+				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_REGEN.get());
+				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_STRENGTH.get());
+				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_SLOW_FALLING.get());
+				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_NIGHT_VISION.get());
+				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_JUMP_BOOST.get());
+				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_INVISIBILITY.get());
+				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_RESISTENCE.get());
+				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_AQUATIC_RESPIRATION.get());
 			}).withSearchBar().build());
 }

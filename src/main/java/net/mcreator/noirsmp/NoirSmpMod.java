@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.noirsmp.init.NoirSmpModTabs;
+import net.mcreator.noirsmp.init.NoirSmpModSounds;
 import net.mcreator.noirsmp.init.NoirSmpModPaintings;
 import net.mcreator.noirsmp.init.NoirSmpModItems;
 
@@ -40,6 +41,7 @@ public class NoirSmpMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = context.getModEventBus();
+		NoirSmpModSounds.REGISTRY.register(bus);
 		NoirSmpModItems.REGISTRY.register(bus);
 		NoirSmpModTabs.REGISTRY.register(bus);
 		NoirSmpModPaintings.REGISTRY.register(bus);

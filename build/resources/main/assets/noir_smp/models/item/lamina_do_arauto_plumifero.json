@@ -1,7 +1,7 @@
 {
-  "parent": "noir_smp:custom/foice",
+  "parent": "noir_smp:custom/lamina",
   "textures": {
-    "0": "noir_smp:block/foice",
+    "1": "noir_smp:block/lamina",
     "particle": "noir_smp:item/vazio"
   }
 }

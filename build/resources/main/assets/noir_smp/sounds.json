@@ -1,0 +1,11 @@
+{
+  "sininho": {
+    "subtitle": "subtitles.sininho",
+    "sounds": [
+      {
+        "name": "noir_smp:sininho",
+        "stream": false
+      }
+    ]
+  }
+}

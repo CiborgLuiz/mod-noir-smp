@@ -142,7 +142,7 @@ public class DadoFeuralRightclickedProcedure {
 				}
 			}
 			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(NoirSmpModItems.DADO_FEURAL.get(), 20);
+				_player.getCooldowns().addCooldown(NoirSmpModItems.DADO_FEURAL.get(), 1500);
 		}
 	}
 }

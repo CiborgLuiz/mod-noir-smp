@@ -6,5 +6,15 @@
   "item.noir_smp.manopla_de_slime": "§a§lManopla De Slime",
   "item_group.noir_smp.noir_smp": "N..O.I.R SMP",
   "item.noir_smp.dado_feural": "Dado Feural",
-  "item.noir_smp.lamina_do_arauto_plumifero": "§6§lLâmina do Arauto Plumífero"
+  "item.noir_smp.lamina_do_arauto_plumifero": "§6§lLâmina do Arauto Plumífero",
+  "item.noir_smp.sino_de_marfim_speed": "§9§lSino De Marfim Speed",
+  "item.noir_smp.sino_de_marfim_regen": "§4§lSino De Marfim Regen",
+  "item.noir_smp.sino_de_marfim_strength": "§6§lSino De Marfim Strength",
+  "item.noir_smp.sino_de_marfim_slow_falling": "§f§lSino De Marfim Slow Falling",
+  "item.noir_smp.sino_de_marfim_night_vision": "§2§lSino De Marfim Night Vision",
+  "item.noir_smp.sino_de_marfim_jump_boost": "§e§lSino De Marfim Jump Boost",
+  "item.noir_smp.sino_de_marfim_invisibility": "§7§lSino De Marfim Invisibility",
+  "item.noir_smp.sino_de_marfim_resistence": "§5§lSino De Marfim Resistence",
+  "item.noir_smp.sino_de_marfim_aquatic_respiration": "§3§lSino De Marfim Aquatic Respiration",
+  "subtitles.sininho": "sininho"
 }
