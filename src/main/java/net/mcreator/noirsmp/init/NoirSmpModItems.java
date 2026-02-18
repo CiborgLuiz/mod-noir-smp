@@ -26,6 +26,7 @@ public class NoirSmpModItems {
 	public static final RegistryObject<Item> SINO_DE_MARFIM_INVISIBILITY;
 	public static final RegistryObject<Item> SINO_DE_MARFIM_RESISTENCE;
 	public static final RegistryObject<Item> SINO_DE_MARFIM_AQUATIC_RESPIRATION;
+	public static final RegistryObject<Item> MANOPLA_DA_CALAMIDADE;
 	static {
 		MANOPLA_DE_SLIME = REGISTRY.register("manopla_de_slime", ManoplaDeSlimeItem::new);
 		DADO_FEURAL = REGISTRY.register("dado_feural", DadoFeuralItem::new);
@@ -39,6 +40,7 @@ public class NoirSmpModItems {
 		SINO_DE_MARFIM_INVISIBILITY = REGISTRY.register("sino_de_marfim_invisibility", SinoDeMarfimInvisibilityItem::new);
 		SINO_DE_MARFIM_RESISTENCE = REGISTRY.register("sino_de_marfim_resistence", SinoDeMarfimResistenceItem::new);
 		SINO_DE_MARFIM_AQUATIC_RESPIRATION = REGISTRY.register("sino_de_marfim_aquatic_respiration", SinoDeMarfimAquaticRespirationItem::new);
+		MANOPLA_DA_CALAMIDADE = REGISTRY.register("manopla_da_calamidade", ManoplaDaCalamidadeItem::new);
 	}
 	// Start of user code block custom items
 	// End of user code block custom items

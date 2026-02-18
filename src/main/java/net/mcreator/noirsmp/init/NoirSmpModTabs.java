@@ -29,5 +29,6 @@ public class NoirSmpModTabs {
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_INVISIBILITY.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_RESISTENCE.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_AQUATIC_RESPIRATION.get());
+				tabData.accept(NoirSmpModItems.MANOPLA_DA_CALAMIDADE.get());
 			}).withSearchBar().build());
 }

@@ -23,7 +23,7 @@ public class SinoDeMarfimJumpBoostRightclickedProcedure {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 2400, 2, false, false));
 			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(NoirSmpModItems.SINO_DE_MARFIM_JUMP_BOOST.get(), 3000);
+				_player.getCooldowns().addCooldown(NoirSmpModItems.SINO_DE_MARFIM_JUMP_BOOST.get(), 4800);
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("noir_smp:sininho")), SoundSource.PLAYERS, 1, 1);

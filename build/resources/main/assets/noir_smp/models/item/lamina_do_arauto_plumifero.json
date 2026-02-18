@@ -1,7 +1,7 @@
 {
-  "parent": "noir_smp:custom/lamina",
+  "parent": "noir_smp:custom/laminatucano",
   "textures": {
-    "1": "noir_smp:block/lamina",
-    "particle": "noir_smp:item/vazio"
+    "0": "noir_smp:block/lamina",
+    "particle": "noir_smp:item/lamina"
   }
 }
