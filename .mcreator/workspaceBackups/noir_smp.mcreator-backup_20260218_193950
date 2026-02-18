@@ -583,20 +583,8 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
+            "name": "sourceentity",
+            "type": "entity"
           }
         ],
         "files": [
@@ -633,13 +621,13 @@
   ],
   "tag_elements": {
     "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:ManoplaDaCalamidade",
       "~CUSTOM:ManoplaDeSlime"
     ],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:ManoplaDeSlime"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:ManoplaDaCalamidade",
       "~CUSTOM:LaminaDoArautoPlumifero",
       "~CUSTOM:ManoplaDeSlime"
     ]
@@ -695,6 +683,10 @@
       },
       {
         "name": "Itens",
+        "children": []
+      },
+      {
+        "name": "armadura",
         "children": []
       }
     ]
