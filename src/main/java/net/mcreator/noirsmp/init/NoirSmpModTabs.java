@@ -19,5 +19,6 @@ public class NoirSmpModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.noir_smp.noir_smp")).icon(() -> new ItemStack(NoirSmpModItems.DADO_FEURAL.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(NoirSmpModItems.MANOPLA_DE_SLIME.get());
 				tabData.accept(NoirSmpModItems.DADO_FEURAL.get());
+				tabData.accept(NoirSmpModItems.LAMINA_DO_ARAUTO_PLUMIFERO.get());
 			}).withSearchBar().build());
 }

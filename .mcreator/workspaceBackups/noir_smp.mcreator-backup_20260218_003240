@@ -187,7 +187,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "photon"
+    ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Mod feito pela equipe da NOIR SMP",
     "modElementsPackage": "net.mcreator.noirsmp"
