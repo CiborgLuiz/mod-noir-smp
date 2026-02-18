@@ -2,6 +2,8 @@ Forge Auto Renaming Tool v2.0.4
 lib: /home/ciborg/MCreatorWorkspaces/noir/build/moddev/artifacts/forge-1.20.1-47.4.13.jar
 lib: /home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-common/0.5.0/286da96036621082491d971dfc62bee8fc37d161/mixinextras-common-0.5.0.jar
 lib: /home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-forge/0.5.0/cebe4d98a42a4a32ebf0ddec7b93d5bdbdad009/mixinextras-forge-0.5.0.jar
+lib: /home/ciborg/.mcreator/gradle/caches/9.2.0/transforms/5d2ba06fc51221e47f3c39ae953102cc/transformed/photon-871522-7381162.jar
+lib: /home/ciborg/.mcreator/gradle/caches/9.2.0/transforms/1f2b8743374579fdfc297d4a8be65133/transformed/ldlib-626676-7412415.jar
 lib: /home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/cpw.mods/securejarhandler/2.1.10/51e6a22c6c716beb11e244bf5b8be480f51dd6b5/securejarhandler-2.1.10.jar
 lib: /home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlloader/1.20.1-47.4.13/b27b57b2f641bfe6ecdaf206ee54880d26bb9c10/fmlloader-1.20.1-47.4.13.jar
 lib: /home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/coremods/5.2.4/e30bab269d896613e38396274711410b3a0e4b87/coremods-5.2.4.jar

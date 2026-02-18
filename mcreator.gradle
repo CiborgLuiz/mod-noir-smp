@@ -1,0 +1,15 @@
+repositories {
+        maven {
+            url = "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+
+dependencies {
+  modImplementation "curse.maven:photon-871522:7381162"
+  modImplementation "curse.maven:ldlib-626676:7412415"
+}
+
+
