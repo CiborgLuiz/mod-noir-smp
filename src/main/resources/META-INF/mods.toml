@@ -16,38 +16,26 @@ description="NOIR SMP"
 # End of user code block mod configuration
 
 [[dependencies.noir_smp]]
-modId="minecraft"
-mandatory=true
-versionRange="[1.20.1]"
-ordering="AFTER"
-side="BOTH"
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
 
 
 [[dependencies.noir_smp]]
-modId="photon"
-mandatory=false
-versionRange="[0,)"
-ordering="NONE"
-side="BOTH"
+    modId="photon"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration
 [[dependencies.memory_of_the_past]]
-modId="jauml"
-mandatory=true
-versionRange="[1.1.0,)"
-ordering="NONE"
-side="BOTH"
-[[dependencies.memory_of_the_past]]
-modId="jauml"
-mandatory=true
-versionRange="[1.1.0,)"
-ordering="NONE"
-side="BOTH"
-[[dependencies.memory_of_the_past]]
-modId="jauml"
-mandatory=true
-versionRange="[1.1.0,)"
-ordering="NONE"
-side="BOTH"
+    modId="jauml"
+    mandatory=true
+    versionRange="[1.1.0,)"
+    ordering="NONE"
+    side="BOTH"
 # End of user code block dependencies configuration
