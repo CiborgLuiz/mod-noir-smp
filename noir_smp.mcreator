@@ -606,6 +606,20 @@
         ]
       },
       "path": "~/Armas"
+    },
+    {
+      "name": "PassosEterios",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "passos_eterios",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/item/passos_eterios_boots.json",
+          "src/main/java/net/mcreator/noirsmp/item/PassosEteriosItem.java"
+        ]
+      },
+      "path": "~/armadura"
     }
   ],
   "variable_elements": [],
@@ -653,7 +667,8 @@
       "item.noir_smp.sino_de_marfim_resistence": "§5§lSino De Marfim Resistence",
       "item.noir_smp.sino_de_marfim_aquatic_respiration": "§3§lSino De Marfim Aquatic Respiration",
       "subtitles.sininho": "sininho",
-      "item.noir_smp.manopla_da_calamidade": "§4§lManopla Da Calamidade"
+      "item.noir_smp.manopla_da_calamidade": "§4§lManopla Da Calamidade",
+      "item.noir_smp.passos_eterios_boots": "§5§lPassos Etérios"
     }
   },
   "metadata": {
@@ -666,6 +681,7 @@
       "src/main/resources/assets/noir_smp/sounds.json",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModTabs.java",
+      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModModels.java",
       "src/main/resources/META-INF/mods.toml",
       "src/main/java/net/mcreator/noirsmp/NoirSmpMod.java"
     ]
@@ -683,6 +699,10 @@
       },
       {
         "name": "Itens",
+        "children": []
+      },
+      {
+        "name": "armadura",
         "children": []
       }
     ]
