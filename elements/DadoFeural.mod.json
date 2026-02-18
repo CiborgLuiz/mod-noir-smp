@@ -11,7 +11,11 @@
     "animations": [],
     "name": "Dado Feural",
     "rarity": "EPIC",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:NOIRSmp"
+      }
+    ],
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
