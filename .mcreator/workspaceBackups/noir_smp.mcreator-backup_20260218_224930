@@ -573,6 +573,39 @@
         ]
       },
       "path": "~/Itens"
+    },
+    {
+      "name": "ManoplaDaCalamidadeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manopla_da_calamidade_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/procedures/ManoplaDaCalamidadeLivingEntityIsHitWithToolProcedure.java"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "ManoplaDaCalamidade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manopla_da_calamidade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/item/manopla_da_calamidade.json",
+          "src/main/java/net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem.java"
+        ]
+      },
+      "path": "~/Armas"
     }
   ],
   "variable_elements": [],
@@ -594,6 +627,7 @@
       "~CUSTOM:ManoplaDeSlime"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:ManoplaDaCalamidade",
       "~CUSTOM:LaminaDoArautoPlumifero",
       "~CUSTOM:ManoplaDeSlime"
     ]
@@ -618,7 +652,8 @@
       "item.noir_smp.sino_de_marfim_invisibility": "§7§lSino De Marfim Invisibility",
       "item.noir_smp.sino_de_marfim_resistence": "§5§lSino De Marfim Resistence",
       "item.noir_smp.sino_de_marfim_aquatic_respiration": "§3§lSino De Marfim Aquatic Respiration",
-      "subtitles.sininho": "sininho"
+      "subtitles.sininho": "sininho",
+      "item.noir_smp.manopla_da_calamidade": "§4§lManopla Da Calamidade"
     }
   },
   "metadata": {
