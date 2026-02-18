@@ -127,8 +127,8 @@
       "registry_name": "lamina_do_arauto_plumifero",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem.java",
-          "src/main/resources/assets/noir_smp/models/item/lamina_do_arauto_plumifero.json"
+          "src/main/resources/assets/noir_smp/models/item/lamina_do_arauto_plumifero.json",
+          "src/main/java/net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem.java"
         ]
       },
       "path": "~/Armas"
@@ -163,14 +163,14 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModPaintings.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
+      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModPaintings.java",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModItems.java",
-      "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModTabs.java",
+      "src/main/java/net/mcreator/noirsmp/NoirSmpMod.java",
       "src/main/resources/META-INF/mods.toml",
-      "src/main/java/net/mcreator/noirsmp/NoirSmpMod.java"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {

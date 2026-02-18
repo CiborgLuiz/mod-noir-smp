@@ -22,7 +22,7 @@ toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.5
-fov:0.0
+fov:0.75
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
@@ -31,8 +31,8 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
-renderDistance:16
-simulationDistance:16
+renderDistance:12
+simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
@@ -40,7 +40,7 @@ maxFps:260
 graphicsMode:0
 ao:false
 prioritizeChunkUpdates:0
-biomeBlendRadius:2
+biomeBlendRadius:0
 renderClouds:"false"
 resourcePacks:[]
 incompatibleResourcePacks:[]
@@ -63,7 +63,7 @@ chatHeightUnfocused:0.4375
 chatScale:1.0
 chatWidth:1.0
 notificationDisplayTime:1.0
-mipmapLevels:2
+mipmapLevels:0
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:1
