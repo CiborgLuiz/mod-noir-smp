@@ -1,0 +1,8 @@
+{
+  "parent": "noir_smp:custom/ancora_do_k7",
+  "textures": {
+    "3": "noir_smp:block/ancora_fero",
+    "4": "noir_smp:block/ouro_ancora_v2",
+    "particle": "noir_smp:item/ancora_fero"
+  }
+}

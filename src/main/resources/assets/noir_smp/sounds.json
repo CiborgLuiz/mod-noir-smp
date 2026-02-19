@@ -7,5 +7,31 @@
         "stream": false
       }
     ]
+  },
+  "kokusen": {
+    "sounds": [
+      {
+        "name": "noir_smp:kokusen",
+        "stream": false
+      }
+    ]
+  },
+  "tijoloarremesso": {
+    "subtitle": "subtitles.tijoloarremesso",
+    "sounds": [
+      {
+        "name": "noir_smp:arremesso",
+        "stream": false
+      }
+    ]
+  },
+  "tijoloacerto": {
+    "subtitle": "subtitles.tijoloacerto",
+    "sounds": [
+      {
+        "name": "noir_smp:acerto",
+        "stream": false
+      }
+    ]
   }
 }

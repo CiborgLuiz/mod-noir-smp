@@ -111,41 +111,73 @@ Adding Libraries to Inheritance
 Reading Input: /home/ciborg/MCreatorWorkspaces/noir/build/devlibs/modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/DadoFeuralItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/TIJOLOPROJETILRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/EntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/TIJOLOPROJETILRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/model/ModelBotas_Etereas_Model/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/model/ModelBotas_Etereas_Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/model/ModelTijoloProjetil/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/model/ModelTijoloProjetil/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/TIJOLOPROJETILEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/TIJOLOPROJETILEntity/onHitEntity(Lnet/minecraft/world/phys/EntityHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitEntity(Lnet/minecraft/world/phys/EntityHitResult;)V: onHitEntity -> m_5790_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/TIJOLOPROJETILEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/TIJOLOPROJETILEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/TIJOLOPROJETILEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/TIJOLOPROJETILEntity/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V: onHitBlock -> m_8060_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/TIJOLOPROJETILEntity/playerTouch(Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/entity/projectile/AbstractArrow/playerTouch(Lnet/minecraft/world/entity/player/Player;)V: playerTouch -> m_6123_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/TIJOLOPROJETILEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem/getDestroySpeed(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)F from net/minecraft/world/item/Item/getDestroySpeed(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)F: getDestroySpeed -> m_8102_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/Item/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z: mineBlock -> m_6813_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap; from net/minecraft/world/item/Item/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap;: getDefaultAttributeModifiers -> m_7167_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/Item/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem/isCorrectToolForDrops(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/item/Item/isCorrectToolForDrops(Lnet/minecraft/world/level/block/state/BlockState;)Z: isCorrectToolForDrops -> m_8096_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/DiggerItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimAquaticRespirationItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/DadoFeuralItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/SwordItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/PassosEteriosItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/PassosEteriosItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/PassosEteriosItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/PassosEteriosItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/PassosEteriosItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/PassosEteriosItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/PassosEteriosItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/PassosEteriosItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimInvisibilityItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimAquaticRespirationItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimJumpBoostItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimNightVisionItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
-Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimRegenItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimResistenceItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimSlowFallingItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimSpeedItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimStrengthItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/TIJOLOItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/TIJOLOItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/TIJOLOItem/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/item/Item/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V: releaseUsing -> m_5551_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/TIJOLOItem/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap; from net/minecraft/world/item/Item/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap;: getDefaultAttributeModifiers -> m_7167_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimSpeedItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Adding extras
 Sorting
 Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
@@ -162,15 +194,19 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   assets/noir_smp/lang/en_us.json
   assets/noir_smp/models/
   assets/noir_smp/models/custom/
+  assets/noir_smp/models/custom/ancora_do_k7.json
   assets/noir_smp/models/custom/foice.json
   assets/noir_smp/models/custom/lamina.json
   assets/noir_smp/models/custom/laminatucano.json
   assets/noir_smp/models/custom/manopla_de_slime.json
+  assets/noir_smp/models/custom/tijolo.json
   assets/noir_smp/models/item/
   assets/noir_smp/models/item/dado_feural.json
   assets/noir_smp/models/item/lamina_do_arauto_plumifero.json
+  assets/noir_smp/models/item/leviatan.json
   assets/noir_smp/models/item/manopla_da_calamidade.json
   assets/noir_smp/models/item/manopla_de_slime.json
+  assets/noir_smp/models/item/passos_eterios_boots.json
   assets/noir_smp/models/item/sino_de_marfim_aquatic_respiration.json
   assets/noir_smp/models/item/sino_de_marfim_invisibility.json
   assets/noir_smp/models/item/sino_de_marfim_jump_boost.json
@@ -180,17 +216,33 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   assets/noir_smp/models/item/sino_de_marfim_slow_falling.json
   assets/noir_smp/models/item/sino_de_marfim_speed.json
   assets/noir_smp/models/item/sino_de_marfim_strength.json
+  assets/noir_smp/models/item/tijolo.json
   assets/noir_smp/sounds.json
   assets/noir_smp/sounds/
+  assets/noir_smp/sounds/acerto.ogg
+  assets/noir_smp/sounds/arremesso.ogg
+  assets/noir_smp/sounds/kokusen.ogg
   assets/noir_smp/sounds/sininho.ogg
   assets/noir_smp/textures/
   assets/noir_smp/textures/block/
-  assets/noir_smp/textures/block/lamina.png
+  assets/noir_smp/textures/block/alga_ancora.png
+  assets/noir_smp/textures/block/ancora_fero.png
+  assets/noir_smp/textures/block/laminatucano.png
   assets/noir_smp/textures/block/manopla_slime_tex.png
+  assets/noir_smp/textures/block/ouro_ancora_v2.png
+  assets/noir_smp/textures/block/tijolo.png
   assets/noir_smp/textures/block/vazio.png
+  assets/noir_smp/textures/entities/
+  assets/noir_smp/textures/entities/botas_etereas.png
+  assets/noir_smp/textures/entities/tijolo.png
   assets/noir_smp/textures/item/
+  assets/noir_smp/textures/item/ancora_fero.png
+  assets/noir_smp/textures/item/armadurabase_body.png
+  assets/noir_smp/textures/item/armadurabase_boots.png
+  assets/noir_smp/textures/item/armadurabase_head.png
+  assets/noir_smp/textures/item/armadurabase_leggings.png
   assets/noir_smp/textures/item/dado_feural.png
-  assets/noir_smp/textures/item/lamina.png
+  assets/noir_smp/textures/item/laminatucano.png
   assets/noir_smp/textures/item/sinos_de_marfin.png
   assets/noir_smp/textures/item/sinos_de_marfin_blue.png
   assets/noir_smp/textures/item/sinos_de_marfin_green.png
@@ -200,10 +252,15 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   assets/noir_smp/textures/item/sinos_de_marfin_orange.png
   assets/noir_smp/textures/item/sinos_de_marfin_purpura.png
   assets/noir_smp/textures/item/sinos_de_marfin_yellow.png
+  assets/noir_smp/textures/item/tijolo.png
   assets/noir_smp/textures/item/vazio.png
   assets/noir_smp/textures/logo.png
   assets/noir_smp/textures/logo2.png
   assets/noir_smp/textures/logolonga.png
+  assets/noir_smp/textures/models/
+  assets/noir_smp/textures/models/armor/
+  assets/noir_smp/textures/models/armor/armadurabase_layer_1.png
+  assets/noir_smp/textures/models/armor/armadurabase_layer_2.png
   assets/noir_smp/textures/painting/
   assets/noir_smp/textures/painting/noir_logo.png
   assets/noir_smp/textures/painting/noir_logo_longa.png
@@ -222,9 +279,16 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   data/noir_smp/
   data/noir_smp/advancements/
   data/noir_smp/advancements/recipes/
-  data/noir_smp/advancements/recipes/botas_armor_leggings_recipe.json
+  data/noir_smp/advancements/recipes/armadurabase_armor_boots_recipe.json
+  data/noir_smp/advancements/recipes/armadurabase_armor_chestplate_recipe.json
+  data/noir_smp/advancements/recipes/armadurabase_armor_helmet_recipe.json
+  data/noir_smp/advancements/recipes/armadurabase_armor_leggings_recipe.json
   data/noir_smp/recipes/
-  data/noir_smp/recipes/botas_armor_leggings_recipe.json
+  data/noir_smp/recipes/armadurabase_armor_boots_recipe.json
+  data/noir_smp/recipes/armadurabase_armor_chestplate_recipe.json
+  data/noir_smp/recipes/armadurabase_armor_helmet_recipe.json
+  data/noir_smp/recipes/armadurabase_armor_leggings_recipe.json
+  data/noir_smp/recipes/tijolo_crafting.json
   data/noir_smp/weapon_attributes/
   data/noir_smp/weapon_attributes/lamina_do_arauto_plumifero.json
   data/noir_smp/weapon_attributes/manopla_de_slime.json
@@ -233,8 +297,19 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   net/mcreator/
   net/mcreator/noirsmp/
   net/mcreator/noirsmp/NoirSmpMod.class
+  net/mcreator/noirsmp/client/
+  net/mcreator/noirsmp/client/model/
+  net/mcreator/noirsmp/client/model/ModelBotas_Etereas_Model.class
+  net/mcreator/noirsmp/client/model/ModelTijoloProjetil.class
+  net/mcreator/noirsmp/client/renderer/
+  net/mcreator/noirsmp/client/renderer/TIJOLOPROJETILRenderer.class
+  net/mcreator/noirsmp/entity/
+  net/mcreator/noirsmp/entity/TIJOLOPROJETILEntity.class
   net/mcreator/noirsmp/init/
+  net/mcreator/noirsmp/init/NoirSmpModEntities.class
+  net/mcreator/noirsmp/init/NoirSmpModEntityRenderers.class
   net/mcreator/noirsmp/init/NoirSmpModItems.class
+  net/mcreator/noirsmp/init/NoirSmpModModels.class
   net/mcreator/noirsmp/init/NoirSmpModPaintings.class
   net/mcreator/noirsmp/init/NoirSmpModSounds.class
   net/mcreator/noirsmp/init/NoirSmpModTabs.class
@@ -242,10 +317,16 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   net/mcreator/noirsmp/item/DadoFeuralItem.class
   net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1.class
   net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem.class
+  net/mcreator/noirsmp/item/LeviatanItem$1.class
+  net/mcreator/noirsmp/item/LeviatanItem.class
   net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1.class
   net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem.class
   net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1.class
   net/mcreator/noirsmp/item/ManoplaDeSlimeItem.class
+  net/mcreator/noirsmp/item/PassosEteriosItem$1.class
+  net/mcreator/noirsmp/item/PassosEteriosItem$Boots$1.class
+  net/mcreator/noirsmp/item/PassosEteriosItem$Boots.class
+  net/mcreator/noirsmp/item/PassosEteriosItem.class
   net/mcreator/noirsmp/item/SinoDeMarfimAquaticRespirationItem.class
   net/mcreator/noirsmp/item/SinoDeMarfimInvisibilityItem.class
   net/mcreator/noirsmp/item/SinoDeMarfimJumpBoostItem.class
@@ -255,6 +336,7 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   net/mcreator/noirsmp/item/SinoDeMarfimSlowFallingItem.class
   net/mcreator/noirsmp/item/SinoDeMarfimSpeedItem.class
   net/mcreator/noirsmp/item/SinoDeMarfimStrengthItem.class
+  net/mcreator/noirsmp/item/TIJOLOItem.class
   net/mcreator/noirsmp/procedures/
   net/mcreator/noirsmp/procedures/DadoFeuralRightclickedProcedure.class
   net/mcreator/noirsmp/procedures/ManoplaDaCalamidadeLivingEntityIsHitWithToolProcedure.class
@@ -268,4 +350,7 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   net/mcreator/noirsmp/procedures/SinoDeMarfimSlowFallingRightclickedProcedure.class
   net/mcreator/noirsmp/procedures/SinoDeMarfimSpeedRightclickedProcedure.class
   net/mcreator/noirsmp/procedures/SinoDeMarfimStrengthRightclickedProcedure.class
+  net/mcreator/noirsmp/procedures/TIJOLOPROJETILProjectileHitsBlockProcedure.class
+  net/mcreator/noirsmp/procedures/TIJOLOPROJETILProjectileHitsLivingEntityProcedure.class
+  net/mcreator/noirsmp/procedures/TIJOLOPROJETILProjectileHitsPlayerProcedure.class
   pack.mcmeta

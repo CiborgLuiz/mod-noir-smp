@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/tijolo",
+  "textures": {
+    "0": "noir_smp:block/tijolo",
+    "particle": "noir_smp:item/tijolo"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "noir",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:bricks"
+    }
+  ],
+  "result": {
+    "item": "noir_smp:tijolo",
+    "count": 2
+  }
+}
