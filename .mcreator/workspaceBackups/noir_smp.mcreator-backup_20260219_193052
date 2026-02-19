@@ -649,7 +649,7 @@
       "name": "TIJOLO",
       "type": "item",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "tijolo",
       "metadata": {
         "files": [
@@ -694,7 +694,7 @@
       "name": "TIJOLOPROJETIL",
       "type": "projectile",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "tijoloprojetil",
       "metadata": {
         "files": [
@@ -780,48 +780,32 @@
       "path": "~/Itens"
     },
     {
-      "name": "TijoloExtensionOnDispenseAttemptWithResult",
-      "type": "procedure",
+      "name": "Leviatan",
+      "type": "tool",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tijolo_extension_on_dispense_attempt_with_result",
+      "registry_name": "leviatan",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
         "files": [
-          "src/main/java/net/mcreator/noirsmp/procedures/TijoloExtensionOnDispenseAttemptWithResultProcedure.java"
+          "src/main/java/net/mcreator/noirsmp/item/LeviatanItem.java",
+          "src/main/resources/assets/noir_smp/models/item/leviatan.json"
         ]
       },
-      "path": "~/Itens"
+      "path": "~/Armas"
     },
     {
-      "name": "TijoloExtension",
-      "type": "itemextension",
+      "name": "ESPADA",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tijolo_extension",
+      "registry_name": "espada",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/noirsmp/item/extension/TijoloExtensionItemExtension.java"
+          "src/main/java/net/mcreator/noirsmp/item/ESPADAItem.java",
+          "src/main/resources/assets/noir_smp/models/item/espada.json"
         ]
       },
-      "path": "~/Itens"
+      "path": "~/Armas"
     }
   ],
   "variable_elements": [],
@@ -867,6 +851,7 @@
       "~CUSTOM:ManoplaDeSlime"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:Leviatan",
       "~CUSTOM:ManoplaDaCalamidade",
       "~CUSTOM:LaminaDoArautoPlumifero",
       "~CUSTOM:ManoplaDeSlime"
@@ -898,7 +883,9 @@
       "subtitles.kokusen": "",
       "item.noir_smp.tijolo": "§4§lTIJOLO",
       "subtitles.tijoloarremesso": "TIJOLO",
-      "subtitles.tijoloacerto": "TIJOLO"
+      "subtitles.tijoloacerto": "TIJOLO",
+      "item.noir_smp.leviatan": "§3§lLeviatan",
+      "item.noir_smp.espada": "§6§lE.S.P.A.D.A"
     }
   },
   "metadata": {

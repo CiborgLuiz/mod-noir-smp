@@ -3,13 +3,13 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "vazio",
+    "texture": "e.s.p.a.d.a_tex",
     "customModelName": "e.s.p.a.d.a:default",
     "guiTexture": "",
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "E.S.P.A.D.A",
+    "name": "§6§lE.S.P.A.D.A",
     "rarity": "EPIC",
     "creativeTabs": [
       {
@@ -17,7 +17,7 @@
       }
     ],
     "stackSize": 1,
-    "enchantability": 0,
+    "enchantability": 20,
     "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 3214,
@@ -30,7 +30,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": true,
-    "damageVsEntity": 15.0,
+    "damageVsEntity": 18.0,
     "specialInformation": {
       "fixedValue": []
     },

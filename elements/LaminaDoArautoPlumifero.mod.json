@@ -6,7 +6,7 @@
     "renderType": 1,
     "blockingRenderType": 0,
     "texture": "laminatucano",
-    "customModelName": "cu:default",
+    "customModelName": "laminatucano:default",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
     "name": "§6§lLâmina do Arauto Plumífero",

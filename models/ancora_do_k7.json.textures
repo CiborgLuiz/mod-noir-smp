@@ -3,8 +3,9 @@
     "default": {
       "name": "default",
       "map": {
-        "3": "ancora_fero",
-        "4": "ouro_ancora_v2"
+        "0": "alga_ancora",
+        "1": "ouro_ancora_v2",
+        "2": "ancora_fero"
       }
     }
   }

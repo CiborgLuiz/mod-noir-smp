@@ -792,6 +792,20 @@
         ]
       },
       "path": "~/Armas"
+    },
+    {
+      "name": "ESPADA",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "espada",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/item/ESPADAItem.java",
+          "src/main/resources/assets/noir_smp/models/item/espada.json"
+        ]
+      },
+      "path": "~/Armas"
     }
   ],
   "variable_elements": [],
@@ -870,7 +884,8 @@
       "item.noir_smp.tijolo": "§4§lTIJOLO",
       "subtitles.tijoloarremesso": "TIJOLO",
       "subtitles.tijoloacerto": "TIJOLO",
-      "item.noir_smp.leviatan": "§3§lLeviatan"
+      "item.noir_smp.leviatan": "§3§lLeviatan",
+      "item.noir_smp.espada": "§6§lE.S.P.A.D.A"
     }
   },
   "metadata": {

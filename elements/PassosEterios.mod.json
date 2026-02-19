@@ -9,7 +9,7 @@
     "enableLeggings": false,
     "textureLeggings": "",
     "enableBoots": true,
-    "textureBoots": "minecraft:empty_armor_slot_boots",
+    "textureBoots": "passos_etereos_boots",
     "creativeTabs": [
       {
         "value": "CUSTOM:NOIRSmp"

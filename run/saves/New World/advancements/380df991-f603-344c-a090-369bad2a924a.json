@@ -143,6 +143,7 @@
       "minecraft:elder_guardian": "2026-02-16 20:44:10 -0300",
       "minecraft:spider": "2026-02-16 20:06:39 -0300",
       "minecraft:creeper": "2026-02-16 20:05:44 -0300",
+      "minecraft:witch": "2026-02-19 19:48:25 -0300",
       "minecraft:stray": "2026-02-16 20:06:45 -0300",
       "minecraft:enderman": "2026-02-16 20:21:20 -0300",
       "minecraft:zombie": "2026-02-16 20:05:42 -0300",
@@ -1072,6 +1073,48 @@
   "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
       "has_spider_eye": "2026-02-19 17:23:01 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-02-19 19:48:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-02-19 19:48:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-02-19 19:48:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-02-19 19:48:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-02-19 19:48:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-02-19 19:48:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-02-19 19:48:26 -0300"
     },
     "done": true
   },
