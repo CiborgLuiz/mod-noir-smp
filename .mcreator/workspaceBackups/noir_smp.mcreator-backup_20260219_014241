@@ -606,6 +606,20 @@
         ]
       },
       "path": "~/Armas"
+    },
+    {
+      "name": "PassosEterios",
+      "type": "armor",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "passos_eterios",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/item/passos_eterios_boots.json",
+          "src/main/java/net/mcreator/noirsmp/item/PassosEteriosItem.java"
+        ]
+      },
+      "path": "~/armadura"
     }
   ],
   "variable_elements": [],
@@ -621,13 +635,13 @@
   ],
   "tag_elements": {
     "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:ManoplaDaCalamidade",
       "~CUSTOM:ManoplaDeSlime"
     ],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:ManoplaDeSlime"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:ManoplaDaCalamidade",
       "~CUSTOM:LaminaDoArautoPlumifero",
       "~CUSTOM:ManoplaDeSlime"
     ]
@@ -653,28 +667,34 @@
       "item.noir_smp.sino_de_marfim_resistence": "§5§lSino De Marfim Resistence",
       "item.noir_smp.sino_de_marfim_aquatic_respiration": "§3§lSino De Marfim Aquatic Respiration",
       "subtitles.sininho": "sininho",
-      "item.noir_smp.manopla_da_calamidade": "§4§lManopla Da Calamidade"
+      "item.noir_smp.manopla_da_calamidade": "§4§lManopla Da Calamidade",
+      "item.noir_smp.passos_eterios_boots": "§5§lPassos Etérios"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModPaintings.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
+      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModPaintings.java",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModItems.java",
-      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModSounds.java",
-      "src/main/resources/assets/noir_smp/sounds.json",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModTabs.java",
+      "src/main/java/net/mcreator/noirsmp/NoirSmpMod.java",
       "src/main/resources/META-INF/mods.toml",
-      "src/main/java/net/mcreator/noirsmp/NoirSmpMod.java"
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/noir_smp/sounds.json",
+      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModModels.java"
     ]
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "Outros",
+        "name": "Itens",
+        "children": []
+      },
+      {
+        "name": "armadura",
         "children": []
       },
       {
@@ -682,7 +702,7 @@
         "children": []
       },
       {
-        "name": "Itens",
+        "name": "Outros",
         "children": []
       }
     ]

@@ -1,10 +1,30 @@
 package net.mcreator.noirsmp.item;
 
+import net.minecraftforge.client.extensions.common.IClientItemExtensions;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.client.model.geom.ModelPart;
+import net.minecraft.client.model.HumanoidModel;
+import net.minecraft.client.Minecraft;
+
+import net.mcreator.noirsmp.client.model.ModelBotas_Etereas_Model;
+
 import java.util.function.Consumer;
-import net.minecraft.client.model.Model;
+import java.util.Map;
+import java.util.Collections;
 
 public abstract class PassosEteriosItem extends ArmorItem {
-
 	public PassosEteriosItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -50,7 +70,6 @@ public abstract class PassosEteriosItem extends ArmorItem {
 	}
 
 	public static class Boots extends PassosEteriosItem {
-
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
@@ -82,7 +101,5 @@ public abstract class PassosEteriosItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "noir_smp:textures/entities/botas_etereas.png";
 		}
-
 	}
-
 }
