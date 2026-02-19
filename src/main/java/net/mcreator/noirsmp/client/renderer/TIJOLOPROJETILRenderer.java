@@ -1,22 +1,11 @@
 package net.mcreator.noirsmp.client.renderer;
 
-import net.minecraft.util.Mth;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.texture.OverlayTexture;
-import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.renderer.entity.EntityRenderer;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.MultiBufferSource;
-
-import net.mcreator.noirsmp.entity.TIJOLOPROJETILEntity;
-import net.mcreator.noirsmp.client.model.ModelTijoloProjetil;
-
 import com.mojang.math.Axis;
-import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.mojang.blaze3d.vertex.PoseStack;
 
 public class TIJOLOPROJETILRenderer extends EntityRenderer<TIJOLOPROJETILEntity> {
+
 	private static final ResourceLocation texture = new ResourceLocation("noir_smp:textures/entities/tijolo.png");
+
 	private final ModelTijoloProjetil model;
 
 	public TIJOLOPROJETILRenderer(EntityRendererProvider.Context context) {
@@ -33,6 +22,7 @@ public class TIJOLOPROJETILRenderer extends EntityRenderer<TIJOLOPROJETILEntity>
 		model.setupAnim(entityIn, 0, 0, entityIn.tickCount + partialTicks, entityIn.getYRot(), entityIn.getXRot());
 		model.renderToBuffer(poseStack, vb, packedLightIn, OverlayTexture.NO_OVERLAY, 1, 1, 1, 1);
 		poseStack.popPose();
+
 		super.render(entityIn, entityYaw, partialTicks, poseStack, bufferIn, packedLightIn);
 	}
 
@@ -40,4 +30,5 @@ public class TIJOLOPROJETILRenderer extends EntityRenderer<TIJOLOPROJETILEntity>
 	public ResourceLocation getTextureLocation(TIJOLOPROJETILEntity entity) {
 		return texture;
 	}
+
 }

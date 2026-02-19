@@ -1,17 +1,5 @@
 package net.mcreator.noirsmp.item;
 
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.attributes.AttributeModifier;
-import net.minecraft.world.entity.ai.attributes.Attribute;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EquipmentSlot;
-
-import com.google.common.collect.Multimap;
-import com.google.common.collect.ImmutableMultimap;
-
 public class ESPADAItem extends Item {
 	public ESPADAItem() {
 		super(new Item.Properties().durability(3214).fireResistant().rarity(Rarity.EPIC));

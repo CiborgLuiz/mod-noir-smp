@@ -1,10 +1,5 @@
 package net.mcreator.noirsmp.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Item;
-
 public class LeviatanItem extends SwordItem {
 	public LeviatanItem() {
 		super(new Tier() {
