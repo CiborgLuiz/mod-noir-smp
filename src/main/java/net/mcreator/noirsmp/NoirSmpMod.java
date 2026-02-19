@@ -21,6 +21,7 @@ import net.mcreator.noirsmp.init.NoirSmpModTabs;
 import net.mcreator.noirsmp.init.NoirSmpModSounds;
 import net.mcreator.noirsmp.init.NoirSmpModPaintings;
 import net.mcreator.noirsmp.init.NoirSmpModItems;
+import net.mcreator.noirsmp.init.NoirSmpModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -43,6 +44,7 @@ public class NoirSmpMod {
 		IEventBus bus = context.getModEventBus();
 		NoirSmpModSounds.REGISTRY.register(bus);
 		NoirSmpModItems.REGISTRY.register(bus);
+		NoirSmpModEntities.REGISTRY.register(bus);
 		NoirSmpModTabs.REGISTRY.register(bus);
 		NoirSmpModPaintings.REGISTRY.register(bus);
 		// Start of user code block mod init

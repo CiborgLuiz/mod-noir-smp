@@ -31,5 +31,8 @@ public class NoirSmpModTabs {
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_AQUATIC_RESPIRATION.get());
 				tabData.accept(NoirSmpModItems.MANOPLA_DA_CALAMIDADE.get());
 				tabData.accept(NoirSmpModItems.PASSOS_ETERIOS_BOOTS.get());
+				tabData.accept(NoirSmpModItems.TIJOLO.get());
+				tabData.accept(NoirSmpModItems.LEVIATAN.get());
+				tabData.accept(NoirSmpModItems.ESPADA.get());
 			}).withSearchBar().build());
 }

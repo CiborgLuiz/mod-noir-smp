@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/e.s.p.a.d.a",
+  "textures": {
+    "0": "noir_smp:block/e.s.p.a.d.a_tex",
+    "particle": "noir_smp:item/vazio"
+  }
+}

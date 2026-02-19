@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "3": "ancora_fero",
+        "4": "ouro_ancora_v2"
+      }
+    }
+  }
+}

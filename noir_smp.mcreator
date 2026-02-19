@@ -583,8 +583,32 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "sourceentity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
@@ -620,6 +644,168 @@
         ]
       },
       "path": "~/armadura"
+    },
+    {
+      "name": "TIJOLO",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tijolo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/item/tijolo.json",
+          "src/main/java/net/mcreator/noirsmp/item/TIJOLOItem.java"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "TIJOLOPROJETILProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tijoloprojetil_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/procedures/TIJOLOPROJETILProjectileHitsBlockProcedure.java"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "TIJOLOPROJETIL",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tijoloprojetil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/client/renderer/TIJOLOPROJETILRenderer.java",
+          "src/main/java/net/mcreator/noirsmp/entity/TIJOLOPROJETILEntity.java"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "TijoloCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tijolo_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/recipes/tijolo_crafting.json"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "TIJOLOPROJETILProjectileHitsPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tijoloprojetil_projectile_hits_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/procedures/TIJOLOPROJETILProjectileHitsPlayerProcedure.java"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "TIJOLOPROJETILProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tijoloprojetil_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/procedures/TIJOLOPROJETILProjectileHitsLivingEntityProcedure.java"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "Leviatan",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leviatan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/item/LeviatanItem.java",
+          "src/main/resources/assets/noir_smp/models/item/leviatan.json"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "ESPADA",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "espada",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/item/ESPADAItem.java",
+          "src/main/resources/assets/noir_smp/models/item/espada.json"
+        ]
+      },
+      "path": "~/Armas"
     }
   ],
   "variable_elements": [],
@@ -631,6 +817,30 @@
       ],
       "category": "player",
       "subtitle": "sininho"
+    },
+    {
+      "name": "kokusen",
+      "files": [
+        "kokusen"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "tijoloarremesso",
+      "files": [
+        "arremesso"
+      ],
+      "category": "block",
+      "subtitle": "TIJOLO"
+    },
+    {
+      "name": "tijoloacerto",
+      "files": [
+        "acerto"
+      ],
+      "category": "block",
+      "subtitle": "TIJOLO"
     }
   ],
   "tag_elements": {
@@ -641,6 +851,7 @@
       "~CUSTOM:ManoplaDeSlime"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:Leviatan",
       "~CUSTOM:ManoplaDaCalamidade",
       "~CUSTOM:LaminaDoArautoPlumifero",
       "~CUSTOM:ManoplaDeSlime"
@@ -668,7 +879,13 @@
       "item.noir_smp.sino_de_marfim_aquatic_respiration": "§3§lSino De Marfim Aquatic Respiration",
       "subtitles.sininho": "sininho",
       "item.noir_smp.manopla_da_calamidade": "§4§lManopla Da Calamidade",
-      "item.noir_smp.passos_eterios_boots": "§5§lPassos Etérios"
+      "item.noir_smp.passos_eterios_boots": "§5§lPassos Etérios",
+      "subtitles.kokusen": "",
+      "item.noir_smp.tijolo": "§4§lTIJOLO",
+      "subtitles.tijoloarremesso": "TIJOLO",
+      "subtitles.tijoloacerto": "TIJOLO",
+      "item.noir_smp.leviatan": "§3§lLeviatan",
+      "item.noir_smp.espada": "E.S.P.A.D.A"
     }
   },
   "metadata": {
@@ -676,6 +893,8 @@
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModPaintings.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModItems.java",
+      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModEntities.java",
+      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModEntityRenderers.java",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModSounds.java",
       "src/main/resources/assets/noir_smp/sounds.json",
