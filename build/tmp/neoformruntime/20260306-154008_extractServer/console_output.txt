@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------
+
+Command-Line:
+ - /usr/lib/jvm/java-17-openjdk/bin/java
+ - -jar
+ - /home/ciborg/.gradle/caches/neoformruntime/artifacts/net/minecraftforge/installertools/1.3.2/installertools-1.3.2-fatjar.jar
+ - --task
+ - bundler_extract
+ - --input
+ - /home/ciborg/.gradle/caches/neoformruntime/artifacts/minecraft_1.20.1_server.jar
+ - --output
+ - ./output.jar
+ - --jar-only
+--------------------------------------------------------------------------------
+
+Task: BUNDLER_EXTRACT
+Input:   /home/ciborg/.gradle/caches/neoformruntime/artifacts/minecraft_1.20.1_server.jar
+Output:  /home/ciborg/MCreatorWorkspaces/noir/build/tmp/neoformruntime/20260306-154008_extractServer/./output.jar
+All:     false
+JarOnly: true
+Libs:    false
+Extracted: versions/1.20.1/server-1.20.1.jar

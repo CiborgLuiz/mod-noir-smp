@@ -17,9 +17,10 @@ public class NoirSmpModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, NoirSmpMod.MODID);
 	public static final RegistryObject<CreativeModeTab> NOIR_SMP = REGISTRY.register("noir_smp",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.noir_smp.noir_smp")).icon(() -> new ItemStack(NoirSmpModItems.DADO_FEURAL.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(NoirSmpModItems.MANOPLA_DE_SLIME.get());
 				tabData.accept(NoirSmpModItems.DADO_FEURAL.get());
+				tabData.accept(NoirSmpModItems.MANOPLA_DE_SLIME.get());
 				tabData.accept(NoirSmpModItems.LAMINA_DO_ARAUTO_PLUMIFERO.get());
+				tabData.accept(NoirSmpModItems.DOPPEL_MASK.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_SPEED.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_REGEN.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_STRENGTH.get());
@@ -29,10 +30,10 @@ public class NoirSmpModTabs {
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_INVISIBILITY.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_RESISTENCE.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_AQUATIC_RESPIRATION.get());
-				tabData.accept(NoirSmpModItems.MANOPLA_DA_CALAMIDADE.get());
 				tabData.accept(NoirSmpModItems.PASSOS_ETERIOS_BOOTS.get());
-				tabData.accept(NoirSmpModItems.TIJOLO.get());
+				tabData.accept(NoirSmpModItems.MANOPLA_DA_CALAMIDADE.get());
 				tabData.accept(NoirSmpModItems.LEVIATAN.get());
 				tabData.accept(NoirSmpModItems.ESPADA.get());
+				tabData.accept(NoirSmpModItems.AGULHA_DOS_PESADELOS_PROFUNDOS.get());
 			}).withSearchBar().build());
 }

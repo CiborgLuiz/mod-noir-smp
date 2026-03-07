@@ -5,7 +5,7 @@
   "painting.noir_smp.noir_logo.title": "N.O.I.R Logo",
   "item.noir_smp.manopla_de_slime": "§a§lManopla De Slime",
   "item_group.noir_smp.noir_smp": "N..O.I.R SMP",
-  "item.noir_smp.dado_feural": "Dado Feural",
+  "item.noir_smp.dado_feural": "§d§lDado Feural",
   "item.noir_smp.lamina_do_arauto_plumifero": "§6§lLâmina do Arauto Plumífero",
   "item.noir_smp.sino_de_marfim_speed": "§9§lSino De Marfim Speed",
   "item.noir_smp.sino_de_marfim_regen": "§4§lSino De Marfim Regen",
@@ -17,12 +17,13 @@
   "item.noir_smp.sino_de_marfim_resistence": "§5§lSino De Marfim Resistence",
   "item.noir_smp.sino_de_marfim_aquatic_respiration": "§3§lSino De Marfim Aquatic Respiration",
   "subtitles.sininho": "sininho",
-  "item.noir_smp.manopla_da_calamidade": "§4§lManopla Da Calamidade",
   "item.noir_smp.passos_eterios_boots": "§5§lPassos Etérios",
   "subtitles.kokusen": "",
-  "item.noir_smp.tijolo": "§4§lTIJOLO",
   "subtitles.tijoloarremesso": "TIJOLO",
   "subtitles.tijoloacerto": "TIJOLO",
+  "item.noir_smp.doppel_mask": "§8§lDoppel Mask",
+  "item.noir_smp.manopla_da_calamidade": "§4§lManopla Da Calamidade",
   "item.noir_smp.leviatan": "§3§lLeviatan",
-  "item.noir_smp.espada": "§6§lE.S.P.A.D.A"
+  "item.noir_smp.espada": "§6§lE.S.P.A.D.A",
+  "item.noir_smp.agulha_dos_pesadelos_profundos": "§1§lAgulha Dos Pesadelos Profundos"
 }

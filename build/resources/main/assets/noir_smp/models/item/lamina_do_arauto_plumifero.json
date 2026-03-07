@@ -1,7 +1,7 @@
 {
   "parent": "noir_smp:custom/laminatucano",
   "textures": {
-    "1": "noir_smp:block/e.s.p.a.d.a_tex",
+    "1": "noir_smp:block/laminatucano",
     "particle": "noir_smp:item/laminatucano"
   }
 }

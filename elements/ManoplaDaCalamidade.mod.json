@@ -3,10 +3,10 @@
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
-    "renderType": 0,
+    "renderType": 1,
     "blockingRenderType": 0,
-    "texture": "minecraft:amethyst_shard",
-    "customModelName": "Normal",
+    "texture": "manoplacalamidade",
+    "customModelName": "manopladacalamidade:default",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
     "name": "§4§lManopla Da Calamidade",

@@ -28,9 +28,10 @@ public class NoirSmpModItems {
 	public static final RegistryObject<Item> SINO_DE_MARFIM_AQUATIC_RESPIRATION;
 	public static final RegistryObject<Item> MANOPLA_DA_CALAMIDADE;
 	public static final RegistryObject<Item> PASSOS_ETERIOS_BOOTS;
-	public static final RegistryObject<Item> TIJOLO;
 	public static final RegistryObject<Item> LEVIATAN;
 	public static final RegistryObject<Item> ESPADA;
+	public static final RegistryObject<Item> DOPPEL_MASK;
+	public static final RegistryObject<Item> AGULHA_DOS_PESADELOS_PROFUNDOS;
 	static {
 		MANOPLA_DE_SLIME = REGISTRY.register("manopla_de_slime", ManoplaDeSlimeItem::new);
 		DADO_FEURAL = REGISTRY.register("dado_feural", DadoFeuralItem::new);
@@ -46,9 +47,10 @@ public class NoirSmpModItems {
 		SINO_DE_MARFIM_AQUATIC_RESPIRATION = REGISTRY.register("sino_de_marfim_aquatic_respiration", SinoDeMarfimAquaticRespirationItem::new);
 		MANOPLA_DA_CALAMIDADE = REGISTRY.register("manopla_da_calamidade", ManoplaDaCalamidadeItem::new);
 		PASSOS_ETERIOS_BOOTS = REGISTRY.register("passos_eterios_boots", PassosEteriosItem.Boots::new);
-		TIJOLO = REGISTRY.register("tijolo", TIJOLOItem::new);
 		LEVIATAN = REGISTRY.register("leviatan", LeviatanItem::new);
 		ESPADA = REGISTRY.register("espada", ESPADAItem::new);
+		DOPPEL_MASK = REGISTRY.register("doppel_mask", DoppelMaskItem::new);
+		AGULHA_DOS_PESADELOS_PROFUNDOS = REGISTRY.register("agulha_dos_pesadelos_profundos", AgulhaDosPesadelosProfundosItem::new);
 	}
 	// Start of user code block custom items
 	// End of user code block custom items

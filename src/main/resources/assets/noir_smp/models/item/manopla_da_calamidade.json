@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "noir_smp:custom/manopladacalamidade",
   "textures": {
-    "layer0": "minecraft:item/amethyst_shard"
+    "0": "noir_smp:block/manoplacalamidade",
+    "particle": "noir_smp:item/manoplacalamidade"
   }
 }

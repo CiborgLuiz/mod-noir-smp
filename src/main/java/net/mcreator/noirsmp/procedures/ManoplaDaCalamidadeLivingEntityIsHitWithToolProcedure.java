@@ -4,7 +4,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
@@ -19,10 +18,11 @@ import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
 public class ManoplaDaCalamidadeLivingEntityIsHitWithToolProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity, ItemStack itemstack) {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		if (Mth.nextDouble(RandomSource.create(), 1, 10) >= 5) {
+		double danoarma = 0;
+		if (Mth.nextDouble(RandomSource.create(), 0, 10) <= 1) {
 			{
 				Entity _ent = sourceentity;
 				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
@@ -30,7 +30,7 @@ public class ManoplaDaCalamidadeLivingEntityIsHitWithToolProcedure {
 							_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "photon fx photon:kokusen entity @s");
 				}
 			}
-			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.PLAYER_ATTACK)), itemstack.getDamageValue() * 2);
+			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.PLAYER_ATTACK)), 18);
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("noir_smp:kokusen")), SoundSource.PLAYERS, 1, 1);

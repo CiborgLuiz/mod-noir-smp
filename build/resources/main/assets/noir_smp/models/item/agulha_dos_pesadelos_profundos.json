@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/agulha_dos_pesadelos_profundos",
+  "textures": {
+    "1": "noir_smp:block/agulha_dos_pesadelos_profundos",
+    "particle": "noir_smp:item/agulha_dos_pesadelos_profundos"
+  }
+}

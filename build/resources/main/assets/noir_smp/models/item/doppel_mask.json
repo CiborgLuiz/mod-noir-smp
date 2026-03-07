@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/doppelmask",
+  "textures": {
+    "0": "noir_smp:block/doppelmask",
+    "particle": "noir_smp:item/doppelmask"
+  }
+}
