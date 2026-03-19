@@ -1,0 +1,135 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 2026-03-10 17:50:42
+Description: Ticking player
+
+java.lang.IllegalArgumentException: Invalid slot 'ARMOR': 4
+	at net.minecraft.world.entity.EquipmentSlot.byTypeAndIndex(EquipmentSlot.java:64) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading}
+	at net.mcreator.noirsmp.procedures.PassosEteriosBootsTickEventProcedure.execute(PassosEteriosBootsTickEventProcedure.java:38) ~[%23182!/:?] {re:classloading}
+	at net.mcreator.noirsmp.procedures.PassosEteriosBootsTickEventProcedure.execute(PassosEteriosBootsTickEventProcedure.java:32) ~[%23182!/:?] {re:classloading}
+	at net.mcreator.noirsmp.item.PassosEteriosItem$Boots.inventoryTick(PassosEteriosItem.java:114) ~[%23182!/:?] {re:classloading}
+	at net.minecraft.world.item.ItemStack.inventoryTick(ItemStack.java:481) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,xf:fml:forge:itemstack,re:mixin,xf:fml:forge:itemstack}
+	at net.minecraftforge.common.extensions.IForgeItem.onInventoryTick(IForgeItem.java:353) ~[forge-1.20.1-47.4.13.jar%23176%23183!/:?] {re:classloading}
+	at net.minecraftforge.common.extensions.IForgeItemStack.onInventoryTick(IForgeItemStack.java:306) ~[forge-1.20.1-47.4.13.jar%23176%23183!/:?] {re:computing_frames,re:classloading}
+	at net.minecraft.world.entity.player.Inventory.tick(Inventory.java:230) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading}
+	at net.minecraft.world.entity.player.Player.aiStep(Player.java:499) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2298) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:computing_frames,re:classloading,re:mixin}
+	at net.minecraft.world.entity.player.Player.tick(Player.java:241) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:467) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:ldlib-common.mixins.json:accessor.ServerPlayerAccessor,pl:mixin:A}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:262) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.network.Connection.tick(Connection.java:263) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading}
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:142) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:907) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Suspected Mod: 
+	N.O.I.R SMP (noir_smp), Version: 1.0.0
+		at TRANSFORMER/noir_smp@1.0.0/net.mcreator.noirsmp.procedures.PassosEteriosBootsTickEventProcedure.execute(PassosEteriosBootsTickEventProcedure.java:38)
+Stacktrace:
+	at net.minecraft.world.entity.EquipmentSlot.byTypeAndIndex(EquipmentSlot.java:64) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading}
+	at net.mcreator.noirsmp.procedures.PassosEteriosBootsTickEventProcedure.execute(PassosEteriosBootsTickEventProcedure.java:38) ~[%23182!/:?] {re:classloading}
+	at net.mcreator.noirsmp.procedures.PassosEteriosBootsTickEventProcedure.execute(PassosEteriosBootsTickEventProcedure.java:32) ~[%23182!/:?] {re:classloading}
+	at net.mcreator.noirsmp.item.PassosEteriosItem$Boots.inventoryTick(PassosEteriosItem.java:114) ~[%23182!/:?] {re:classloading}
+	at net.minecraft.world.item.ItemStack.inventoryTick(ItemStack.java:481) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,xf:fml:forge:itemstack,re:mixin,xf:fml:forge:itemstack}
+	at net.minecraftforge.common.extensions.IForgeItem.onInventoryTick(IForgeItem.java:353) ~[forge-1.20.1-47.4.13.jar%23176%23183!/:?] {re:classloading}
+	at net.minecraftforge.common.extensions.IForgeItemStack.onInventoryTick(IForgeItemStack.java:306) ~[forge-1.20.1-47.4.13.jar%23176%23183!/:?] {re:computing_frames,re:classloading}
+	at net.minecraft.world.entity.player.Inventory.tick(Inventory.java:230) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading}
+	at net.minecraft.world.entity.player.Player.aiStep(Player.java:499) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2298) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:computing_frames,re:classloading,re:mixin}
+	at net.minecraft.world.entity.player.Player.tick(Player.java:241) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+-- Player being ticked --
+Details:
+	Entity Type: minecraft:player (net.minecraft.server.level.ServerPlayer)
+	Entity ID: 47
+	Entity Name: Dev
+	Entity's Exact location: -142.70, 105.00, -865.26
+	Entity's Block location: World: (-143,105,-866), Section: (at 1,9,14 in -9,6,-55; chunk contains blocks -144,-64,-880 to -129,319,-865), Region: (-1,-2; contains chunks -32,-64 to -1,-33, blocks -512,-64,-1024 to -1,319,-513)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:467) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:ldlib-common.mixins.json:accessor.ServerPlayerAccessor,pl:mixin:A}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:262) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.network.Connection.tick(Connection.java:263) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading}
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:142) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:907) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.4.13.jar%23177!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 6.18.9-arch1-2
+	Java Version: 17.0.18, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 470012728 bytes (448 MiB) / 1433403392 bytes (1367 MiB) up to 2061500416 bytes (1966 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 5600 6-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 33 Stepping 2
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: TU117 [GeForce GTX 1650]
+	Graphics card #0 vendor: NVIDIA Corporation (0x10de)
+	Graphics card #0 VRAM (MB): 288.00
+	Graphics card #0 deviceId: 0x1f82
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 8025.09
+	Virtual memory used (MB): 9741.00
+	Swap memory total (MB): 4096.00
+	Swap memory used (MB): 2732.34
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/47, l='ServerLevel[New World]', x=-142.70, y=105.00, z=-865.26]]
+	Data Packs: vanilla, mod:noir_smp, mod:forge, mod:photon (incompatible), mod:ldlib (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: MOD_DEV
+	ModLauncher: 10.0.10+10.0.10+main.22f00f84
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.13.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.13.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.13.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.13.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.13.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.10.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.10.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		photon-871522-7381162.jar                         |Photon                        |photon                        |1.1.16              |DONE      |Manifest: NOSIGNATURE
+		forge-1.20.1-47.4.13.jar                          |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: NOSIGNATURE
+		main                                              |N.O.I.R SMP                   |noir_smp                      |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |47.4.13             |DONE      |Manifest: NOSIGNATURE
+		ldlib-626676-7412415.jar                          |LowDragLib                    |ldlib                         |1.0.48              |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 7fd73558-1020-4aac-b335-7d699a4035eb
+	FML: 47.4
+	Forge: net.minecraftforge:47.4.13

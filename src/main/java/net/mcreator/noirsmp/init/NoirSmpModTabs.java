@@ -19,8 +19,13 @@ public class NoirSmpModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.noir_smp.noir_smp")).icon(() -> new ItemStack(NoirSmpModItems.DADO_FEURAL.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(NoirSmpModItems.DADO_FEURAL.get());
 				tabData.accept(NoirSmpModItems.MANOPLA_DE_SLIME.get());
+				tabData.accept(NoirSmpModItems.MANOPLA_DA_CALAMIDADE.get());
 				tabData.accept(NoirSmpModItems.LAMINA_DO_ARAUTO_PLUMIFERO.get());
-				tabData.accept(NoirSmpModItems.DOPPEL_MASK.get());
+				tabData.accept(NoirSmpModItems.LEVIATAN.get());
+				tabData.accept(NoirSmpModItems.AGULHA_DOS_PESADELOS_PROFUNDOS.get());
+				tabData.accept(NoirSmpModItems.ESPADA.get());
+				tabData.accept(NoirSmpModItems.PEDRA.get());
+				tabData.accept(NoirSmpModItems.SLIME_MACE.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_SPEED.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_REGEN.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_STRENGTH.get());
@@ -30,10 +35,19 @@ public class NoirSmpModTabs {
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_INVISIBILITY.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_RESISTENCE.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_AQUATIC_RESPIRATION.get());
+				tabData.accept(NoirSmpModItems.DOPPEL_MASK.get());
 				tabData.accept(NoirSmpModItems.PASSOS_ETERIOS_BOOTS.get());
-				tabData.accept(NoirSmpModItems.MANOPLA_DA_CALAMIDADE.get());
-				tabData.accept(NoirSmpModItems.LEVIATAN.get());
-				tabData.accept(NoirSmpModItems.ESPADA.get());
-				tabData.accept(NoirSmpModItems.AGULHA_DOS_PESADELOS_PROFUNDOS.get());
+				tabData.accept(NoirSmpModItems.NINJATO.get());
+				tabData.accept(NoirSmpModItems.ESPETO.get());
+				tabData.accept(NoirSmpModItems.BENGALA.get());
+				tabData.accept(NoirSmpModItems.MARRETA.get());
+				tabData.accept(NoirSmpModItems.CANO_DE_METAL.get());
+				tabData.accept(NoirSmpModItems.ROLO.get());
+				tabData.accept(NoirSmpModItems.TACO_COM_ARAME.get());
+				tabData.accept(NoirSmpModItems.RIPA.get());
+				tabData.accept(NoirSmpModItems.MOLOTOV.get());
+				tabData.accept(NoirSmpModItems.TIJOLO.get());
+				tabData.accept(NoirSmpModItems.MARRETA_GRAVITACIONAL.get());
+				tabData.accept(NoirSmpModItems.ARMA_DE_BURACO_NEGRO.get());
 			}).withSearchBar().build());
 }

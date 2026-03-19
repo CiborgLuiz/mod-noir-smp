@@ -2,8 +2,14 @@
   "workspacePanelIconSize": "TILES",
   "workspacePanelSortType": "CREATED",
   "workspacePanelSortAscending": true,
-  "projectBrowserSplitPos": 0,
+  "projectBrowserSplitPos": 280,
   "projectBrowserState": {
-    "expandedPaths": []
+    "expandedPaths": [
+      "[, N.O.I.R SMP]",
+      "[, N.O.I.R SMP, Resources (Gradle)]",
+      "[, N.O.I.R SMP, Resources (Gradle), /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/data]",
+      "[, N.O.I.R SMP, Resources (Gradle), /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/data, /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/data/noir_smp]",
+      "[, N.O.I.R SMP, Resources (Gradle), /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/data, /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/data/noir_smp, /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/data/noir_smp/weapon_attributes]"
+    ]
   }
 }

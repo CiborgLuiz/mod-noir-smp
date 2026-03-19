@@ -29,9 +29,23 @@ public class NoirSmpModItems {
 	public static final RegistryObject<Item> MANOPLA_DA_CALAMIDADE;
 	public static final RegistryObject<Item> PASSOS_ETERIOS_BOOTS;
 	public static final RegistryObject<Item> LEVIATAN;
-	public static final RegistryObject<Item> ESPADA;
 	public static final RegistryObject<Item> DOPPEL_MASK;
 	public static final RegistryObject<Item> AGULHA_DOS_PESADELOS_PROFUNDOS;
+	public static final RegistryObject<Item> BENGALA;
+	public static final RegistryObject<Item> CANO_DE_METAL;
+	public static final RegistryObject<Item> ESPETO;
+	public static final RegistryObject<Item> MARRETA;
+	public static final RegistryObject<Item> NINJATO;
+	public static final RegistryObject<Item> ESPADA;
+	public static final RegistryObject<Item> PEDRA;
+	public static final RegistryObject<Item> SLIME_MACE;
+	public static final RegistryObject<Item> RIPA;
+	public static final RegistryObject<Item> ROLO;
+	public static final RegistryObject<Item> TACO_COM_ARAME;
+	public static final RegistryObject<Item> MOLOTOV;
+	public static final RegistryObject<Item> TIJOLO;
+	public static final RegistryObject<Item> MARRETA_GRAVITACIONAL;
+	public static final RegistryObject<Item> ARMA_DE_BURACO_NEGRO;
 	static {
 		MANOPLA_DE_SLIME = REGISTRY.register("manopla_de_slime", ManoplaDeSlimeItem::new);
 		DADO_FEURAL = REGISTRY.register("dado_feural", DadoFeuralItem::new);
@@ -48,9 +62,23 @@ public class NoirSmpModItems {
 		MANOPLA_DA_CALAMIDADE = REGISTRY.register("manopla_da_calamidade", ManoplaDaCalamidadeItem::new);
 		PASSOS_ETERIOS_BOOTS = REGISTRY.register("passos_eterios_boots", PassosEteriosItem.Boots::new);
 		LEVIATAN = REGISTRY.register("leviatan", LeviatanItem::new);
-		ESPADA = REGISTRY.register("espada", ESPADAItem::new);
 		DOPPEL_MASK = REGISTRY.register("doppel_mask", DoppelMaskItem::new);
 		AGULHA_DOS_PESADELOS_PROFUNDOS = REGISTRY.register("agulha_dos_pesadelos_profundos", AgulhaDosPesadelosProfundosItem::new);
+		BENGALA = REGISTRY.register("bengala", BengalaItem::new);
+		CANO_DE_METAL = REGISTRY.register("cano_de_metal", CanoDeMetalItem::new);
+		ESPETO = REGISTRY.register("espeto", EspetoItem::new);
+		MARRETA = REGISTRY.register("marreta", MarretaItem::new);
+		NINJATO = REGISTRY.register("ninjato", NinjatoItem::new);
+		ESPADA = REGISTRY.register("espada", ESPADAItem::new);
+		PEDRA = REGISTRY.register("pedra", PEDRAItem::new);
+		SLIME_MACE = REGISTRY.register("slime_mace", SlimeMaceItem::new);
+		RIPA = REGISTRY.register("ripa", RipaItem::new);
+		ROLO = REGISTRY.register("rolo", RoloItem::new);
+		TACO_COM_ARAME = REGISTRY.register("taco_com_arame", TacoComArameItem::new);
+		MOLOTOV = REGISTRY.register("molotov", MolotovItem::new);
+		TIJOLO = REGISTRY.register("tijolo", TijoloItem::new);
+		MARRETA_GRAVITACIONAL = REGISTRY.register("marreta_gravitacional", MarretaGravitacionalItem::new);
+		ARMA_DE_BURACO_NEGRO = REGISTRY.register("arma_de_buraco_negro", ArmaDeBuracoNegroItem::new);
 	}
 	// Start of user code block custom items
 	// End of user code block custom items

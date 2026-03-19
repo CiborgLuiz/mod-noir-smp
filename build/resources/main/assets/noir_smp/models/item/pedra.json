@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/p.e.d.r.a",
+  "textures": {
+    "5": "noir_smp:block/resto",
+    "particle": "noir_smp:item/resto"
+  }
+}

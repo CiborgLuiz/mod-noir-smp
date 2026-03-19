@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/rolo",
+  "textures": {
+    "0": "noir_smp:block/rolo",
+    "particle": "noir_smp:item/rolo"
+  }
+}

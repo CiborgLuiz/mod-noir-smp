@@ -21,7 +21,7 @@ public class ManoplaDaCalamidadeItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 11f;
+				return 7f;
 			}
 
 			public int getLevel() {
@@ -35,7 +35,7 @@ public class ManoplaDaCalamidadeItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -2f, new Item.Properties());
+		}, 3, -1.8f, new Item.Properties());
 	}
 
 	@Override

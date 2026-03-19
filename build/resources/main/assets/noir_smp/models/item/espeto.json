@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/espeto",
+  "textures": {
+    "2": "noir_smp:block/espeto",
+    "particle": "noir_smp:item/espeto"
+  }
+}

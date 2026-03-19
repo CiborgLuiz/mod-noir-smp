@@ -1,0 +1,39 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "ripa",
+    "customModelName": "ripa:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "§6§lRipa",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:NOIRSmp"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.8,
+    "enchantability": 2,
+    "damageVsEntity": 15.0,
+    "usageCount": 3,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "RipaLivingEntityIsHitWithTool"
+    }
+  }
+}

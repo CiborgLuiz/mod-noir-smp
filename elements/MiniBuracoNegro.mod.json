@@ -1,0 +1,28 @@
+{
+  "_fv": 79,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:BuracoNegro.spawn_egg"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:buraco_negro"
+    },
+    "igniteFire": false,
+    "disableGravity": true,
+    "power": 1.0,
+    "damage": 10.0,
+    "knockback": 0,
+    "entityModel": "Modelburaconegro",
+    "customModelTexture": "buraconegro.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "MiniBuracoNegroProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "MiniBuracoNegroProjectileHitsBlock"
+    }
+  }
+}

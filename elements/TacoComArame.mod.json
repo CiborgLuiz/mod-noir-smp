@@ -1,0 +1,39 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "tacocomarame",
+    "customModelName": "taco_com_arame:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "§6§lTaco Com Arame",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:NOIRSmp"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.7,
+    "enchantability": 2,
+    "damageVsEntity": 4.800000000000001,
+    "usageCount": 135,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "TacoComArameLivingEntityIsHitWithTool"
+    }
+  }
+}

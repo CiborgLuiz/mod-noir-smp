@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/marreta",
+  "textures": {
+    "2": "noir_smp:block/marreta",
+    "particle": "noir_smp:item/marreta"
+  }
+}

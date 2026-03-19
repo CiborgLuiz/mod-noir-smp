@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
+    "noir_smp:marreta",
+    "noir_smp:cano_de_metal",
     "noir_smp:agulha_dos_pesadelos_profundos",
+    "noir_smp:ripa",
+    "noir_smp:espeto",
+    "noir_smp:taco_com_arame",
+    "noir_smp:slime_mace",
+    "noir_smp:rolo",
     "noir_smp:manopla_de_slime",
     "noir_smp:leviatan",
+    "noir_smp:bengala",
+    "noir_smp:espada",
+    "noir_smp:marreta_gravitacional",
+    "noir_smp:pedra",
+    "noir_smp:ninjato",
     "noir_smp:manopla_da_calamidade",
     "noir_smp:lamina_do_arauto_plumifero"
   ]

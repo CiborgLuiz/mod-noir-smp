@@ -33,5 +33,13 @@
         "stream": false
       }
     ]
+  },
+  "buraco_negro": {
+    "sounds": [
+      {
+        "name": "noir_smp:black-hole",
+        "stream": false
+      }
+    ]
   }
 }

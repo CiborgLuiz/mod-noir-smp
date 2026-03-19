@@ -21,7 +21,7 @@
     "efficiency": 10.0,
     "attackSpeed": 1.7,
     "enchantability": 20,
-    "damageVsEntity": 6.0,
+    "damageVsEntity": 7.5,
     "usageCount": 350,
     "glowCondition": {
       "fixedValue": false
@@ -38,9 +38,6 @@
     "damageOnCrafting": false,
     "onEntityHitWith": {
       "name": "ManoplaDeSlimeLivingEntityIsHitWithTool"
-    },
-    "onItemInUseTick": {
-      "name": "ManoplaDeSlimeToolInInventoryTick"
     }
   }
 }

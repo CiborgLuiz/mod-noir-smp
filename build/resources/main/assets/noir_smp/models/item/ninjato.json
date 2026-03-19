@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/ninjato",
+  "textures": {
+    "2": "noir_smp:block/ninjatotex",
+    "particle": "noir_smp:item/ninjatotex"
+  }
+}

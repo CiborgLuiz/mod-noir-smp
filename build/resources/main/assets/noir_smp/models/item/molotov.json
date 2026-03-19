@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/garrafa",
+  "textures": {
+    "0": "noir_smp:block/garrafa",
+    "particle": "noir_smp:item/garrafa"
+  }
+}

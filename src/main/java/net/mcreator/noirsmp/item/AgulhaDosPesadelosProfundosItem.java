@@ -31,6 +31,6 @@ public class AgulhaDosPesadelosProfundosItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -2.6f, new Item.Properties());
 	}
 }

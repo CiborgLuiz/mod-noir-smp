@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/ripa",
+  "textures": {
+    "0": "noir_smp:block/ripa",
+    "particle": "noir_smp:item/ripa"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/taco_com_arame",
+  "textures": {
+    "0": "noir_smp:block/tacocomarame",
+    "particle": "noir_smp:item/tacocomarame"
+  }
+}

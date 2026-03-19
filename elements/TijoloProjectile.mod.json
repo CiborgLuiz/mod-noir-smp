@@ -1,0 +1,28 @@
+{
+  "_fv": 79,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Tijolo"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:tijoloarremesso"
+    },
+    "igniteFire": false,
+    "disableGravity": false,
+    "power": 1.5,
+    "damage": 4.0,
+    "knockback": 10,
+    "entityModel": "ModelTijoloProjetil",
+    "customModelTexture": "tijolo.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "TijoloProjectileProjectileHitsBlock2"
+    },
+    "onHitsEntity": {
+      "name": "TijoloProjectileProjectileHitsBlock"
+    }
+  }
+}

@@ -17,10 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.noirsmp.init.NoirSmpModTabs;
-import net.mcreator.noirsmp.init.NoirSmpModSounds;
-import net.mcreator.noirsmp.init.NoirSmpModPaintings;
-import net.mcreator.noirsmp.init.NoirSmpModItems;
+import net.mcreator.noirsmp.init.*;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -43,8 +40,12 @@ public class NoirSmpMod {
 		IEventBus bus = context.getModEventBus();
 		NoirSmpModSounds.REGISTRY.register(bus);
 		NoirSmpModItems.REGISTRY.register(bus);
+		NoirSmpModEntities.REGISTRY.register(bus);
 		NoirSmpModTabs.REGISTRY.register(bus);
 		NoirSmpModPaintings.REGISTRY.register(bus);
+		NoirSmpModMobEffects.REGISTRY.register(bus);
+		NoirSmpModMenus.REGISTRY.register(bus);
+		NoirSmpModParticleTypes.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

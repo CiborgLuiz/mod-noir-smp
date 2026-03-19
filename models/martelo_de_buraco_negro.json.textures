@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "martelo_orbital",
+        "1": "martelo_orbital_bastoes"
+      }
+    }
+  }
+}

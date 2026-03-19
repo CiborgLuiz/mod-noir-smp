@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/cano_pvc",
+  "textures": {
+    "1": "noir_smp:block/canopvc",
+    "particle": "noir_smp:item/canopvc"
+  }
+}

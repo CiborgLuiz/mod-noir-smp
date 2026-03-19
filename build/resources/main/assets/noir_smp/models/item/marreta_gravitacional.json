@@ -1,0 +1,8 @@
+{
+  "parent": "noir_smp:custom/martelo_de_buraco_negro",
+  "textures": {
+    "0": "noir_smp:block/martelo_orbital",
+    "1": "noir_smp:block/martelo_orbital_bastoes",
+    "particle": "noir_smp:item/martelo_orbital"
+  }
+}

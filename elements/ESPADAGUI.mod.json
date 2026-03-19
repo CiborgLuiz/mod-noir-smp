@@ -1,0 +1,104 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 174,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 3,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:noir:espada"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "SlotCentral"
+          },
+          "onStackTransfer": {
+            "name": "SlotCentral"
+          },
+          "x": 205,
+          "y": 88,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Slot1"
+          },
+          "onStackTransfer": {
+            "name": "Slot1"
+          },
+          "x": 151,
+          "y": 88,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "Slot2"
+          },
+          "onStackTransfer": {
+            "name": "Slot2"
+          },
+          "x": 205,
+          "y": 42,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "Slot3"
+          },
+          "onStackTransfer": {
+            "name": "Slot3"
+          },
+          "x": 259,
+          "y": 88,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 7,
+      "sy": 7,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -5,10 +5,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.sounds.SoundSource;
@@ -38,8 +35,7 @@ public class ManoplaDeSlimeLivingEntityIsHitWithToolProcedure {
 					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.slime.squish")), SoundSource.PLAYERS, 10, 10, false);
 				}
 			}
-			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 10, 45, false, false));
+			entity.push(0, 2.2, 0);
 			if (sourceentity instanceof Player _player)
 				_player.getCooldowns().addCooldown(NoirSmpModItems.MANOPLA_DE_SLIME.get(), 200);
 		}

@@ -19,7 +19,7 @@ public class LaminaDoArautoPlumiferoItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 13f;
+				return 15f;
 			}
 
 			public int getLevel() {
@@ -33,6 +33,6 @@ public class LaminaDoArautoPlumiferoItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Blocks.VINE));
 			}
-		}, 3, -2.5f, new Item.Properties());
+		}, 3, -2.6f, new Item.Properties());
 	}
 }

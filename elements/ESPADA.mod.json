@@ -1,67 +1,39 @@
 {
   "_fv": 79,
-  "_type": "item",
+  "_type": "tool",
   "definition": {
+    "toolType": "Sword",
     "renderType": 1,
+    "blockingRenderType": 0,
     "texture": "e.s.p.a.d.a_tex",
     "customModelName": "e.s.p.a.d.a:default",
+    "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "customProperties": {},
-    "states": [],
-    "animations": [],
     "name": "§6§lE.S.P.A.D.A",
-    "rarity": "EPIC",
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTabs": [
       {
         "value": "CUSTOM:NOIRSmp"
       }
     ],
-    "stackSize": 1,
-    "enchantability": 20,
-    "useDuration": 0,
-    "toolType": 1.0,
-    "damageCount": 3214,
-    "recipeRemainder": {
-      "value": ""
-    },
-    "destroyAnyBlock": false,
-    "immuneToFire": true,
-    "isPiglinCurrency": false,
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "enableMeleeDamage": true,
+    "efficiency": 4.0,
+    "attackSpeed": 1.6,
+    "enchantability": 2,
     "damageVsEntity": 18.0,
-    "specialInformation": {
-      "fixedValue": []
-    },
+    "usageCount": 0,
     "glowCondition": {
       "fixedValue": false
     },
-    "inventorySize": 9,
-    "inventoryStackSize": 99,
-    "enableRanged": false,
-    "shootConstantly": false,
-    "rangedItemChargesPower": false,
-    "projectile": {
-      "value": "CUSTOM:TIJOLOPROJETIL"
-    },
-    "projectileDisableAmmoCheck": false,
-    "isFood": false,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
-    "eatResultItem": {
-      "value": ""
-    },
-    "isMeat": false,
-    "isAlwaysEdible": false,
-    "animation": "none",
-    "isMusicDisc": false,
-    "musicDiscMusic": {
-      "value": ""
-    },
-    "musicDiscDescription": "",
-    "musicDiscLengthInTicks": 100,
-    "musicDiscAnalogOutput": 0,
-    "providedBannerPatterns": []
+    "repairItems": [],
+    "immuneToFire": true,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "ESPADARightclicked"
+    }
   }
 }

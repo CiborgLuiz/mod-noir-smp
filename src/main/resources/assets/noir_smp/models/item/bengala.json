@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/bengala",
+  "textures": {
+    "0": "noir_smp:block/bengala",
+    "particle": "noir_smp:item/bengala"
+  }
+}

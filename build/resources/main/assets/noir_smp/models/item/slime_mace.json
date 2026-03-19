@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/s.l.i.m.e",
+  "textures": {
+    "1": "noir_smp:block/s.l.i.m.e_tex",
+    "particle": "noir_smp:item/s.l.i.m.e_tex"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/solemnlament",
+  "textures": {
+    "2": "noir_smp:block/solemnlament",
+    "particle": "noir_smp:item/solemnlament"
+  }
+}

@@ -17,7 +17,7 @@ public class LeviatanItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 21f;
+				return 22f;
 			}
 
 			public int getLevel() {
@@ -31,6 +31,6 @@ public class LeviatanItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3.2f, new Item.Properties());
+		}, 3, -3.5f, new Item.Properties());
 	}
 }
