@@ -18,7 +18,7 @@ import net.minecraft.world.entity.Entity;
 import net.mcreator.noirsmp.entity.TijoloProjectileEntity;
 import net.mcreator.noirsmp.entity.MolotovProjectileEntity;
 import net.mcreator.noirsmp.entity.MiniBuracoNegroEntity;
-import net.mcreator.noirsmp.entity.BuracoNegroEntity;
+import net.mcreator.noirsmp.entity.BlackHoleOfCalamityEntity;
 import net.mcreator.noirsmp.NoirSmpMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -28,10 +28,10 @@ public class NoirSmpModEntities {
 			.setCustomClientFactory(MolotovProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<TijoloProjectileEntity>> TIJOLO_PROJECTILE = register("tijolo_projectile", EntityType.Builder.<TijoloProjectileEntity>of(TijoloProjectileEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(TijoloProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<BuracoNegroEntity>> BURACO_NEGRO = register("buraco_negro", EntityType.Builder.<BuracoNegroEntity>of(BuracoNegroEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
-			.setTrackingRange(0).setUpdateInterval(3).setCustomClientFactory(BuracoNegroEntity::new).fireImmune().sized(2f, 1f));
 	public static final RegistryObject<EntityType<MiniBuracoNegroEntity>> MINI_BURACO_NEGRO = register("mini_buraco_negro", EntityType.Builder.<MiniBuracoNegroEntity>of(MiniBuracoNegroEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(MiniBuracoNegroEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<BlackHoleOfCalamityEntity>> BLACK_HOLE_OF_CALAMITY = register("black_hole_of_calamity", EntityType.Builder.<BlackHoleOfCalamityEntity>of(BlackHoleOfCalamityEntity::new, MobCategory.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(1000).setUpdateInterval(3).setCustomClientFactory(BlackHoleOfCalamityEntity::new).fireImmune().sized(1.8f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -42,12 +42,12 @@ public class NoirSmpModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
-			BuracoNegroEntity.init();
+			BlackHoleOfCalamityEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
-		event.put(BURACO_NEGRO.get(), BuracoNegroEntity.createAttributes().build());
+		event.put(BLACK_HOLE_OF_CALAMITY.get(), BlackHoleOfCalamityEntity.createAttributes().build());
 	}
 }

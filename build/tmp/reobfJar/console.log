@@ -111,18 +111,22 @@ Adding Libraries to Inheritance
 Reading Input: /home/ciborg/MCreatorWorkspaces/noir/build/devlibs/modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for net/mcreator/noirsmp/client/model/ModelTijoloProjetil/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
 Conflicting propagated mapping for net/mcreator/noirsmp/client/model/ModelBotas_Etereas_Model/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
-Conflicting propagated mapping for net/mcreator/noirsmp/client/model/Modelburaconegro/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
-Conflicting propagated mapping for net/mcreator/noirsmp/client/particle/SangueParticle$SangueParticleProvider/createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDD)Lnet/minecraft/client/particle/Particle; from net/minecraft/client/particle/ParticleProvider/createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDD)Lnet/minecraft/client/particle/Particle;: createParticle -> m_6966_
-Conflicting propagated mapping for net/mcreator/noirsmp/client/model/ModelTijoloProjetil/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
 Conflicting propagated mapping for net/mcreator/noirsmp/client/model/ModelBotas_Etereas_Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/model/ModelGarrafa/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/particle/SangueParticle$SangueParticleProvider/createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDD)Lnet/minecraft/client/particle/Particle; from net/minecraft/client/particle/ParticleProvider/createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDD)Lnet/minecraft/client/particle/Particle;: createParticle -> m_6966_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/model/Modelburaconegro/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
 Conflicting propagated mapping for net/mcreator/noirsmp/client/model/Modelburaconegro/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
-Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/BuracoNegroRenderer$AnimatedModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/mcreator/noirsmp/client/model/Modelburaconegro/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
-Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/BuracoNegroRenderer$AnimatedModel$1/root()Lnet/minecraft/client/model/geom/ModelPart; from net/minecraft/client/model/HierarchicalModel/root()Lnet/minecraft/client/model/geom/ModelPart;: root -> m_142109_
-Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/BuracoNegroRenderer$AnimatedModel$1/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/model/ModelTijoloProjetil/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/model/ModelTijoloProjetil/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/BlackHoleOfCalamityRenderer$AnimatedModel$1/root()Lnet/minecraft/client/model/geom/ModelPart; from net/minecraft/client/model/HierarchicalModel/root()Lnet/minecraft/client/model/geom/ModelPart;: root -> m_142109_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/BlackHoleOfCalamityRenderer$AnimatedModel$1/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/model/ModelGarrafa/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/BlackHoleOfCalamityRenderer$AnimatedModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/mcreator/noirsmp/client/model/Modelburaconegro/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
 Conflicting propagated mapping for net/mcreator/noirsmp/client/particle/SangueParticle/tick()V from net/minecraft/client/particle/Particle/tick()V: tick -> m_5989_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/BlackHoleOfCalamityRenderer/scale(Lnet/minecraft/world/entity/LivingEntity;Lcom/mojang/blaze3d/vertex/PoseStack;F)V from net/minecraft/client/renderer/entity/LivingEntityRenderer/scale(Lnet/minecraft/world/entity/LivingEntity;Lcom/mojang/blaze3d/vertex/PoseStack;F)V: scale -> m_7546_
 Conflicting propagated mapping for net/mcreator/noirsmp/client/particle/SangueParticle/getRenderType()Lnet/minecraft/client/particle/ParticleRenderType; from net/minecraft/client/particle/Particle/getRenderType()Lnet/minecraft/client/particle/ParticleRenderType;: getRenderType -> m_7556_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/BlackHoleOfCalamityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
 Conflicting propagated mapping for net/mcreator/noirsmp/client/gui/ESPADAGUIScreen/keyPressed(III)Z from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/keyPressed(III)Z: keyPressed -> m_7933_
 Conflicting propagated mapping for net/mcreator/noirsmp/client/gui/ESPADAGUIScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
 Conflicting propagated mapping for net/mcreator/noirsmp/client/gui/ESPADAGUIScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
@@ -132,79 +136,133 @@ Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGU
 Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu/removed(Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/inventory/AbstractContainerMenu/removed(Lnet/minecraft/world/entity/player/Player;)V: removed -> m_6877_
 Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
 Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
-Conflicting propagated mapping for net/mcreator/noirsmp/client/model/ModelGarrafa/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
-Conflicting propagated mapping for net/mcreator/noirsmp/client/model/ModelGarrafa/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
-Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/BuracoNegroRenderer/scale(Lnet/minecraft/world/entity/LivingEntity;Lcom/mojang/blaze3d/vertex/PoseStack;F)V from net/minecraft/client/renderer/entity/LivingEntityRenderer/scale(Lnet/minecraft/world/entity/LivingEntity;Lcom/mojang/blaze3d/vertex/PoseStack;F)V: scale -> m_7546_
-Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/BuracoNegroRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/stopSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V from net/minecraft/world/entity/Entity/stopSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V: stopSeenByPlayer -> m_6452_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions; from net/minecraft/world/entity/LivingEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;: getDimensions -> m_6972_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/pushEntities()V from net/minecraft/world/entity/LivingEntity/pushEntities()V: pushEntities -> m_6138_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/customServerAiStep()V from net/minecraft/world/entity/Mob/customServerAiStep()V: customServerAiStep -> m_8024_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/tick()V from net/minecraft/world/entity/Mob/tick()V: tick -> m_8119_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/checkFallDamage(DZLnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V from net/minecraft/world/entity/LivingEntity/checkFallDamage(DZLnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V: checkFallDamage -> m_7840_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/createNavigation(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/ai/navigation/PathNavigation; from net/minecraft/world/entity/Mob/createNavigation(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/ai/navigation/PathNavigation;: createNavigation -> m_6037_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/ignoreExplosion()Z from net/minecraft/world/entity/Entity/ignoreExplosion()Z: ignoreExplosion -> m_6128_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/aiStep()V from net/minecraft/world/entity/monster/Monster/aiStep()V: aiStep -> m_8107_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V from net/minecraft/world/entity/Entity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V: startSeenByPlayer -> m_6457_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/causeFallDamage(FFLnet/minecraft/world/damagesource/DamageSource;)Z from net/minecraft/world/entity/LivingEntity/causeFallDamage(FFLnet/minecraft/world/damagesource/DamageSource;)Z: causeFallDamage -> m_142535_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/canChangeDimensions()Z from net/minecraft/world/entity/LivingEntity/canChangeDimensions()Z: canChangeDimensions -> m_6072_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/setNoGravity(Z)V from net/minecraft/world/entity/Entity/setNoGravity(Z)V: setNoGravity -> m_20242_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/removeWhenFarAway(D)Z from net/minecraft/world/entity/Mob/removeWhenFarAway(D)Z: removeWhenFarAway -> m_6785_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/baseTick()V from net/minecraft/world/entity/Mob/baseTick()V: baseTick -> m_6075_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/doPush(Lnet/minecraft/world/entity/Entity;)V from net/minecraft/world/entity/LivingEntity/doPush(Lnet/minecraft/world/entity/Entity;)V: doPush -> m_7324_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/BuracoNegroEntity/isPushable()Z from net/minecraft/world/entity/LivingEntity/isPushable()Z: isPushable -> m_6094_
 Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/MolotovProjectileRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/EntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
 Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/MolotovProjectileRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/MiniBuracoNegroRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/EntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
+Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/MiniBuracoNegroRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/TijoloProjectileRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/EntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
 Conflicting propagated mapping for net/mcreator/noirsmp/client/renderer/TijoloProjectileRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/stopSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V from net/minecraft/world/entity/Entity/stopSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V: stopSeenByPlayer -> m_6452_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions; from net/minecraft/world/entity/LivingEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;: getDimensions -> m_6972_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/customServerAiStep()V from net/minecraft/world/entity/Mob/customServerAiStep()V: customServerAiStep -> m_8024_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/tick()V from net/minecraft/world/entity/Mob/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/checkFallDamage(DZLnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V from net/minecraft/world/entity/LivingEntity/checkFallDamage(DZLnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V: checkFallDamage -> m_7840_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/createNavigation(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/ai/navigation/PathNavigation; from net/minecraft/world/entity/Mob/createNavigation(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/ai/navigation/PathNavigation;: createNavigation -> m_6037_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/ignoreExplosion()Z from net/minecraft/world/entity/Entity/ignoreExplosion()Z: ignoreExplosion -> m_6128_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/aiStep()V from net/minecraft/world/entity/monster/Monster/aiStep()V: aiStep -> m_8107_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V from net/minecraft/world/entity/Entity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V: startSeenByPlayer -> m_6457_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/causeFallDamage(FFLnet/minecraft/world/damagesource/DamageSource;)Z from net/minecraft/world/entity/LivingEntity/causeFallDamage(FFLnet/minecraft/world/damagesource/DamageSource;)Z: causeFallDamage -> m_142535_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/canChangeDimensions()Z from net/minecraft/world/entity/LivingEntity/canChangeDimensions()Z: canChangeDimensions -> m_6072_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/setNoGravity(Z)V from net/minecraft/world/entity/Entity/setNoGravity(Z)V: setNoGravity -> m_20242_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/removeWhenFarAway(D)Z from net/minecraft/world/entity/Mob/removeWhenFarAway(D)Z: removeWhenFarAway -> m_6785_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity/baseTick()V from net/minecraft/world/entity/Mob/baseTick()V: baseTick -> m_6075_
 Conflicting propagated mapping for net/mcreator/noirsmp/entity/MolotovProjectileEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/TijoloProjectileEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
 Conflicting propagated mapping for net/mcreator/noirsmp/entity/MolotovProjectileEntity/onHitEntity(Lnet/minecraft/world/phys/EntityHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitEntity(Lnet/minecraft/world/phys/EntityHitResult;)V: onHitEntity -> m_5790_
 Conflicting propagated mapping for net/mcreator/noirsmp/entity/MolotovProjectileEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/TijoloProjectileEntity/onHitEntity(Lnet/minecraft/world/phys/EntityHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitEntity(Lnet/minecraft/world/phys/EntityHitResult;)V: onHitEntity -> m_5790_
 Conflicting propagated mapping for net/mcreator/noirsmp/entity/MolotovProjectileEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/TijoloProjectileEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/TijoloProjectileEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
 Conflicting propagated mapping for net/mcreator/noirsmp/entity/MolotovProjectileEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/TijoloProjectileEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
 Conflicting propagated mapping for net/mcreator/noirsmp/entity/MolotovProjectileEntity/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V: onHitBlock -> m_8060_
-Conflicting propagated mapping for net/mcreator/noirsmp/entity/TijoloProjectileEntity/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V: onHitBlock -> m_8060_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/TijoloProjectileEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
 Conflicting propagated mapping for net/mcreator/noirsmp/entity/MolotovProjectileEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/MiniBuracoNegroEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/TijoloProjectileEntity/onHitEntity(Lnet/minecraft/world/phys/EntityHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitEntity(Lnet/minecraft/world/phys/EntityHitResult;)V: onHitEntity -> m_5790_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/TijoloProjectileEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/MiniBuracoNegroEntity/onHitEntity(Lnet/minecraft/world/phys/EntityHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitEntity(Lnet/minecraft/world/phys/EntityHitResult;)V: onHitEntity -> m_5790_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/MiniBuracoNegroEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/TijoloProjectileEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/MiniBuracoNegroEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/TijoloProjectileEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/MiniBuracoNegroEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/TijoloProjectileEntity/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V: onHitBlock -> m_8060_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/MiniBuracoNegroEntity/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V: onHitBlock -> m_8060_
 Conflicting propagated mapping for net/mcreator/noirsmp/entity/TijoloProjectileEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
-Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for net/mcreator/noirsmp/entity/MiniBuracoNegroEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
+Conflicting propagated mapping for net/mcreator/noirsmp/potion/EspagetificacaoMobEffect/applyEffectTick(Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/effect/MobEffect/applyEffectTick(Lnet/minecraft/world/entity/LivingEntity;I)V: applyEffectTick -> m_6742_
+Conflicting propagated mapping for net/mcreator/noirsmp/potion/EspagetificacaoMobEffect/isDurationEffectTick(II)Z from net/minecraft/world/effect/MobEffect/isDurationEffectTick(II)Z: isDurationEffectTick -> m_6584_
 Conflicting propagated mapping for net/mcreator/noirsmp/potion/SangramentoMobEffect/applyEffectTick(Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/effect/MobEffect/applyEffectTick(Lnet/minecraft/world/entity/LivingEntity;I)V: applyEffectTick -> m_6742_
 Conflicting propagated mapping for net/mcreator/noirsmp/potion/SangramentoMobEffect/isDurationEffectTick(II)Z from net/minecraft/world/effect/MobEffect/isDurationEffectTick(II)Z: isDurationEffectTick -> m_6584_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/PassosEteriosItem$Boots/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/AgulhaDosPesadelosProfundosItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/AgulhaDosPesadelosProfundosItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/AgulhaDosPesadelosProfundosItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/AgulhaDosPesadelosProfundosItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/AgulhaDosPesadelosProfundosItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/AgulhaDosPesadelosProfundosItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem/getDestroySpeed(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)F from net/minecraft/world/item/Item/getDestroySpeed(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)F: getDestroySpeed -> m_8102_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/Item/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z: mineBlock -> m_6813_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/AgulhaDosPesadelosProfundosItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap; from net/minecraft/world/item/Item/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap;: getDefaultAttributeModifiers -> m_7167_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/AgulhaDosPesadelosProfundosItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/AgulhaDosPesadelosProfundosItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/Item/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ArmaDeBuracoNegroItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/AgulhaDosPesadelosProfundosItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ArmaDeBuracoNegroItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ArmaDeBuracoNegroItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem/isCorrectToolForDrops(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/item/Item/isCorrectToolForDrops(Lnet/minecraft/world/level/block/state/BlockState;)Z: isCorrectToolForDrops -> m_8096_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ArmaDeBuracoNegroItem/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/item/Item/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V: releaseUsing -> m_5551_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/BengalaItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/BengalaItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/BengalaItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/BengalaItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/BengalaItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/BengalaItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/DadoFeuralItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/CanoDeMetalItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/CanoDeMetalItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/CanoDeMetalItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/CanoDeMetalItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/CanoDeMetalItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/CanoDeMetalItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimSpeedItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimRegenItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ESPADAItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ESPADAItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ESPADAItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ESPADAItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ESPADAItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ESPADAItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ESPADAItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimStrengthItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimSlowFallingItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/EspetoItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/EspetoItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/EspetoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/EspetoItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/EspetoItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimNightVisionItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/EspetoItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimJumpBoostItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimInvisibilityItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimResistenceItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SinoDeMarfimAquaticRespirationItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/SwordItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/NinjatoItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/SwordItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ESPADAItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/PEDRAItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/SlimeMaceItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/RipaItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/SwordItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
@@ -218,48 +276,7 @@ Conflicting propagated mapping for net/mcreator/noirsmp/item/TijoloItem/use(Lnet
 Conflicting propagated mapping for net/mcreator/noirsmp/item/TijoloItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/TijoloItem/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/item/Item/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V: releaseUsing -> m_5551_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/MarretaGravitacionalItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/BengalaItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/BengalaItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/BengalaItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/BengalaItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/BengalaItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/BengalaItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ESPADAItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ESPADAItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ESPADAItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ESPADAItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ESPADAItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ESPADAItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/EspetoItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/EspetoItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/EspetoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/EspetoItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/EspetoItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/EspetoItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LaminaDoArautoPlumiferoItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/LeviatanItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDaCalamidadeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/ManoplaDeSlimeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/MarretaGravitacionalItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/MarretaGravitacionalItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/MarretaGravitacionalItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
@@ -272,12 +289,6 @@ Conflicting propagated mapping for net/mcreator/noirsmp/item/MarretaItem$1/getRe
 Conflicting propagated mapping for net/mcreator/noirsmp/item/MarretaItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/MarretaItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/MarretaItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/NinjatoItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/NinjatoItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/NinjatoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/NinjatoItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/NinjatoItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/NinjatoItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/PEDRAItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/PEDRAItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/PEDRAItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
@@ -292,19 +303,19 @@ Conflicting propagated mapping for net/mcreator/noirsmp/item/PassosEteriosItem$1
 Conflicting propagated mapping for net/mcreator/noirsmp/item/PassosEteriosItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/PassosEteriosItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/PassosEteriosItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/CanoDeMetalItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/CanoDeMetalItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/CanoDeMetalItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/CanoDeMetalItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/CanoDeMetalItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/CanoDeMetalItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/NinjatoItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/NinjatoItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/NinjatoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/NinjatoItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/NinjatoItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/NinjatoItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/RipaItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/RipaItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/RipaItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/RipaItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/noirsmp/item/RoloItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/RipaItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/RipaItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/noirsmp/item/RoloItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/RoloItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/RoloItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/noirsmp/item/RoloItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
@@ -327,6 +338,8 @@ Conflicting propagated mapping for net/mcreator/noirsmp/item/extension/TijoloArr
 Conflicting propagated mapping for net/minecraftforge/network/IContainerFactory/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuType$MenuSupplier/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: create -> m_39994_
 Conflicting propagated mapping for net/mcreator/noirsmp/procedures/ESPADARightclickedProcedure$1/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuConstructor/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_7208_
 Conflicting propagated mapping for net/mcreator/noirsmp/procedures/ESPADARightclickedProcedure$1/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/MenuProvider/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/mcreator/noirsmp/world/dimension/VazioDimension$VazioSpecialEffectsHandler$1/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3; from net/minecraft/client/renderer/DimensionSpecialEffects/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3;: getBrightnessDependentFogColor -> m_5927_
+Conflicting propagated mapping for net/mcreator/noirsmp/world/dimension/VazioDimension$VazioSpecialEffectsHandler$1/isFoggyAt(II)Z from net/minecraft/client/renderer/DimensionSpecialEffects/isFoggyAt(II)Z: isFoggyAt -> m_5781_
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/set(Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/set(Lnet/minecraft/world/item/ItemStack;)V: set -> m_5852_
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/inventory/Slot/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/remove(I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/Slot/remove(I)Lnet/minecraft/world/item/ItemStack;: remove -> m_6201_
@@ -336,17 +349,17 @@ Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getM
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/Slot/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z: mayPickup -> m_8010_
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize()I from net/minecraft/world/inventory/Slot/getMaxStackSize()I: getMaxStackSize -> m_6641_
 Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$2/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
-Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$2/setChanged()V from net/minecraft/world/inventory/Slot/setChanged()V: setChanged -> m_6654_
-Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$2/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V from net/minecraftforge/items/SlotItemHandler/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V: onQuickCraft -> m_40234_
-Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$4/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V: onTake -> m_142406_
-Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$4/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
-Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$4/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V from net/minecraftforge/items/SlotItemHandler/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V: onQuickCraft -> m_40234_
-Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$5/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V: onTake -> m_142406_
-Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$5/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
-Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$5/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V from net/minecraftforge/items/SlotItemHandler/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V: onQuickCraft -> m_40234_
 Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$3/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V: onTake -> m_142406_
 Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$3/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
 Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$3/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V from net/minecraftforge/items/SlotItemHandler/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V: onQuickCraft -> m_40234_
+Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$4/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V: onTake -> m_142406_
+Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$5/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V: onTake -> m_142406_
+Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$5/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
+Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$5/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V from net/minecraftforge/items/SlotItemHandler/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V: onQuickCraft -> m_40234_
+Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$2/setChanged()V from net/minecraft/world/inventory/Slot/setChanged()V: setChanged -> m_6654_
+Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$2/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V from net/minecraftforge/items/SlotItemHandler/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V: onQuickCraft -> m_40234_
+Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$4/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
+Conflicting propagated mapping for net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$4/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V from net/minecraftforge/items/SlotItemHandler/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V: onQuickCraft -> m_40234_
 Adding extras
 Sorting
 Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
@@ -384,12 +397,13 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   assets/noir_smp/models/custom/ripa.json
   assets/noir_smp/models/custom/rolo.json
   assets/noir_smp/models/custom/s.l.i.m.e.json
+  assets/noir_smp/models/custom/solemnlament.json
   assets/noir_smp/models/custom/taco_com_arame.json
   assets/noir_smp/models/custom/tijolo.json
   assets/noir_smp/models/item/
   assets/noir_smp/models/item/agulha_dos_pesadelos_profundos.json
+  assets/noir_smp/models/item/arma_de_buraco_negro.json
   assets/noir_smp/models/item/bengala.json
-  assets/noir_smp/models/item/buraco_negro_spawn_egg.json
   assets/noir_smp/models/item/cano_de_metal.json
   assets/noir_smp/models/item/dado_feural.json
   assets/noir_smp/models/item/doppel_mask.json
@@ -451,6 +465,7 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   assets/noir_smp/textures/block/ripa.png
   assets/noir_smp/textures/block/rolo.png
   assets/noir_smp/textures/block/s.l.i.m.e_tex.png
+  assets/noir_smp/textures/block/solemnlament.png
   assets/noir_smp/textures/block/tacocomarame.png
   assets/noir_smp/textures/block/tijolo.png
   assets/noir_smp/textures/block/vazio.png
@@ -467,6 +482,7 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   assets/noir_smp/textures/item/armadurabase_head.png
   assets/noir_smp/textures/item/armadurabase_leggings.png
   assets/noir_smp/textures/item/bengala.png
+  assets/noir_smp/textures/item/buraconegro.png
   assets/noir_smp/textures/item/canopvc.png
   assets/noir_smp/textures/item/dado_feural.png
   assets/noir_smp/textures/item/e.s.p.a.d.a_tex.png
@@ -490,6 +506,7 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   assets/noir_smp/textures/item/sinos_de_marfin_orange.png
   assets/noir_smp/textures/item/sinos_de_marfin_purpura.png
   assets/noir_smp/textures/item/sinos_de_marfin_yellow.png
+  assets/noir_smp/textures/item/solemnlament.png
   assets/noir_smp/textures/item/tacocomarame.png
   assets/noir_smp/textures/item/tijolo.png
   assets/noir_smp/textures/item/vazio.png
@@ -497,6 +514,7 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   assets/noir_smp/textures/logo2.png
   assets/noir_smp/textures/logolonga.png
   assets/noir_smp/textures/mob_effect/
+  assets/noir_smp/textures/mob_effect/espagetificacao.png
   assets/noir_smp/textures/mob_effect/sangramento.png
   assets/noir_smp/textures/mob_effect/sangue_effect.png
   assets/noir_smp/textures/models/
@@ -507,6 +525,7 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   assets/noir_smp/textures/painting/noir_logo.png
   assets/noir_smp/textures/painting/noir_logo_longa.png
   assets/noir_smp/textures/particle/
+  assets/noir_smp/textures/particle/espagetificacao.png
   assets/noir_smp/textures/particle/sangue.png
   assets/noir_smp/textures/particle/sangue_effect.png
   assets/noir_smp/textures/screens/
@@ -518,6 +537,8 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   data/
   data/minecraft/
   data/minecraft/tags/
+  data/minecraft/tags/blocks/
+  data/minecraft/tags/blocks/overworld_carver_replaceables.json
   data/minecraft/tags/items/
   data/minecraft/tags/items/axes.json
   data/minecraft/tags/items/pickaxes.json
@@ -535,6 +556,10 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   data/noir_smp/advancements/recipes/armadurabase_armor_chestplate_recipe.json
   data/noir_smp/advancements/recipes/armadurabase_armor_helmet_recipe.json
   data/noir_smp/advancements/recipes/armadurabase_armor_leggings_recipe.json
+  data/noir_smp/dimension/
+  data/noir_smp/dimension/vazio.json
+  data/noir_smp/dimension_type/
+  data/noir_smp/dimension_type/vazio.json
   data/noir_smp/recipes/
   data/noir_smp/recipes/armadurabase_armor_boots_recipe.json
   data/noir_smp/recipes/armadurabase_armor_chestplate_recipe.json
@@ -576,13 +601,15 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   net/mcreator/noirsmp/client/particle/SangueParticle$SangueParticleProvider.class
   net/mcreator/noirsmp/client/particle/SangueParticle.class
   net/mcreator/noirsmp/client/renderer/
-  net/mcreator/noirsmp/client/renderer/BuracoNegroRenderer$AnimatedModel$1.class
-  net/mcreator/noirsmp/client/renderer/BuracoNegroRenderer$AnimatedModel.class
-  net/mcreator/noirsmp/client/renderer/BuracoNegroRenderer.class
+  net/mcreator/noirsmp/client/renderer/BlackHoleOfCalamityRenderer$AnimatedModel$1.class
+  net/mcreator/noirsmp/client/renderer/BlackHoleOfCalamityRenderer$AnimatedModel.class
+  net/mcreator/noirsmp/client/renderer/BlackHoleOfCalamityRenderer.class
+  net/mcreator/noirsmp/client/renderer/MiniBuracoNegroRenderer.class
   net/mcreator/noirsmp/client/renderer/MolotovProjectileRenderer.class
   net/mcreator/noirsmp/client/renderer/TijoloProjectileRenderer.class
   net/mcreator/noirsmp/entity/
-  net/mcreator/noirsmp/entity/BuracoNegroEntity.class
+  net/mcreator/noirsmp/entity/BlackHoleOfCalamityEntity.class
+  net/mcreator/noirsmp/entity/MiniBuracoNegroEntity.class
   net/mcreator/noirsmp/entity/MolotovProjectileEntity.class
   net/mcreator/noirsmp/entity/TijoloProjectileEntity.class
   net/mcreator/noirsmp/init/
@@ -603,6 +630,7 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   net/mcreator/noirsmp/item/
   net/mcreator/noirsmp/item/AgulhaDosPesadelosProfundosItem$1.class
   net/mcreator/noirsmp/item/AgulhaDosPesadelosProfundosItem.class
+  net/mcreator/noirsmp/item/ArmaDeBuracoNegroItem.class
   net/mcreator/noirsmp/item/BengalaItem$1.class
   net/mcreator/noirsmp/item/BengalaItem.class
   net/mcreator/noirsmp/item/CanoDeMetalItem$1.class
@@ -661,6 +689,7 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   net/mcreator/noirsmp/network/ESPADAGUISlotMessage.class
   net/mcreator/noirsmp/network/MenuStateUpdateMessage.class
   net/mcreator/noirsmp/potion/
+  net/mcreator/noirsmp/potion/EspagetificacaoMobEffect.class
   net/mcreator/noirsmp/potion/SangramentoMobEffect.class
   net/mcreator/noirsmp/procedures/
   net/mcreator/noirsmp/procedures/BuracoNegroOnEntityTickUpdateProcedure.class
@@ -668,11 +697,13 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   net/mcreator/noirsmp/procedures/DadoFeuralRightclickedProcedure.class
   net/mcreator/noirsmp/procedures/ESPADARightclickedProcedure$1.class
   net/mcreator/noirsmp/procedures/ESPADARightclickedProcedure.class
+  net/mcreator/noirsmp/procedures/EspagetificacaoOnEffectActiveTickProcedure.class
   net/mcreator/noirsmp/procedures/GravityNoProcedure.class
   net/mcreator/noirsmp/procedures/GravityYesProcedure.class
   net/mcreator/noirsmp/procedures/ManoplaDaCalamidadeLivingEntityIsHitWithToolProcedure.class
   net/mcreator/noirsmp/procedures/ManoplaDeSlimeLivingEntityIsHitWithToolProcedure.class
   net/mcreator/noirsmp/procedures/MarretaGravitacionalRightclickedProcedure.class
+  net/mcreator/noirsmp/procedures/MiniBuracoNegroProjectileHitsBlockProcedure.class
   net/mcreator/noirsmp/procedures/MolotovArremessarOnDispenseAttemptWithResultProcedure.class
   net/mcreator/noirsmp/procedures/MolotovProjectileProjectileHitsBlockProcedure.class
   net/mcreator/noirsmp/procedures/MolotovProjectileWhileProjectileFlyingTickProcedure.class
@@ -698,6 +729,10 @@ Writing Output: /home/ciborg/MCreatorWorkspaces/noir/build/libs/modid-1.0.jar
   net/mcreator/noirsmp/procedures/TijoloProjectileProjectileHitsBlock2Procedure.class
   net/mcreator/noirsmp/procedures/TijoloProjectileProjectileHitsBlockProcedure.class
   net/mcreator/noirsmp/world/
+  net/mcreator/noirsmp/world/dimension/
+  net/mcreator/noirsmp/world/dimension/VazioDimension$VazioSpecialEffectsHandler$1.class
+  net/mcreator/noirsmp/world/dimension/VazioDimension$VazioSpecialEffectsHandler.class
+  net/mcreator/noirsmp/world/dimension/VazioDimension.class
   net/mcreator/noirsmp/world/inventory/
   net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$1.class
   net/mcreator/noirsmp/world/inventory/ESPADAGUIMenu$2.class

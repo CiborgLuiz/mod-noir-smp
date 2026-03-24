@@ -21,7 +21,7 @@ public class BuraconegroblocosProcedure {
 		double shiftAmt = 0;
 		double squareOfDistance = 0;
 		BlockState blockToInhall = Blocks.AIR.defaultBlockState();
-		sphereRadius = 16;
+		sphereRadius = 30;
 		shiftAmt = sphereRadius / 2 == Math.round(sphereRadius) / 2 ? 1 : 0;
 		for (int index0 = 0; index0 < (int) Math.round(sphereRadius); index0++) {
 			for (int index1 = 0; index1 < (int) Math.round(sphereRadius); index1++) {

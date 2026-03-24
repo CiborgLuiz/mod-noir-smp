@@ -3,15 +3,15 @@
   "_type": "projectile",
   "definition": {
     "projectileItem": {
-      "value": "CUSTOM:BuracoNegro.spawn_egg"
+      "value": "CUSTOM:ArmaDeBuracoNegro"
     },
     "showParticles": false,
     "actionSound": {
       "value": "CUSTOM:buraco_negro"
     },
     "igniteFire": false,
-    "disableGravity": true,
-    "power": 1.0,
+    "disableGravity": false,
+    "power": 5.0,
     "damage": 10.0,
     "knockback": 0,
     "entityModel": "Modelburaconegro",

@@ -11,7 +11,7 @@ import net.mcreator.noirsmp.init.NoirSmpModEntities;
 public class MiniBuracoNegroProjectileHitsBlockProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (world instanceof ServerLevel _level) {
-			Entity entityToSpawn = NoirSmpModEntities.BURACO_NEGRO.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+			Entity entityToSpawn = NoirSmpModEntities.BLACK_HOLE_OF_CALAMITY.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
 			if (entityToSpawn != null) {
 			}
 		}

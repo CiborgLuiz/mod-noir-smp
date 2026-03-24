@@ -26,26 +26,22 @@ import net.mcreator.noirsmp.init.NoirSmpModEntities;
 
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
 public class MiniBuracoNegroEntity extends AbstractArrow implements ItemSupplier {
-	public static final ItemStack PROJECTILE_ITEM = new ItemStack(NoirSmpModItems.BURACO_NEGRO_SPAWN_EGG.get());
+	public static final ItemStack PROJECTILE_ITEM = new ItemStack(NoirSmpModItems.ARMA_DE_BURACO_NEGRO.get());
 
 	public MiniBuracoNegroEntity(PlayMessages.SpawnEntity packet, Level world) {
 		super(NoirSmpModEntities.MINI_BURACO_NEGRO.get(), world);
-		setNoGravity(true);
 	}
 
 	public MiniBuracoNegroEntity(EntityType<? extends MiniBuracoNegroEntity> type, Level world) {
 		super(type, world);
-		setNoGravity(true);
 	}
 
 	public MiniBuracoNegroEntity(EntityType<? extends MiniBuracoNegroEntity> type, double x, double y, double z, Level world) {
 		super(type, x, y, z, world);
-		setNoGravity(true);
 	}
 
 	public MiniBuracoNegroEntity(EntityType<? extends MiniBuracoNegroEntity> type, LivingEntity entity, Level world) {
 		super(type, entity, world);
-		setNoGravity(true);
 	}
 
 	@Override
@@ -90,11 +86,11 @@ public class MiniBuracoNegroEntity extends AbstractArrow implements ItemSupplier
 	}
 
 	public static MiniBuracoNegroEntity shoot(Level world, LivingEntity entity, RandomSource source) {
-		return shoot(world, entity, source, 1f, 10, 0);
+		return shoot(world, entity, source, 5f, 10, 0);
 	}
 
 	public static MiniBuracoNegroEntity shoot(Level world, LivingEntity entity, RandomSource source, float pullingPower) {
-		return shoot(world, entity, source, pullingPower * 1f, 10, 0);
+		return shoot(world, entity, source, pullingPower * 5f, 10, 0);
 	}
 
 	public static MiniBuracoNegroEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
@@ -114,7 +110,7 @@ public class MiniBuracoNegroEntity extends AbstractArrow implements ItemSupplier
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
-		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 1f * 2, 12.0F);
+		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 5f * 2, 12.0F);
 		entityarrow.setSilent(true);
 		entityarrow.setBaseDamage(10);
 		entityarrow.setKnockback(0);

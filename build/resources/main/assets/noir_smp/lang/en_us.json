@@ -41,7 +41,7 @@
   "item.noir_smp.tijolo": "§4§lTijolo",
   "item.noir_smp.marreta_gravitacional": "§5§lMarreta Gravitacional",
   "subtitles.buraco_negro": "",
-  "entity.noir_smp.buraco_negro": "§5§lBuraco Negro",
-  "item.noir_smp.buraco_negro_spawn_egg": "§5§lBuraco Negro Spawn Egg",
-  "item.noir_smp.arma_de_buraco_negro": "§5§lArma De Buraco Negro"
+  "item.noir_smp.arma_de_buraco_negro": "§5§lArma De Buraco Negro",
+  "entity.noir_smp.black_hole_of_calamity": "§5§lBlack Hole",
+  "effect.noir_smp.espagetificacao": "Espaguetificacao"
 }

@@ -1,36 +1,36 @@
-[19Mar2026 20:14:53.381] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, /home/ciborg/.mcreator/gradle/caches/neoformruntime/assets, --gameDir, ., --fml.forgeVersion, 47.4.13, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[19Mar2026 20:14:53.384] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.10+10.0.10+main.22f00f84 starting: java version 17.0.18 by Eclipse Adoptium; OS Linux arch amd64 version 6.18.9-arch1-2
-[19Mar2026 20:14:53.798] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[19Mar2026 20:14:54.704] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[19Mar2026 20:14:56.468] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[19Mar2026 20:14:56.823] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1650/PCIe/SSE2 GL version 4.6.0 NVIDIA 590.48.01, NVIDIA Corporation
-[19Mar2026 20:14:57.191] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23175!/ Service=ModLauncher Env=CLIENT
-[19Mar2026 20:14:57.932] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.4.13/f77e3021d1eb31d61f8d1b92d18ed4fb3c2806e5/fmlcore-1.20.1-47.4.13.jar is missing mods.toml file
-[19Mar2026 20:14:57.933] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.4.13/cf01e2179f72bd2829c65f5226d7dd0cfb6c686/javafmllanguage-1.20.1-47.4.13.jar is missing mods.toml file
-[19Mar2026 20:14:57.934] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.4.13/e3f96129ea14eba84316f2d69816253e228e6e4c/lowcodelanguage-1.20.1-47.4.13.jar is missing mods.toml file
-[19Mar2026 20:14:57.934] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.4.13/85796906112d9b621a7b2996f8bfda49da991ef0/mclanguage-1.20.1-47.4.13.jar is missing mods.toml file
-[19Mar2026 20:14:58.854] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: mixinextras-forge-0.5.0.jar. Using Mod File: /home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-forge/0.5.0/cebe4d98a42a4a32ebf0ddec7b93d5bdbdad009/mixinextras-forge-0.5.0.jar
-[19Mar2026 20:14:58.854] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: ldlib. Using Mod File: /home/ciborg/.mcreator/gradle/caches/9.2.0/transforms/1f2b8743374579fdfc297d4a8be65133/transformed/ldlib-626676-7412415.jar
-[19Mar2026 20:14:58.854] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[19Mar2026 20:15:00.918] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[19Mar2026 20:15:00.928] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /home/ciborg/.mcreator/gradle/caches/neoformruntime/assets, --assetIndex, 5]
-[19Mar2026 20:15:01.494] [main/INFO] [mixin/]: Remapping refMap photon-common-1.20.1-photon-common-refmap.json using /home/ciborg/MCreatorWorkspaces/noir/build/moddev/artifacts/intermediateToNamed.srg
-[19Mar2026 20:15:01.546] [main/INFO] [mixin/]: Remapping refMap photon-forge-1.20.1-photon-forge-refmap.json using /home/ciborg/MCreatorWorkspaces/noir/build/moddev/artifacts/intermediateToNamed.srg
-[19Mar2026 20:15:01.548] [main/INFO] [mixin/]: Remapping refMap ldlib-common-1.20.1-ldlib-common-refmap.json using /home/ciborg/MCreatorWorkspaces/noir/build/moddev/artifacts/intermediateToNamed.srg
-[19Mar2026 20:15:01.549] [main/INFO] [mixin/]: Remapping refMap ldlib-forge-1.20.1-ldlib-forge-refmap.json using /home/ciborg/MCreatorWorkspaces/noir/build/moddev/artifacts/intermediateToNamed.srg
-[19Mar2026 20:15:01.883] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[19Mar2026 20:15:09.503] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 92 milliseconds
-[19Mar2026 20:15:12.590] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/ciborg/MCreatorWorkspaces/noir/build/moddev/artifacts/forge-1.20.1-47.4.13.jar%23177!/assets/.mcassetsroot' uses unexpected schema
-[19Mar2026 20:15:12.590] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/ciborg/MCreatorWorkspaces/noir/build/moddev/artifacts/forge-1.20.1-47.4.13.jar%23177!/data/.mcassetsroot' uses unexpected schema
-[19Mar2026 20:15:12.663] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19Mar2026 20:15:12.714] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[19Mar2026 20:15:12.877] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[19Mar2026 20:15:14.243] [modloading-worker-0/INFO] [Photon/]: Photon is initializing on platform: Forge
-[19Mar2026 20:15:14.243] [modloading-worker-0/INFO] [LowDragLib/]: LowDragLib is initializing on platform: Forge
-[19Mar2026 20:15:14.252] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.13, for MC 1.20.1 with MCP 20230612.114412
-[19Mar2026 20:15:14.252] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.13 Initialized
-[19Mar2026 20:15:17.778] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[19Mar2026 20:15:19.467] [Render thread/ERROR] [com.mojang.text2speech.Narrator/]: Error while loading the narrator
+[23Mar2026 19:33:22.067] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, /home/ciborg/.mcreator/gradle/caches/neoformruntime/assets, --gameDir, ., --fml.forgeVersion, 47.4.13, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[23Mar2026 19:33:22.076] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.10+10.0.10+main.22f00f84 starting: java version 17.0.18 by Eclipse Adoptium; OS Linux arch amd64 version 6.19.8-arch1-1
+[23Mar2026 19:33:22.253] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[23Mar2026 19:33:22.497] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[23Mar2026 19:33:23.278] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[23Mar2026 19:33:23.562] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1650/PCIe/SSE2 GL version 4.6.0 NVIDIA 590.48.01, NVIDIA Corporation
+[23Mar2026 19:33:23.577] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23175!/ Service=ModLauncher Env=CLIENT
+[23Mar2026 19:33:23.872] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.4.13/f77e3021d1eb31d61f8d1b92d18ed4fb3c2806e5/fmlcore-1.20.1-47.4.13.jar is missing mods.toml file
+[23Mar2026 19:33:23.873] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.4.13/cf01e2179f72bd2829c65f5226d7dd0cfb6c686/javafmllanguage-1.20.1-47.4.13.jar is missing mods.toml file
+[23Mar2026 19:33:23.874] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.4.13/e3f96129ea14eba84316f2d69816253e228e6e4c/lowcodelanguage-1.20.1-47.4.13.jar is missing mods.toml file
+[23Mar2026 19:33:23.874] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.4.13/85796906112d9b621a7b2996f8bfda49da991ef0/mclanguage-1.20.1-47.4.13.jar is missing mods.toml file
+[23Mar2026 19:33:24.230] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: mixinextras-forge-0.5.0.jar. Using Mod File: /home/ciborg/.mcreator/gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-forge/0.5.0/cebe4d98a42a4a32ebf0ddec7b93d5bdbdad009/mixinextras-forge-0.5.0.jar
+[23Mar2026 19:33:24.231] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: ldlib. Using Mod File: /home/ciborg/.mcreator/gradle/caches/9.2.0/transforms/1f2b8743374579fdfc297d4a8be65133/transformed/ldlib-626676-7412415.jar
+[23Mar2026 19:33:24.231] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[23Mar2026 19:33:25.347] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23Mar2026 19:33:25.354] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /home/ciborg/.mcreator/gradle/caches/neoformruntime/assets, --assetIndex, 5]
+[23Mar2026 19:33:25.722] [main/INFO] [mixin/]: Remapping refMap photon-common-1.20.1-photon-common-refmap.json using /home/ciborg/MCreatorWorkspaces/noir/build/moddev/artifacts/intermediateToNamed.srg
+[23Mar2026 19:33:25.744] [main/INFO] [mixin/]: Remapping refMap photon-forge-1.20.1-photon-forge-refmap.json using /home/ciborg/MCreatorWorkspaces/noir/build/moddev/artifacts/intermediateToNamed.srg
+[23Mar2026 19:33:25.746] [main/INFO] [mixin/]: Remapping refMap ldlib-common-1.20.1-ldlib-common-refmap.json using /home/ciborg/MCreatorWorkspaces/noir/build/moddev/artifacts/intermediateToNamed.srg
+[23Mar2026 19:33:25.747] [main/INFO] [mixin/]: Remapping refMap ldlib-forge-1.20.1-ldlib-forge-refmap.json using /home/ciborg/MCreatorWorkspaces/noir/build/moddev/artifacts/intermediateToNamed.srg
+[23Mar2026 19:33:26.013] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[23Mar2026 19:33:29.185] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 93 milliseconds
+[23Mar2026 19:33:30.466] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/ciborg/MCreatorWorkspaces/noir/build/moddev/artifacts/forge-1.20.1-47.4.13.jar%23177!/assets/.mcassetsroot' uses unexpected schema
+[23Mar2026 19:33:30.467] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/ciborg/MCreatorWorkspaces/noir/build/moddev/artifacts/forge-1.20.1-47.4.13.jar%23177!/data/.mcassetsroot' uses unexpected schema
+[23Mar2026 19:33:30.479] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23Mar2026 19:33:30.483] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[23Mar2026 19:33:30.577] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[23Mar2026 19:33:31.979] [modloading-worker-0/INFO] [Photon/]: Photon is initializing on platform: Forge
+[23Mar2026 19:33:31.979] [modloading-worker-0/INFO] [LowDragLib/]: LowDragLib is initializing on platform: Forge
+[23Mar2026 19:33:31.990] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.13, for MC 1.20.1 with MCP 20230612.114412
+[23Mar2026 19:33:31.991] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.13 Initialized
+[23Mar2026 19:33:33.534] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[23Mar2026 19:33:33.838] [Render thread/ERROR] [com.mojang.text2speech.Narrator/]: Error while loading the narrator
 com.mojang.text2speech.Narrator$InitializeException: Failed to load library flite
 	at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:69) ~[text2speech-1.17.9.jar:?]
 	at com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar:?]
@@ -164,10 +164,10 @@ Native library (linux-x86-64/libflite.so) not found in resource path (/home/cibo
 		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
 		at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 		at net.neoforged.devlaunch.Main.main(Main.java:57) ~[?:?]
-[19Mar2026 20:15:19.741] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, ldlib
-[19Mar2026 20:15:21.123] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[19Mar2026 20:15:21.152] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[19Mar2026 20:15:22.487] [Worker-Main-5/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model noir_smp:models/custom/foice.json
+[23Mar2026 19:33:33.861] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, ldlib
+[23Mar2026 19:33:33.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23Mar2026 19:33:34.122] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[23Mar2026 19:33:34.518] [Worker-Main-3/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model noir_smp:models/custom/lamina.json
 com.google.gson.JsonSyntaxException: Missing axis, expected to find a string
 	at net.minecraft.util.GsonHelper.getAsString(GsonHelper.java:102) ~[forge-1.20.1-47.4.13.jar%23177!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAxis(BlockElement.java:119) ~[forge-1.20.1-47.4.13.jar%23177!/:?]
@@ -196,7 +196,7 @@ com.google.gson.JsonSyntaxException: Missing axis, expected to find a string
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[19Mar2026 20:15:22.889] [Worker-Main-5/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model noir_smp:models/custom/lamina.json
+[23Mar2026 19:33:34.583] [Worker-Main-4/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model noir_smp:models/custom/foice.json
 com.google.gson.JsonSyntaxException: Missing axis, expected to find a string
 	at net.minecraft.util.GsonHelper.getAsString(GsonHelper.java:102) ~[forge-1.20.1-47.4.13.jar%23177!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAxis(BlockElement.java:119) ~[forge-1.20.1-47.4.13.jar%23177!/:?]
@@ -225,8 +225,8 @@ com.google.gson.JsonSyntaxException: Missing axis, expected to find a string
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[19Mar2026 20:15:23.335] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture noir_smp:item/sinos_de_marfin_yellow with size 22x25 limits mip level from 2 to 0
-[19Mar2026 20:15:24.996] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: minecraft:espeto
+[23Mar2026 19:33:34.623] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture noir_smp:item/sinos_de_marfin_yellow with size 22x25 limits mip level from 2 to 0
+[23Mar2026 19:33:34.948] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: minecraft:espeto
 java.io.FileNotFoundException: minecraft:models/espeto.json
 	at net.minecraft.client.resources.model.ModelBakery.loadBlockModel(ModelBakery.java:417) ~[forge-1.20.1-47.4.13.jar%23177!/:?]
 	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:262) ~[forge-1.20.1-47.4.13.jar%23177!/:?]
@@ -242,33 +242,31 @@ java.io.FileNotFoundException: minecraft:models/espeto.json
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[19Mar2026 20:15:25.152] [Render thread/WARN] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Mod 'noir_smp' took 1.807 s to run a deferred task.
-[19Mar2026 20:15:25.942] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model noir_smp:manopla_da_calamidade#inventory:
+[23Mar2026 19:33:35.518] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model noir_smp:manopla_da_calamidade#inventory:
     minecraft:textures/atlas/blocks.png:noir_smp:item/manoplacalamidade
-[19Mar2026 20:15:25.942] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model noir_smp:doppel_mask#inventory:
+[23Mar2026 19:33:35.518] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model noir_smp:doppel_mask#inventory:
     minecraft:textures/atlas/blocks.png:noir_smp:item/doppelmask
-[19Mar2026 20:15:26.890] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.4.13 Target: 47.4.17
-[19Mar2026 20:15:28.285] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[19Mar2026 20:15:28.285] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[19Mar2026 20:15:28.630] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device JACK Default
-[19Mar2026 20:15:28.631] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[19Mar2026 20:15:28.725] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
-[19Mar2026 20:15:28.732] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[19Mar2026 20:15:28.732] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[19Mar2026 20:15:28.732] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[19Mar2026 20:15:28.733] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[19Mar2026 20:15:28.736] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[19Mar2026 20:15:28.737] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[19Mar2026 20:15:28.737] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19Mar2026 20:15:28.737] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[19Mar2026 20:15:30.611] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[19Mar2026 20:15:30.667] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x0 minecraft:textures/atlas/particles.png-atlas
-[19Mar2026 20:15:30.683] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 16384x4096x0 minecraft:textures/atlas/paintings.png-atlas
-[19Mar2026 20:15:30.740] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[19Mar2026 20:15:36.654] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[19Mar2026 20:15:40.226] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[19Mar2026 20:15:40.307] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: noir_smp:arma_de_buraco_negro Expected: 1287 Got: 1289
-[19Mar2026 20:15:46.149] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe noir_smp:armadurabase_armor_leggings_recipe
+[23Mar2026 19:33:36.805] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[23Mar2026 19:33:36.806] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[23Mar2026 19:33:36.901] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device JACK Default
+[23Mar2026 19:33:36.902] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[23Mar2026 19:33:36.985] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
+[23Mar2026 19:33:36.991] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[23Mar2026 19:33:36.992] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[23Mar2026 19:33:36.993] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[23Mar2026 19:33:36.993] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[23Mar2026 19:33:36.997] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[23Mar2026 19:33:36.999] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[23Mar2026 19:33:37.000] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[23Mar2026 19:33:37.000] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[23Mar2026 19:33:37.138] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[23Mar2026 19:33:37.172] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x0 minecraft:textures/atlas/particles.png-atlas
+[23Mar2026 19:33:37.186] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 16384x4096x0 minecraft:textures/atlas/paintings.png-atlas
+[23Mar2026 19:33:37.231] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[23Mar2026 19:33:39.574] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.4.13 Target: 47.4.18
+[23Mar2026 19:33:42.509] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[23Mar2026 19:57:43.918] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[23Mar2026 19:57:45.609] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe noir_smp:armadurabase_armor_leggings_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'noir_smp:deleted_mod_element_leggings'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.13.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.13.jar:?]
@@ -331,7 +329,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'noir_smp:deleted_mod_element_
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) ~[?:?]
-[19Mar2026 20:15:46.396] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe noir_smp:armadurabase_armor_chestplate_recipe
+[23Mar2026 19:57:45.677] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe noir_smp:armadurabase_armor_chestplate_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'noir_smp:deleted_mod_element_chestplate'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.13.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.13.jar:?]
@@ -394,7 +392,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'noir_smp:deleted_mod_element_
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) ~[?:?]
-[19Mar2026 20:15:46.400] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe noir_smp:armadurabase_armor_helmet_recipe
+[23Mar2026 19:57:45.684] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe noir_smp:armadurabase_armor_helmet_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'noir_smp:deleted_mod_element_helmet'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.13.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.13.jar:?]
@@ -457,7 +455,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'noir_smp:deleted_mod_element_
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) ~[?:?]
-[19Mar2026 20:15:46.409] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe noir_smp:armadurabase_armor_boots_recipe
+[23Mar2026 19:57:45.691] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe noir_smp:armadurabase_armor_boots_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'noir_smp:deleted_mod_element_boots'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.13.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.13.jar:?]
@@ -520,305 +518,49 @@ com.google.gson.JsonSyntaxException: Unknown item 'noir_smp:deleted_mod_element_
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) ~[?:?]
-[19Mar2026 20:15:46.416] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[19Mar2026 20:15:46.692] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1275 advancements
-[19Mar2026 20:15:47.598] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[19Mar2026 20:15:47.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[19Mar2026 20:15:49.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[19Mar2026 20:15:51.527] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:51.578] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:51.578] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:51.578] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:51.746] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:52.250] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:52.752] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:53.288] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:53.840] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:54.258] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:54.743] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:55.244] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:55.746] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:56.249] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:56.751] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:57.252] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:57.772] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:58.257] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:58.859] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:59.293] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:15:59.745] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:16:00.284] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:16:00.769] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:16:01.254] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:16:01.755] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:16:02.273] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:16:02.926] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:16:03.277] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:16:03.745] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Mar2026 20:16:04.964] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[19Mar2026 20:16:04.965] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[19Mar2026 20:16:05.299] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[19Mar2026 20:16:05.800] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[19Mar2026 20:16:06.252] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[19Mar2026 20:16:06.870] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[19Mar2026 20:16:07.455] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[19Mar2026 20:16:07.773] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[19Mar2026 20:16:08.258] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[19Mar2026 20:16:08.760] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[19Mar2026 20:16:09.261] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:09.758] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:10.259] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:10.794] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:11.245] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:11.764] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:12.249] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:12.783] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:13.249] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:13.753] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:14.307] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:14.759] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:15.244] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:15.762] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:16.247] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:16.765] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:17.551] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:17.752] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:18.270] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Mar2026 20:16:18.770] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[19Mar2026 20:16:19.256] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
-[19Mar2026 20:16:19.774] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[19Mar2026 20:16:20.259] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[19Mar2026 20:16:20.743] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[19Mar2026 20:16:21.278] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
-[19Mar2026 20:16:21.746] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
-[19Mar2026 20:16:22.248] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
-[19Mar2026 20:16:22.747] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[19Mar2026 20:16:23.250] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
-[19Mar2026 20:16:23.751] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
-[19Mar2026 20:16:24.255] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[19Mar2026 20:16:24.753] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[19Mar2026 20:16:25.271] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
-[19Mar2026 20:16:25.773] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
-[19Mar2026 20:16:26.258] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[19Mar2026 20:16:26.743] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[19Mar2026 20:16:27.245] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
-[19Mar2026 20:16:27.746] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
-[19Mar2026 20:16:28.062] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 38321 ms
-[19Mar2026 20:16:28.105] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[19Mar2026 20:16:30.156] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
-[19Mar2026 20:16:30.594] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 8, from 10
-[19Mar2026 20:16:30.596] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 8, from 0
-[19Mar2026 20:16:31.596] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[19Mar2026 20:16:32.256] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[19Mar2026 20:16:32.522] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:988563c7] logged in with entity id 72 at (-233.27979150766777, 111.00553324595137, -866.4161532429257)
-[19Mar2026 20:16:32.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[19Mar2026 20:16:33.143] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 287 advancements
-[19Mar2026 20:16:55.336] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Received passengers for unknown entity
-[19Mar2026 20:17:04.638] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/80, l='ServerLevel[New World]', x=-244.50, y=109.00, z=-870.50] died: BURACO NEGRO was killed
-[19Mar2026 20:17:04.639] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/88, l='ServerLevel[New World]', x=-239.50, y=102.00, z=-871.50] died: BURACO NEGRO was killed
-[19Mar2026 20:17:04.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 2 entities]
-[19Mar2026 20:17:04.641] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 2 entities
-[19Mar2026 20:17:22.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Arma De Buraco Negro] to Dev]
-[19Mar2026 20:17:22.181] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 1 [Arma De Buraco Negro] to Dev
-[19Mar2026 20:17:33.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[19Mar2026 20:17:33.831] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[19Mar2026 20:17:36.346] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Received passengers for unknown entity
-[19Mar2026 20:17:43.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[19Mar2026 20:17:43.251] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[19Mar2026 20:17:45.435] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/12051, l='ServerLevel[New World]', x=-254.50, y=101.00, z=-755.50] died: BURACO NEGRO was killed
-[19Mar2026 20:17:45.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed BURACO NEGRO]
-[19Mar2026 20:17:45.436] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed BURACO NEGRO
-[19Mar2026 20:18:02.596] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/18484, l='ServerLevel[New World]', x=-185.50, y=123.00, z=-760.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.597] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/20905, l='ServerLevel[New World]', x=-187.50, y=106.00, z=-761.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.597] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/21050, l='ServerLevel[New World]', x=-185.50, y=109.00, z=-761.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.597] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/21149, l='ServerLevel[New World]', x=-184.50, y=112.00, z=-761.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.597] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/21208, l='ServerLevel[New World]', x=-182.50, y=115.00, z=-761.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.598] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/21378, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-762.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.598] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/21578, l='ServerLevel[New World]', x=-179.50, y=120.00, z=-762.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.598] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/21705, l='ServerLevel[New World]', x=-177.50, y=123.00, z=-762.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.599] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/22198, l='ServerLevel[New World]', x=-180.50, y=119.00, z=-762.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.599] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/22708, l='ServerLevel[New World]', x=-184.50, y=111.00, z=-761.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.599] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/23063, l='ServerLevel[New World]', x=-183.50, y=114.00, z=-761.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.599] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/23252, l='ServerLevel[New World]', x=-181.50, y=117.00, z=-762.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.600] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/24559, l='ServerLevel[New World]', x=-178.50, y=122.00, z=-762.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.600] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/28950, l='ServerLevel[New World]', x=-180.50, y=119.00, z=-762.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.600] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/29741, l='ServerLevel[New World]', x=-184.50, y=111.00, z=-761.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.601] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/30020, l='ServerLevel[New World]', x=-183.50, y=114.00, z=-761.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.601] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/32094, l='ServerLevel[New World]', x=-181.50, y=117.00, z=-762.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.601] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/33125, l='ServerLevel[New World]', x=-178.50, y=122.00, z=-762.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:02.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 18 entities]
-[19Mar2026 20:18:02.602] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 18 entities
-[19Mar2026 20:18:04.516] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No entity was found
-[19Mar2026 20:18:16.497] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2092ms or 41 ticks behind
-[19Mar2026 20:18:19.407] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/59112, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.408] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/59113, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.408] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/59114, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.408] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/59115, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.408] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/59228, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.408] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/59399, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.408] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/59400, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.409] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/59401, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.409] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/59502, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.409] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/59845, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.409] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/60018, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.409] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/60019, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.409] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/60020, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.409] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/60189, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.410] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/60190, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.410] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/61079, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.410] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/61080, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.410] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/61081, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.410] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/61082, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.410] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/61083, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.410] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/61362, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.410] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/62573, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.411] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/62574, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.411] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/62575, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.411] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/62576, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.411] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/63003, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.411] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/63004, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.411] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/64547, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.411] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/64548, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.411] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/64549, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.411] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/64550, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.412] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/65099, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.412] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/65100, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.412] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/66224, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.412] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/66225, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.412] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/66226, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.412] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/66227, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.412] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/66821, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.412] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/66822, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.413] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/69053, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.413] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/69054, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.413] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/69055, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.413] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/69056, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.413] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/69804, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.413] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/69805, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.413] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/71493, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.414] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/71494, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.414] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/71495, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.414] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/71496, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.414] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/71497, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.414] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/71498, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.414] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/73307, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.414] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/73308, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.414] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/73309, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.415] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/73310, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.415] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/74319, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.415] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/74320, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.415] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/75443, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.415] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/75444, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.415] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/75445, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.415] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/75446, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.415] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/76535, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.415] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/76536, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.416] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/77702, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.416] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/77703, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.416] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/77704, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.416] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/77705, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.416] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/77706, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.416] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/77707, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.416] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/80358, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.416] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/80359, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.417] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/80360, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.417] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/80361, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.417] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/80362, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.417] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/81765, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.417] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/83132, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.417] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/83133, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.417] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/83134, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.417] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/83135, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.418] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/83136, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.418] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/84489, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.418] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/86138, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.418] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/86139, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.418] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/86140, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.418] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/86141, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.418] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/87703, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.419] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/87704, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.419] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/87705, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.419] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/87706, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.419] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/87707, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.419] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/87708, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.419] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/91172, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.419] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/91173, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.420] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/91174, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.420] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/91175, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.420] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/91176, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.420] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/92919, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.420] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/92920, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.420] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/92921, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.420] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/92922, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.421] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/92923, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.421] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/92924, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.421] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/94724, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.422] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/94725, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.422] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/94726, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.422] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/94727, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.422] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/94728, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.422] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/94729, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.422] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/98754, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/98755, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/98756, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/98757, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/98758, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/100905, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/100906, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/100907, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.424] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/100908, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.424] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/103070, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.424] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/103071, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.424] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/105359, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.424] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/107640, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.424] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/109939, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.424] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/112214, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.424] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/114567, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.425] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/114568, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.425] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/116847, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.425] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/119286, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.425] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/119287, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.425] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/121660, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.425] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/121661, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.426] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/121662, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.426] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/121663, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.426] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/124102, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.426] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/124103, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.426] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/124104, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.426] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/124105, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.427] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/124106, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.427] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/124107, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.427] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/126584, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.427] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/126585, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.427] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/126586, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.428] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/126587, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.428] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/126588, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.428] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/126589, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.428] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/129164, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.428] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/129165, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.428] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/129166, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.428] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/129167, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.428] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/129168, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.428] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/129169, l='ServerLevel[New World]', x=-178.50, y=120.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.429] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/131886, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.429] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/131887, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.429] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/134724, l='ServerLevel[New World]', x=-180.50, y=118.00, z=-758.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.429] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity BuracoNegroEntity['BURACO NEGRO'/137583, l='ServerLevel[New World]', x=-179.50, y=118.00, z=-757.50] died: BURACO NEGRO was killed
-[19Mar2026 20:18:19.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 154 entities]
-[19Mar2026 20:18:19.430] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 154 entities
-[19Mar2026 20:18:32.348] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19Mar2026 20:18:32.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19Mar2026 20:18:32.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19Mar2026 20:18:32.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19Mar2026 20:18:39.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[19Mar2026 20:18:39.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[19Mar2026 20:18:39.464] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[19Mar2026 20:18:39.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[19Mar2026 20:18:39.613] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[19Mar2026 20:18:39.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[19Mar2026 20:18:39.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19Mar2026 20:18:42.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19Mar2026 20:18:42.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19Mar2026 20:18:42.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[19Mar2026 20:18:42.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19Mar2026 20:18:42.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19Mar2026 20:18:42.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23Mar2026 19:57:45.699] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[23Mar2026 19:57:45.781] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1275 advancements
+[23Mar2026 19:57:46.342] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[23Mar2026 19:57:46.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Mar2026 19:57:47.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Mar2026 19:57:49.580] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2026 19:57:49.580] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2026 19:57:49.580] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2026 19:57:49.598] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2026 19:57:49.683] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2026 19:57:50.215] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[23Mar2026 19:57:50.677] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[23Mar2026 19:57:51.257] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[23Mar2026 19:57:51.745] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[23Mar2026 19:57:52.180] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[23Mar2026 19:57:52.683] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
+[23Mar2026 19:57:53.182] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[23Mar2026 19:57:53.768] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6097 ms
+[23Mar2026 19:57:53.770] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23Mar2026 19:57:55.684] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 13, from 10
+[23Mar2026 19:57:55.686] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 13, from 0
+[23Mar2026 19:57:56.069] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[23Mar2026 19:57:56.839] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[23Mar2026 19:57:56.965] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:dde446a9] logged in with entity id 72 at (-224.805006072654, 75.97215278756262, -832.6426120601365)
+[23Mar2026 19:57:57.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[23Mar2026 19:57:57.498] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 300 advancements
+[23Mar2026 19:57:59.238] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2318ms or 46 ticks behind
+[23Mar2026 19:58:03.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
+[23Mar2026 19:58:03.047] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Spectator Mode
+[23Mar2026 19:58:25.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[23Mar2026 19:58:25.339] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
+[23Mar2026 19:58:54.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23Mar2026 19:58:54.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23Mar2026 19:58:54.433] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[23Mar2026 19:58:54.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[23Mar2026 19:58:54.454] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[23Mar2026 19:58:54.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23Mar2026 19:58:54.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23Mar2026 19:58:56.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/noir_smp:vazio
+[23Mar2026 19:58:56.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23Mar2026 19:58:56.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23Mar2026 19:58:56.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[23Mar2026 19:58:56.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (vazio): All chunks are saved
+[23Mar2026 19:58:56.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Mar2026 19:58:56.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Mar2026 19:58:56.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
