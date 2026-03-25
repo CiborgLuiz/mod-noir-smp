@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 64,
+                "max": 128
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "noir_smp:entities/bembadalado"
+}

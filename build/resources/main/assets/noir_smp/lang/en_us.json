@@ -4,7 +4,7 @@
   "painting.noir_smp.noir_logo.author": "N.O.I.R SMP",
   "painting.noir_smp.noir_logo.title": "N.O.I.R Logo",
   "item.noir_smp.manopla_de_slime": "§a§lManopla De Slime",
-  "item_group.noir_smp.noir_smp": "N..O.I.R SMP",
+  "item_group.noir_smp.noir_smp": "§6§lN.O.I.R SMP",
   "item.noir_smp.dado_feural": "§d§lDado Feural",
   "item.noir_smp.lamina_do_arauto_plumifero": "§6§lLâmina do Arauto Plumífero",
   "item.noir_smp.sino_de_marfim_speed": "§9§lSino De Marfim Speed",
@@ -43,5 +43,7 @@
   "subtitles.buraco_negro": "",
   "item.noir_smp.arma_de_buraco_negro": "§5§lArma De Buraco Negro",
   "entity.noir_smp.black_hole_of_calamity": "§5§lBlack Hole",
-  "effect.noir_smp.espagetificacao": "Espaguetificacao"
+  "effect.noir_smp.espagetificacao": "Espaguetificacao",
+  "advancements.bem_badalado.descr": "Pegue todos os sinos",
+  "advancements.bem_badalado.title": "§4§lBem Badalado"
 }
