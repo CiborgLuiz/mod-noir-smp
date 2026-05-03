@@ -15,10 +15,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.noirsmp.entity.TijoloProjectileEntity;
-import net.mcreator.noirsmp.entity.MolotovProjectileEntity;
-import net.mcreator.noirsmp.entity.MiniBuracoNegroEntity;
-import net.mcreator.noirsmp.entity.BlackHoleOfCalamityEntity;
+import net.mcreator.noirsmp.entity.*;
 import net.mcreator.noirsmp.NoirSmpMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -32,6 +29,12 @@ public class NoirSmpModEntities {
 			.setCustomClientFactory(MiniBuracoNegroEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<BlackHoleOfCalamityEntity>> BLACK_HOLE_OF_CALAMITY = register("black_hole_of_calamity", EntityType.Builder.<BlackHoleOfCalamityEntity>of(BlackHoleOfCalamityEntity::new, MobCategory.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(1000).setUpdateInterval(3).setCustomClientFactory(BlackHoleOfCalamityEntity::new).fireImmune().sized(1.8f, 0.5f));
+	public static final RegistryObject<EntityType<LeviatanProjectileEntity>> LEVIATAN_PROJECTILE = register("leviatan_projectile", EntityType.Builder.<LeviatanProjectileEntity>of(LeviatanProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(LeviatanProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(1f, 1f));
+	public static final RegistryObject<EntityType<DoppelEntity>> DOPPEL = register("doppel",
+			EntityType.Builder.<DoppelEntity>of(DoppelEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DoppelEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -43,11 +46,13 @@ public class NoirSmpModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			BlackHoleOfCalamityEntity.init();
+			DoppelEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(BLACK_HOLE_OF_CALAMITY.get(), BlackHoleOfCalamityEntity.createAttributes().build());
+		event.put(DOPPEL.get(), DoppelEntity.createAttributes().build());
 	}
 }

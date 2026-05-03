@@ -9,6 +9,7 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.noirsmp.client.model.Modelburaconegro;
+import net.mcreator.noirsmp.client.model.Modelancora;
 import net.mcreator.noirsmp.client.model.ModelTijoloProjetil;
 import net.mcreator.noirsmp.client.model.ModelGarrafa;
 import net.mcreator.noirsmp.client.model.ModelBotas_Etereas_Model;
@@ -21,5 +22,6 @@ public class NoirSmpModModels {
 		event.registerLayerDefinition(ModelGarrafa.LAYER_LOCATION, ModelGarrafa::createBodyLayer);
 		event.registerLayerDefinition(Modelburaconegro.LAYER_LOCATION, Modelburaconegro::createBodyLayer);
 		event.registerLayerDefinition(ModelTijoloProjetil.LAYER_LOCATION, ModelTijoloProjetil::createBodyLayer);
+		event.registerLayerDefinition(Modelancora.LAYER_LOCATION, Modelancora::createBodyLayer);
 	}
 }

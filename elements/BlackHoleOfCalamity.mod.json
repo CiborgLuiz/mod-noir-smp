@@ -94,7 +94,7 @@
     "flyingMob": true,
     "inventorySize": 9,
     "inventoryStackSize": 99,
-    "disableCollisions": false,
+    "disableCollisions": true,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,

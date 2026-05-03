@@ -1,0 +1,31 @@
+{
+  "_fv": 79,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Leviatan"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "item.trident.throw"
+    },
+    "igniteFire": false,
+    "disableGravity": false,
+    "power": 1.5,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "Modelancora",
+    "customModelTexture": "ancoraentidade.png",
+    "modelWidth": 1.0,
+    "modelHeight": 1.0,
+    "onHitsBlock": {
+      "name": "LeviatanProjectileProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "LeviatanProjectileProjectileHitsLivingEntity"
+    },
+    "onFlyingTick": {
+      "name": "LeviatanProjectileWhileProjectileFlyingTick"
+    }
+  }
+}

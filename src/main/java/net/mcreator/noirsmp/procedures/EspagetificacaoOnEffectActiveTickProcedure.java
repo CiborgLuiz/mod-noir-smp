@@ -3,6 +3,9 @@ package net.mcreator.noirsmp.procedures;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.damagesource.DamageTypes;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.core.registries.Registries;
 
 import net.mcreator.noirsmp.init.NoirSmpModMobEffects;
 import net.mcreator.noirsmp.NoirSmpMod;
@@ -12,9 +15,8 @@ public class EspagetificacaoOnEffectActiveTickProcedure {
 		if (entity == null)
 			return;
 		NoirSmpMod.queueServerWork(20, () -> {
-			if (entity instanceof LivingEntity _entity)
-				_entity.setHealth((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1)
-						- (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(NoirSmpModMobEffects.ESPAGETIFICACAO.get()) ? _livEnt.getEffect(NoirSmpModMobEffects.ESPAGETIFICACAO.get()).getAmplifier() : 0));
+			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)),
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(NoirSmpModMobEffects.ESPAGETIFICACAO.get()) ? _livEnt.getEffect(NoirSmpModMobEffects.ESPAGETIFICACAO.get()).getAmplifier() : 0);
 		});
 	}
 }

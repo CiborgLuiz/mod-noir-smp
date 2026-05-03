@@ -133,6 +133,19 @@ public class BlackHoleOfCalamityEntity extends Monster {
 	}
 
 	@Override
+	public boolean isPushable() {
+		return false;
+	}
+
+	@Override
+	protected void doPush(Entity entityIn) {
+	}
+
+	@Override
+	protected void pushEntities() {
+	}
+
+	@Override
 	public boolean canChangeDimensions() {
 		return false;
 	}

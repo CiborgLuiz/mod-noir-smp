@@ -45,5 +45,7 @@
   "entity.noir_smp.black_hole_of_calamity": "§5§lBlack Hole",
   "effect.noir_smp.espagetificacao": "Espaguetificacao",
   "advancements.bem_badalado.descr": "Pegue todos os sinos",
-  "advancements.bem_badalado.title": "§4§lBem Badalado"
+  "advancements.bem_badalado.title": "§4§lBem Badalado",
+  "subtitles.correntes": "",
+  "entity.noir_smp.doppel": "Doppel"
 }

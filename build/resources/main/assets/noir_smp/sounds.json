@@ -41,5 +41,13 @@
         "stream": false
       }
     ]
+  },
+  "correntes": {
+    "sounds": [
+      {
+        "name": "noir_smp:corrente",
+        "stream": false
+      }
+    ]
   }
 }
