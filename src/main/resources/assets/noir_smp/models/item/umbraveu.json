@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/umbraveu",
+  "textures": {
+    "2": "noir_smp:block/umbraveu",
+    "particle": "noir_smp:item/umbraveubainha"
+  }
+}

@@ -46,6 +46,7 @@ public class NoirSmpModItems {
 	public static final RegistryObject<Item> TIJOLO;
 	public static final RegistryObject<Item> MARRETA_GRAVITACIONAL;
 	public static final RegistryObject<Item> ARMA_DE_BURACO_NEGRO;
+	public static final RegistryObject<Item> UMBRAVEU;
 	static {
 		MANOPLA_DE_SLIME = REGISTRY.register("manopla_de_slime", ManoplaDeSlimeItem::new);
 		DADO_FEURAL = REGISTRY.register("dado_feural", DadoFeuralItem::new);
@@ -79,6 +80,7 @@ public class NoirSmpModItems {
 		TIJOLO = REGISTRY.register("tijolo", TijoloItem::new);
 		MARRETA_GRAVITACIONAL = REGISTRY.register("marreta_gravitacional", MarretaGravitacionalItem::new);
 		ARMA_DE_BURACO_NEGRO = REGISTRY.register("arma_de_buraco_negro", ArmaDeBuracoNegroItem::new);
+		UMBRAVEU = REGISTRY.register("umbraveu", UmbraveuItem::new);
 	}
 	// Start of user code block custom items
 	// End of user code block custom items

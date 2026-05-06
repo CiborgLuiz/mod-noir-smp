@@ -49,5 +49,6 @@ public class NoirSmpModTabs {
 				tabData.accept(NoirSmpModItems.TIJOLO.get());
 				tabData.accept(NoirSmpModItems.MARRETA_GRAVITACIONAL.get());
 				tabData.accept(NoirSmpModItems.ARMA_DE_BURACO_NEGRO.get());
+				tabData.accept(NoirSmpModItems.UMBRAVEU.get());
 			}).withSearchBar().build());
 }

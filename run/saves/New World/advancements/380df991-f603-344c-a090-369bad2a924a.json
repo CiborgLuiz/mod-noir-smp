@@ -61,7 +61,10 @@
       "minecraft:spider": "2026-03-25 19:50:50 -0300",
       "minecraft:creeper": "2026-03-27 16:27:19 -0300",
       "minecraft:phantom": "2026-04-30 21:56:45 -0300",
-      "minecraft:zombie": "2026-04-28 18:58:58 -0300"
+      "minecraft:enderman": "2026-05-05 16:55:55 -0300",
+      "minecraft:stray": "2026-05-06 19:25:02 -0300",
+      "minecraft:zombie": "2026-04-28 18:58:58 -0300",
+      "minecraft:zombie_villager": "2026-05-05 17:12:12 -0300"
     },
     "done": false
   },
@@ -599,18 +602,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2026-05-02 20:23:18 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2026-05-02 20:19:54 -0300"
-    },
-    "done": true
-  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "golden_carrot": "2026-05-02 20:18:06 -0300"
@@ -620,6 +611,60 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2026-05-02 20:18:06 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2026-05-02 20:19:54 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-05-02 20:23:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2026-05-05 17:07:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2026-05-05 17:07:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2026-05-05 17:07:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2026-05-06 19:24:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2026-05-06 19:24:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2026-05-06 19:24:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2026-05-06 19:24:18 -0300"
     },
     "done": true
   },
