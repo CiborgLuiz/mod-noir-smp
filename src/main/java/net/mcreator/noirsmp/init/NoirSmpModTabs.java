@@ -50,5 +50,6 @@ public class NoirSmpModTabs {
 				tabData.accept(NoirSmpModItems.MARRETA_GRAVITACIONAL.get());
 				tabData.accept(NoirSmpModItems.ARMA_DE_BURACO_NEGRO.get());
 				tabData.accept(NoirSmpModItems.UMBRAVEU.get());
+				tabData.accept(NoirSmpModItems.SINGULARIS_ITEM.get());
 			}).withSearchBar().build());
 }

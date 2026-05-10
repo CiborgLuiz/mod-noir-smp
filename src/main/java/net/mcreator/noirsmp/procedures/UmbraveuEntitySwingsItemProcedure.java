@@ -18,13 +18,11 @@ public class UmbraveuEntitySwingsItemProcedure {
 		if (entity == null)
 			return;
 
-		// No 1.20.1, entity.level() já retorna um Level, então simplificamos aqui:
 		Level world = entity.level();
 		
 		if (world == null)
 			return;
 
-		// --- SISTEMA DE COOLDOWN (0.5 Segundos / 10 Ticks) ---
 		if (entity.getPersistentData().getDouble("umbraveu_cooldown") > world.getGameTime()) {
 			return;
 		}
@@ -39,7 +37,6 @@ public class UmbraveuEntitySwingsItemProcedure {
 		double spawnY = y + entity.getEyeHeight() * 0.75;
 
 		if (world instanceof ServerLevel _level) {
-			// --- MATEMÁTICA DE ROTAÇÃO (BYPASS GIMBAL LOCK) ---
 			double lx = Math.max(-1.0, Math.min(1.0, look.x));
 			double ly = look.y;
 			double lz = look.z;
@@ -58,7 +55,6 @@ public class UmbraveuEntitySwingsItemProcedure {
 					entity.createCommandSourceStack().withPermission(4).withSuppressedOutput(), command);
 		}
 
-		// --- SISTEMA DE DANO (2.0f = 1 Coração) ---
 		for (int i = 0; i < 20; i++) {
 			final int tick = i;
 			CompletableFuture.delayedExecutor(tick * 50, TimeUnit.MILLISECONDS).execute(() -> {

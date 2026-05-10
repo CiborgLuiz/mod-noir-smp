@@ -26,15 +26,17 @@ import net.mcreator.noirsmp.init.NoirSmpModItems;
 import net.mcreator.noirsmp.init.NoirSmpModEntities;
 
 public class DoppelEntity extends TamableAnimal {
-	// Construtor padrão para o servidor
 	public DoppelEntity(EntityType<? extends DoppelEntity> type, Level level) {
 		super(type, level);
 		this.setTame(true);
 		this.xpReward = 0;
 		this.setNoAi(false);
+		
+		for (EquipmentSlot slot : EquipmentSlot.values()) {
+			this.setDropChance(slot, 0.0F);
+		}
 	}
 
-	// Construtor obrigatório para o MCreator (Client-side factory)
 	public DoppelEntity(PlayMessages.SpawnEntity packet, Level level) {
 		this(NoirSmpModEntities.DOPPEL.get(), level);
 	}
@@ -56,17 +58,19 @@ public class DoppelEntity extends TamableAnimal {
 		super.tick();
 		if (!this.level().isClientSide()) {
 			if (this.getOwner() instanceof Player owner) {
-				// Sincroniza inventário e armadura (Dono -> Doppel)
 				for (EquipmentSlot slot : EquipmentSlot.values()) {
 					ItemStack ownerItem = owner.getItemBySlot(slot);
 					if (!ItemStack.matches(this.getItemBySlot(slot), ownerItem)) {
 						this.setItemSlot(slot, ownerItem.copy());
+						// Reforça que o item copiado tem 0% de chance de drop
+						this.setDropChance(slot, 0.0F);
 					}
 				}
-				// Se o dono não estiver usando a máscara, o doppel morre
 				if (owner.getItemBySlot(EquipmentSlot.HEAD).getItem() != NoirSmpModItems.DOPPEL_MASK.get()) {
 					this.discard();
 				}
+			} else if (this.tickCount > 20) {
+				this.discard();
 			}
 		}
 	}
@@ -80,8 +84,12 @@ public class DoppelEntity extends TamableAnimal {
 	}
 
 	@Override
+	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean hitByPlayer) {
+		super.dropCustomDeathLoot(source, looting, hitByPlayer);
+	}
+
+	@Override
 	protected void dropEquipment() {
-		// Não dropa nada para não duplicar itens do player
 	}
 
 	@Override

@@ -20,5 +20,6 @@ public class NoirSmpModEntityRenderers {
 		event.registerEntityRenderer(NoirSmpModEntities.BLACK_HOLE_OF_CALAMITY.get(), BlackHoleOfCalamityRenderer::new);
 		event.registerEntityRenderer(NoirSmpModEntities.LEVIATAN_PROJECTILE.get(), LeviatanProjectileRenderer::new);
 		event.registerEntityRenderer(NoirSmpModEntities.DOPPEL.get(), DoppelRenderer::new);
+		event.registerEntityRenderer(NoirSmpModEntities.SINGULARIS.get(), SingularisRenderer::new);
 	}
 }

@@ -35,6 +35,10 @@ public class NoirSmpModEntities {
 			EntityType.Builder.<DoppelEntity>of(DoppelEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DoppelEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SingularisEntity>> SINGULARIS = register("singularis",
+			EntityType.Builder.<SingularisEntity>of(SingularisEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SingularisEntity::new)
+
+					.sized(0.6f, 0.6f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -47,6 +51,7 @@ public class NoirSmpModEntities {
 		event.enqueueWork(() -> {
 			BlackHoleOfCalamityEntity.init();
 			DoppelEntity.init();
+			SingularisEntity.init();
 		});
 	}
 
@@ -54,5 +59,6 @@ public class NoirSmpModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(BLACK_HOLE_OF_CALAMITY.get(), BlackHoleOfCalamityEntity.createAttributes().build());
 		event.put(DOPPEL.get(), DoppelEntity.createAttributes().build());
+		event.put(SINGULARIS.get(), SingularisEntity.createAttributes().build());
 	}
 }

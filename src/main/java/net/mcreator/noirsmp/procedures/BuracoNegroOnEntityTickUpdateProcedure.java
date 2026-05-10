@@ -13,105 +13,100 @@ import net.mcreator.noirsmp.init.NoirSmpModMobEffects;
 import java.util.List;
 
 public class BuracoNegroOnEntityTickUpdateProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, Entity buracoNegro) {
-		if (buracoNegro == null || world.isClientSide())
-			return;
+    public static void execute(LevelAccessor world, double x, double y, double z, Entity buracoNegro) {
+        if (buracoNegro == null || world.isClientSide())
+            return;
 
-		double tick = buracoNegro.getPersistentData().getDouble("tick");
-		double vida = buracoNegro.getPersistentData().getDouble("vida");
+        double tick = buracoNegro.getPersistentData().getDouble("tick");
+        double vida = buracoNegro.getPersistentData().getDouble("vida");
 
-		if (vida == 0) {
-			vida = 1012;
-		}
+        if (!buracoNegro.getPersistentData().getBoolean("initialized")) {
+            vida = 1012;
+            buracoNegro.getPersistentData().putDouble("vida", vida);
+            buracoNegro.getPersistentData().putBoolean("initialized", true);
+        }
 
-		tick++;
+        tick++;
 
-		if (tick >= 20) {
-			tick = 0;
-			vida -= 1;
+        if (tick >= 20) {
+            tick = 0;
+            vida -= 1;
+            buracoNegro.getPersistentData().putDouble("vida", vida);
+            
+            if (buracoNegro instanceof LivingEntity living) {
+                float maxH = living.getMaxHealth();
+                living.setHealth(Math.max(1, (float) ((vida / 1012.0) * maxH)));
+            }
 
-			buracoNegro.getPersistentData().putDouble("vida", vida);
+            if (vida <= 0) {
+                explodir(world, x, y, z, buracoNegro);
+                return;
+            }
+        }
+        buracoNegro.getPersistentData().putDouble("tick", tick);
+        double raio = 55;
+        Vec3 centro = new Vec3(x, y, z);
 
-			if (vida <= 0) {
-				explodir(world, x, y, z, buracoNegro);
-				return;
-			}
-		}
+        List<Entity> entidades = world.getEntitiesOfClass(Entity.class,
+                new AABB(x, y, z, x, y, z).inflate(raio),
+                e -> e != buracoNegro);
 
-		buracoNegro.getPersistentData().putDouble("tick", tick);
+        for (Entity alvo : entidades) {
+            if (alvo instanceof Player p && (p.isCreative() || p.isSpectator()))
+                continue;
 
-		double raio = 55;
+            String entityName = alvo.getType().getDescriptionId().toLowerCase();
+            String className = alvo.getClass().getSimpleName().toLowerCase();
+            boolean isCorpse = entityName.contains("corpse") || className.contains("corpse");
 
-		Vec3 centro = new Vec3(x, y, z);
+            Vec3 dir = centro.subtract(alvo.position());
+            double dist = dir.length();
 
-		List<Entity> entidades = world.getEntitiesOfClass(Entity.class,
-				new AABB(x, y, z, x, y, z).inflate(raio),
-				e -> e != buracoNegro);
+            if (dist < 0.05) continue;
 
-		for (Entity alvo : entidades) {
+            Vec3 normal = dir.normalize();
+     
+            double speed = isCorpse ? 0 : Math.min(2.2, 0.3 + (2.0 / dist));
+            Vec3 puxao = normal.scale(speed);
 
-			if (alvo instanceof Player p && (p.isCreative() || p.isSpectator()))
-				continue;
+            if (alvo instanceof Player player) {
+                player.setDeltaMovement(player.getDeltaMovement().add(puxao));
+                player.hurtMarked = true;
+            } else if (!isCorpse) {
+                alvo.setDeltaMovement(alvo.getDeltaMovement().add(puxao));
+            }
+            if (dist < 5 && alvo instanceof LivingEntity living && !isCorpse) {
+                living.addEffect(new MobEffectInstance(
+                        NoirSmpModMobEffects.ESPAGETIFICACAO.get(),
+                        40,
+                        1
+                ));
+            }
+            if (dist < 2) {
+                if (alvo instanceof LivingEntity living) {
+                    living.hurt(living.damageSources().generic(), 10);
+                }
+                if (!(alvo instanceof Player) && !isCorpse) {
+                    alvo.discard();
+                }
+            }
+        }
+        BuraconegroblocosProcedure.execute(world, x, y, z, buracoNegro);
+    }
 
-			Vec3 dir = centro.subtract(alvo.position());
-			double dist = dir.length();
+    private static void explodir(LevelAccessor world, double x, double y, double z, Entity entity) {
+        if (world instanceof ServerLevel level) {
+            level.explode(null, x, y, z, 10f, ServerLevel.ExplosionInteraction.BLOCK);
+            for (Entity e : level.getEntities(entity, new AABB(x, y, z, x, y, z).inflate(20))) {
+                String name = e.getType().getDescriptionId().toLowerCase();
+                if (name.contains("corpse") || e.getClass().getSimpleName().toLowerCase().contains("corpse")) 
+                    continue;
 
-			if (dist < 0.05)
-				continue;
-
-			Vec3 normal = dir.normalize();
-
-			double speed = Math.min(2.2, 0.3 + (2.0 / dist));
-			Vec3 puxao = normal.scale(speed);
-
-			if (alvo instanceof Player player) {
-				player.setDeltaMovement(player.getDeltaMovement().add(puxao));
-				player.hurtMarked = true;
-			} else {
-				alvo.setDeltaMovement(puxao);
-			}
-
-			if (dist < 5 && alvo instanceof LivingEntity living) {
-				living.addEffect(new MobEffectInstance(
-						NoirSmpModMobEffects.ESPAGETIFICACAO.get(),
-						40,
-						1
-				));
-			}
-
-			if (dist < 2) {
-
-				if (alvo instanceof LivingEntity living) {
-					living.hurt(living.damageSources().generic(), 10);
-				}
-
-				if (!(alvo instanceof Player)) {
-					alvo.discard();
-				}
-			}
-		}
-
-		BuraconegroblocosProcedure.execute(world, x, y, z, buracoNegro);
-	}
-
-	private static void explodir(LevelAccessor world, double x, double y, double z, Entity entity) {
-		if (world instanceof ServerLevel level) {
-
-			level.explode(
-					null,
-					x, y, z,
-					10f,
-					ServerLevel.ExplosionInteraction.BLOCK
-			);
-
-			for (Entity e : level.getEntities(entity,
-					new AABB(x, y, z, x, y, z).inflate(20))) {
-
-				Vec3 dir = e.position().subtract(new Vec3(x, y, z)).normalize();
-				e.setDeltaMovement(dir.scale(2.5));
-			}
-		}
-
-		entity.discard();
-	}
+                Vec3 dir = e.position().subtract(new Vec3(x, y, z)).normalize();
+                e.setDeltaMovement(dir.scale(2.5));
+                e.hurtMarked = true;
+            }
+        }
+        entity.discard();
+    }
 }

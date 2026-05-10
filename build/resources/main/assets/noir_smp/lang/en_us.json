@@ -48,5 +48,7 @@
   "advancements.bem_badalado.title": "§4§lBem Badalado",
   "subtitles.correntes": "",
   "entity.noir_smp.doppel": "Doppel",
-  "item.noir_smp.umbraveu": "§5§lUmbravéu"
+  "item.noir_smp.umbraveu": "§5§lUmbravéu",
+  "entity.noir_smp.singularis": "Singularis",
+  "item.noir_smp.singularis_item": "§6§lSingularis"
 }

@@ -17,8 +17,7 @@ public class DoppelMaskItem extends Item {
 
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
-		// Executa a procedure de troca e spawn
-		DoppelMaskRightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
+		DoppelMaskRightclickedProcedure.execute(entity);
 		return InteractionResultHolder.sidedSuccess(entity.getItemInHand(hand), world.isClientSide());
 	}
 }

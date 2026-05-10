@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/singularis",
+  "textures": {
+    "1": "noir_smp:block/singularis",
+    "particle": "noir_smp:item/singularis"
+  }
+}
