@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "noir_smp:block/sintetic_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "noir_smp:block/sintetic_log"
+    },
+    "axis=z": {
+      "model": "noir_smp:block/sintetic_log",
+      "x": 90
+    }
+  }
+}

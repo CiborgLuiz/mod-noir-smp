@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/coracao_congelado",
+  "textures": {
+    "0": "noir_smp:block/coracao_congelado",
+    "particle": "noir_smp:item/coracao_congelado"
+  }
+}

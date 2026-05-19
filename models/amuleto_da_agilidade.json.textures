@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "1": "amuleto_da_agilidade"
+      }
+    }
+  }
+}

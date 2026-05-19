@@ -49,5 +49,13 @@
         "stream": false
       }
     ]
+  },
+  "shieldboom": {
+    "sounds": [
+      {
+        "name": "noir_smp:shieldboom",
+        "stream": false
+      }
+    ]
   }
 }

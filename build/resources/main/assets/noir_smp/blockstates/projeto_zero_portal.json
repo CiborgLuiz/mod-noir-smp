@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "noir_smp:block/projeto_zero_portal_ew"
+    },
+    "axis=x": {
+      "model": "noir_smp:block/projeto_zero_portal_ns"
+    }
+  }
+}

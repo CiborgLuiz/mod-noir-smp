@@ -1,0 +1,15 @@
+{
+  "parent": "noir_smp:custom/egide_prismatica",
+  "textures": {
+    "0": "noir_smp:block/egide_prismatica",
+    "particle": "noir_smp:item/egide_prismatica"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "noir_smp:item/egide_prismatica_0"
+    }
+  ]
+}

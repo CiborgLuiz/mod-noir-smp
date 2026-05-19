@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "noir_smp:block/aetherion_ore",
+    "particle": "noir_smp:block/aetherion_ore"
+  },
+  "render_type": "solid"
+}

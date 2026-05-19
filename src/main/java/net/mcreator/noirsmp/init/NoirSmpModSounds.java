@@ -20,4 +20,5 @@ public class NoirSmpModSounds {
 	public static final RegistryObject<SoundEvent> TIJOLOACERTO = REGISTRY.register("tijoloacerto", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("noir_smp", "tijoloacerto")));
 	public static final RegistryObject<SoundEvent> BURACO_NEGRO = REGISTRY.register("buraco_negro", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("noir_smp", "buraco_negro")));
 	public static final RegistryObject<SoundEvent> CORRENTES = REGISTRY.register("correntes", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("noir_smp", "correntes")));
+	public static final RegistryObject<SoundEvent> SHIELDBOOM = REGISTRY.register("shieldboom", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("noir_smp", "shieldboom")));
 }

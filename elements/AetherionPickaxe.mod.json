@@ -1,0 +1,40 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "aetherion_pickaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Aetherion Pickaxe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:NOIRSmp"
+      }
+    ],
+    "efficiency": 14.0,
+    "attackSpeed": 5.0,
+    "enchantability": 56,
+    "damageVsEntity": 16.0,
+    "usageCount": 1741,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Aetherion"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

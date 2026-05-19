@@ -58,9 +58,13 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2026-03-27 16:27:49 -0300",
+      "minecraft:vindicator": "2026-05-19 19:16:05 -0300",
+      "minecraft:magma_cube": "2026-05-19 19:16:43 -0300",
       "minecraft:spider": "2026-03-25 19:50:50 -0300",
       "minecraft:creeper": "2026-03-27 16:27:19 -0300",
+      "minecraft:slime": "2026-05-10 02:15:27 -0300",
       "minecraft:phantom": "2026-04-30 21:56:45 -0300",
+      "minecraft:witch": "2026-05-19 19:16:32 -0300",
       "minecraft:enderman": "2026-05-05 16:55:55 -0300",
       "minecraft:stray": "2026-05-06 19:25:02 -0300",
       "minecraft:zombie": "2026-04-28 18:58:58 -0300",
@@ -774,6 +778,300 @@
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2026-05-09 18:49:27 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2026-05-10 02:00:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2026-05-10 02:15:29 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2026-05-10 02:15:29 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2026-05-10 02:15:29 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2026-05-10 02:19:13 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2026-05-10 02:19:13 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2026-05-10 02:19:13 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2026-05-10 02:19:13 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2026-05-10 19:24:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/use_lodestone": {
+    "criteria": {
+      "use_lodestone": "2026-05-10 19:24:34 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/aetherion_pickaxe_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:04:54 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/aetherion_sword_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:04:54 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/aetherion_block_ore_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:04:54 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/aetherion_armor_chestplate_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:04:54 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/aetherion_axe_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:04:54 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/aetherion_shovel_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:04:54 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/aetherion_hoe_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:04:54 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/aetherion_armor_boots_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:04:54 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/aetherion_ore_smelting": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:04:54 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/aetherion_armor_leggings_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:04:54 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/aetherion_ore_block_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:04:54 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/aetherion_armor_helmet_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:04:54 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/sintetic_planks_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:05:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-05-19 18:05:04 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/sintetic_wood_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:05:04 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/sintetic_stairs_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:05:06 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/sintetic_fence_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:05:06 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/sintetic_door_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:05:06 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/sintetic_button_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:05:06 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/sintetic_trapdoor_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:05:06 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/sintetic_pressure_plate_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:05:06 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-05-19 18:05:06 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/sintetic_slab_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:05:06 -0300"
+    },
+    "done": true
+  },
+  "noir_smp:recipes/sintetic_fence_gate_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2026-05-19 18:05:06 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2026-05-19 19:18:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2026-05-19 19:33:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2026-05-19 19:33:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2026-05-19 19:33:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2026-05-19 19:33:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-05-19 19:06:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2026-05-19 19:06:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2026-05-19 19:33:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2026-05-19 19:33:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2026-05-19 19:06:11 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-05-19 19:06:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2026-05-19 19:33:28 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2026-05-19 19:33:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_carved_pumpkin": "2026-05-19 19:06:11 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2026-05-19 19:33:21 -0300"
     },
     "done": true
   },

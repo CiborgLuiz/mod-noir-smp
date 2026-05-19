@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:SinteticLog"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SinteticLog"
+      },
+      {
+        "value": "CUSTOM:SinteticLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SinteticLog"
+      },
+      {
+        "value": "CUSTOM:SinteticLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SinteticWood"
+    },
+    "name": "sintetic_wood_recipe",
+    "namespace": "mod"
+  }
+}

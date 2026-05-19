@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence_gate",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "noir_smp:sintetic_planks"
+    }
+  },
+  "result": {
+    "item": "noir_smp:sintetic_fence_gate",
+    "count": 1
+  }
+}

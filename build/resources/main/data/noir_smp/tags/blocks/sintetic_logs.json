@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "noir_smp:sintetic_wood",
+    "noir_smp:stripped_sintetic_wood",
+    "noir_smp:stripped_sintetic_log",
+    "noir_smp:sintetic_log"
+  ]
+}

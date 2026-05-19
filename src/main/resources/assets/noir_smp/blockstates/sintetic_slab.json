@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "noir_smp:block/sintetic_slab"
+    },
+    "type=top": {
+      "model": "noir_smp:block/sintetic_slab_top"
+    },
+    "type=double": {
+      "model": "noir_smp:block/sintetic_slab_full"
+    }
+  }
+}

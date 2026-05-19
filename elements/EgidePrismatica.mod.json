@@ -1,0 +1,42 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Shield",
+    "renderType": 1,
+    "blockingRenderType": 1,
+    "texture": "egide_prismatica",
+    "customModelName": "egide_prismatica:default",
+    "blockingModelName": "egide_prismatica_blocking:default",
+    "guiTexture": "",
+    "name": "§1§lÉgide Prismática",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:NOIRSmp"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 20,
+    "damageVsEntity": 4.0,
+    "usageCount": 3500,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "EgidePrismaticaRightclicked"
+    },
+    "onItemInInventoryTick": {
+      "name": "EgidePrismaticaCooldownTickProcedure"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#noir_smp:sintetic_logs",
+      "required": false
+    },
+    {
+      "id": "#noir_smp:ssssssssssss_logs",
+      "required": false
+    }
+  ]
+}

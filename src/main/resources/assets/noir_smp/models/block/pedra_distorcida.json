@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "noir_smp:block/pedra_distorcida",
+    "up": "noir_smp:block/pedra_distorcida",
+    "north": "noir_smp:block/pedra_distorcida",
+    "east": "noir_smp:block/pedra_distorcida",
+    "south": "noir_smp:block/pedra_distorcida",
+    "west": "noir_smp:block/pedra_distorcida",
+    "particle": "noir_smp:block/pedra_distorcida"
+  },
+  "render_type": "solid"
+}

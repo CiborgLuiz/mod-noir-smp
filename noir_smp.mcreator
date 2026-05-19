@@ -639,7 +639,7 @@
           "src/main/java/net/mcreator/noirsmp/item/PassosEteriosItem.java"
         ]
       },
-      "path": "~/armadura"
+      "path": "~/Equipamentos"
     },
     {
       "name": "Leviatan",
@@ -700,7 +700,7 @@
           "src/main/java/net/mcreator/noirsmp/procedures/PassosEteriosBootsTickEventProcedure.java"
         ]
       },
-      "path": "~/armadura"
+      "path": "~/Equipamentos"
     },
     {
       "name": "GravityYes",
@@ -719,7 +719,7 @@
           "src/main/java/net/mcreator/noirsmp/procedures/GravityYesProcedure.java"
         ]
       },
-      "path": "~/armadura"
+      "path": "~/Equipamentos"
     },
     {
       "name": "GravityNo",
@@ -738,7 +738,7 @@
           "src/main/java/net/mcreator/noirsmp/procedures/GravityNoProcedure.java"
         ]
       },
-      "path": "~/armadura"
+      "path": "~/Equipamentos"
     },
     {
       "name": "Bengala",
@@ -1845,31 +1845,12 @@
       "name": "Umbraveu",
       "type": "tool",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "umbraveu",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/noirsmp/item/UmbraveuItem.java",
           "src/main/resources/assets/noir_smp/models/item/umbraveu.json"
-        ]
-      },
-      "path": "~/Armas"
-    },
-    {
-      "name": "UmbraveuEntitySwingsItem",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "umbraveu_entity_swings_item",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/noirsmp/procedures/UmbraveuEntitySwingsItemProcedure.java"
         ]
       },
       "path": "~/Armas"
@@ -1984,6 +1965,1114 @@
         ]
       },
       "path": "~/Outros"
+    },
+    {
+      "name": "EgidePrismaticaRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "egide_prismatica_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/procedures/EgidePrismaticaRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Equipamentos"
+    },
+    {
+      "name": "EgidePrismatica",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "egide_prismatica",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/item/EgidePrismaticaItem.java",
+          "src/main/resources/assets/noir_smp/models/item/egide_prismatica.json",
+          "src/main/resources/assets/noir_smp/models/item/egide_prismatica_0.json"
+        ]
+      },
+      "path": "~/Equipamentos"
+    },
+    {
+      "name": "EgidePrismaticaCooldownTickProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "egide_prismatica_cooldown_tick_procedure",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/procedures/EgidePrismaticaCooldownTickProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Equipamentos"
+    },
+    {
+      "name": "EgidePrismaticaCooldownDisplay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "egide_prismatica_cooldown_display",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/procedures/EgidePrismaticaCooldownDisplayProcedure.java"
+        ]
+      },
+      "path": "~/Equipamentos"
+    },
+    {
+      "name": "UmbraveuSlashLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "umbraveu_slash_logic",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/procedures/UmbraveuSlashLogicProcedure.java"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "MedalhaoDoParasita",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medalhao_do_parasita",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/item/MedalhaoDoParasitaItem.java",
+          "src/main/resources/assets/noir_smp/models/item/medalhao_do_parasita.json"
+        ]
+      },
+      "path": "~/Artefatos"
+    },
+    {
+      "name": "FragmentoDoCaos",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragmento_do_caos",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/item/FragmentoDoCaosItem.java",
+          "src/main/resources/assets/noir_smp/models/item/fragmento_do_caos.json"
+        ]
+      },
+      "path": "~/Artefatos"
+    },
+    {
+      "name": "CoracaoCongelado",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coracao_congelado",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/item/coracao_congelado.json",
+          "src/main/java/net/mcreator/noirsmp/item/CoracaoCongeladoItem.java"
+        ]
+      },
+      "path": "~/Artefatos"
+    },
+    {
+      "name": "AmuletoDaAgilidade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuleto_da_agilidade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/item/AmuletoDaAgilidadeItem.java",
+          "src/main/resources/assets/noir_smp/models/item/amuleto_da_agilidade.json"
+        ]
+      },
+      "path": "~/Artefatos"
+    },
+    {
+      "name": "MedalhaoDoParasitaCurios",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medalhao_do_parasita_curios",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Artefatos"
+    },
+    {
+      "name": "MedalhaoCombateEvents",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "medalhao_combate_events",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/MedalhaoCombateEvents.java"
+        ]
+      },
+      "path": "~/Artefatos"
+    },
+    {
+      "name": "FragmentoDoCaosCurios",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragmento_do_caos_curios",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Artefatos"
+    },
+    {
+      "name": "FragmentoDoCaosOnHit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fragmento_do_caos_on_hit",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/procedures/FragmentoDoCaosOnHitProcedure.java"
+        ]
+      },
+      "path": "~/Artefatos"
+    },
+    {
+      "name": "Danoanomalo",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "danoanomalo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/damage_type/danoanomalo.json"
+        ]
+      },
+      "path": "~/Artefatos"
+    },
+    {
+      "name": "CoracaoCongeladoCuriosWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "coracao_congelado_curios_while_bauble_is_equipped_tick",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/procedures/CoracaoCongeladoCuriosWhileBaubleIsEquippedTickProcedure.java"
+        ]
+      },
+      "path": "~/Artefatos"
+    },
+    {
+      "name": "CoracaoCongeladoCurios",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coracao_congelado_curios",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Artefatos"
+    },
+    {
+      "name": "AmuletoDaAgilidadeCurios",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuleto_da_agilidade_curios",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Artefatos"
+    },
+    {
+      "name": "AmuletoDaAgilidadeCuriosBaubleIsUnequipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuleto_da_agilidade_curios_bauble_is_unequipped",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/procedures/AmuletoDaAgilidadeCuriosBaubleIsUnequippedProcedure.java"
+        ]
+      },
+      "path": "~/Artefatos"
+    },
+    {
+      "name": "AmuletoDaAgilidadeCuriosBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuleto_da_agilidade_curios_bauble_is_equipped",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/procedures/AmuletoDaAgilidadeCuriosBaubleIsEquippedProcedure.java"
+        ]
+      },
+      "path": "~/Artefatos"
+    },
+    {
+      "name": "ProjetoZero",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projeto_zero",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/dimension/projeto_zero.json",
+          "src/main/resources/data/noir_smp/dimension_type/projeto_zero.json",
+          "src/main/resources/assets/noir_smp/models/block/projeto_zero_portal_ns.json",
+          "src/main/java/net/mcreator/noirsmp/world/teleporter/ProjetoZeroTeleporter.java",
+          "src/main/java/net/mcreator/noirsmp/world/teleporter/ProjetoZeroPortalShape.java",
+          "src/main/java/net/mcreator/noirsmp/block/ProjetoZeroPortalBlock.java",
+          "src/main/resources/assets/noir_smp/blockstates/projeto_zero_portal.json",
+          "src/main/java/net/mcreator/noirsmp/world/dimension/ProjetoZeroDimension.java",
+          "src/main/resources/assets/noir_smp/models/block/projeto_zero_portal_ew.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "SinteticLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/block/SinteticLogBlock.java",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/sintetic_log.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_log.json",
+          "src/main/resources/assets/noir_smp/blockstates/sintetic_log.json",
+          "src/main/resources/assets/noir_smp/models/item/sintetic_log.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/block/sintetic_wood.json",
+          "src/main/resources/assets/noir_smp/models/item/sintetic_wood.json",
+          "src/main/java/net/mcreator/noirsmp/block/SinteticWoodBlock.java",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/sintetic_wood.json",
+          "src/main/resources/assets/noir_smp/blockstates/sintetic_wood.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "StrippedSinteticLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_sintetic_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/block/stripped_sintetic_log.json",
+          "src/main/resources/assets/noir_smp/models/item/stripped_sintetic_log.json",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/stripped_sintetic_log.json",
+          "src/main/resources/assets/noir_smp/blockstates/stripped_sintetic_log.json",
+          "src/main/java/net/mcreator/noirsmp/block/StrippedSinteticLogBlock.java"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "StrippedSinteticWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_sintetic_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/block/StrippedSinteticWoodBlock.java",
+          "src/main/resources/assets/noir_smp/models/block/stripped_sintetic_wood.json",
+          "src/main/resources/assets/noir_smp/blockstates/stripped_sintetic_wood.json",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/stripped_sintetic_wood.json",
+          "src/main/resources/assets/noir_smp/models/item/stripped_sintetic_wood.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/loot_tables/blocks/sintetic_planks.json",
+          "src/main/resources/assets/noir_smp/blockstates/sintetic_planks.json",
+          "src/main/java/net/mcreator/noirsmp/block/SinteticPlanksBlock.java",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_planks.json",
+          "src/main/resources/assets/noir_smp/models/item/sintetic_planks.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/item/sintetic_leaves.json",
+          "src/main/resources/assets/noir_smp/blockstates/sintetic_leaves.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_leaves.json",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/sintetic_leaves.json",
+          "src/main/java/net/mcreator/noirsmp/block/SinteticLeavesBlock.java"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/block/SinteticStairsBlock.java",
+          "src/main/resources/assets/noir_smp/models/item/sintetic_stairs.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_stairs.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_stairs_outer.json",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/sintetic_stairs.json",
+          "src/main/resources/assets/noir_smp/blockstates/sintetic_stairs.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_stairs_inner.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/loot_tables/blocks/sintetic_slab.json",
+          "src/main/resources/assets/noir_smp/models/item/sintetic_slab.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_slab_full.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_slab.json",
+          "src/main/java/net/mcreator/noirsmp/block/SinteticSlabBlock.java",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_slab_top.json",
+          "src/main/resources/assets/noir_smp/blockstates/sintetic_slab.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/blockstates/sintetic_fence.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_fence.json",
+          "src/main/java/net/mcreator/noirsmp/block/SinteticFenceBlock.java",
+          "src/main/resources/assets/noir_smp/models/item/sintetic_fence.json",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/sintetic_fence.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_fence_post.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_fence_inventory.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/block/sintetic_fence_gate.json",
+          "src/main/resources/assets/noir_smp/models/item/sintetic_fence_gate.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_fence_gate_open.json",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/sintetic_fence_gate.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_fence_gate_wall_open.json",
+          "src/main/resources/assets/noir_smp/blockstates/sintetic_fence_gate.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_fence_gate_wall.json",
+          "src/main/java/net/mcreator/noirsmp/block/SinteticFenceGateBlock.java"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/block/sintetic_door_top_left.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_door_top_right_open.json",
+          "src/main/resources/assets/noir_smp/models/item/sintetic_door.json",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/sintetic_door.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_door_bottom_left.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_door_bottom_right_open.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_door_bottom_left_open.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_door_top_right.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_door_top_left_open.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_door_bottom_right.json",
+          "src/main/resources/assets/noir_smp/blockstates/sintetic_door.json",
+          "src/main/java/net/mcreator/noirsmp/block/SinteticDoorBlock.java"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/block/sintetic_trapdoor_open.json",
+          "src/main/resources/assets/noir_smp/models/item/sintetic_trapdoor.json",
+          "src/main/resources/assets/noir_smp/blockstates/sintetic_trapdoor.json",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/sintetic_trapdoor.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_trapdoor.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_trapdoor_top.json",
+          "src/main/java/net/mcreator/noirsmp/block/SinteticTrapdoorBlock.java"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/block/sintetic_pressure_plate.json",
+          "src/main/resources/assets/noir_smp/blockstates/sintetic_pressure_plate.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_pressure_plate_down.json",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/sintetic_pressure_plate.json",
+          "src/main/resources/assets/noir_smp/models/item/sintetic_pressure_plate.json",
+          "src/main/java/net/mcreator/noirsmp/block/SinteticPressurePlateBlock.java"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/block/sintetic_button_inventory.json",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/sintetic_button.json",
+          "src/main/resources/assets/noir_smp/blockstates/sintetic_button.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_button_pressed.json",
+          "src/main/resources/assets/noir_smp/models/item/sintetic_button.json",
+          "src/main/resources/assets/noir_smp/models/block/sintetic_button.json",
+          "src/main/java/net/mcreator/noirsmp/block/SinteticButtonBlock.java"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/advancements/recipes/sintetic_wood_recipe.json",
+          "src/main/resources/data/noir_smp/recipes/sintetic_wood_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "StrippedSinteticWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_sintetic_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/advancements/recipes/stripped_sintetic_wood_recipe.json",
+          "src/main/resources/data/noir_smp/recipes/stripped_sintetic_wood_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/recipes/sintetic_planks_recipe.json",
+          "src/main/resources/data/noir_smp/advancements/recipes/sintetic_planks_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/advancements/recipes/sintetic_stairs_recipe.json",
+          "src/main/resources/data/noir_smp/recipes/sintetic_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/recipes/sintetic_slab_recipe.json",
+          "src/main/resources/data/noir_smp/advancements/recipes/sintetic_slab_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/recipes/sintetic_fence_recipe.json",
+          "src/main/resources/data/noir_smp/advancements/recipes/sintetic_fence_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/advancements/recipes/sintetic_fence_gate_recipe.json",
+          "src/main/resources/data/noir_smp/recipes/sintetic_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/recipes/sintetic_door_recipe.json",
+          "src/main/resources/data/noir_smp/advancements/recipes/sintetic_door_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/recipes/sintetic_trapdoor_recipe.json",
+          "src/main/resources/data/noir_smp/advancements/recipes/sintetic_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/recipes/sintetic_pressure_plate_recipe.json",
+          "src/main/resources/data/noir_smp/advancements/recipes/sintetic_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "SinteticButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sintetic_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/recipes/sintetic_button_recipe.json",
+          "src/main/resources/data/noir_smp/advancements/recipes/sintetic_button_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "Aetherion",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/item/aetherion.json",
+          "src/main/java/net/mcreator/noirsmp/item/AetherionItem.java"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/worldgen/placed_feature/aetherion_ore.json",
+          "src/main/resources/data/noir_smp/worldgen/configured_feature/aetherion_ore.json",
+          "src/main/resources/assets/noir_smp/blockstates/aetherion_ore.json",
+          "src/main/resources/assets/noir_smp/models/block/aetherion_ore.json",
+          "src/main/java/net/mcreator/noirsmp/block/AetherionOreBlock.java",
+          "src/main/resources/data/noir_smp/forge/biome_modifier/aetherion_ore_biome_modifier.json",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/aetherion_ore.json",
+          "src/main/resources/assets/noir_smp/models/item/aetherion_ore.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/blockstates/aetherion_block.json",
+          "src/main/resources/assets/noir_smp/models/block/aetherion_block.json",
+          "src/main/java/net/mcreator/noirsmp/block/AetherionBlockBlock.java",
+          "src/main/resources/assets/noir_smp/models/item/aetherion_block.json",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/aetherion_block.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/recipes/aetherion_ore_block_recipe.json",
+          "src/main/resources/data/noir_smp/advancements/recipes/aetherion_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/recipes/aetherion_block_ore_recipe.json",
+          "src/main/resources/data/noir_smp/advancements/recipes/aetherion_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/recipes/aetherion_ore_smelting.json",
+          "src/main/resources/data/noir_smp/advancements/recipes/aetherion_ore_smelting.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/item/AetherionPickaxeItem.java",
+          "src/main/resources/assets/noir_smp/models/item/aetherion_pickaxe.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/item/aetherion_axe.json",
+          "src/main/java/net/mcreator/noirsmp/item/AetherionAxeItem.java"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/item/AetherionSwordItem.java",
+          "src/main/resources/assets/noir_smp/models/item/aetherion_sword.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/item/aetherion_shovel.json",
+          "src/main/java/net/mcreator/noirsmp/item/AetherionShovelItem.java"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/item/aetherion_hoe.json",
+          "src/main/java/net/mcreator/noirsmp/item/AetherionHoeItem.java"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/advancements/recipes/aetherion_pickaxe_recipe.json",
+          "src/main/resources/data/noir_smp/recipes/aetherion_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/recipes/aetherion_axe_recipe.json",
+          "src/main/resources/data/noir_smp/advancements/recipes/aetherion_axe_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/advancements/recipes/aetherion_sword_recipe.json",
+          "src/main/resources/data/noir_smp/recipes/aetherion_sword_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/advancements/recipes/aetherion_shovel_recipe.json",
+          "src/main/resources/data/noir_smp/recipes/aetherion_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/advancements/recipes/aetherion_hoe_recipe.json",
+          "src/main/resources/data/noir_smp/recipes/aetherion_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/item/aetherion_armor_boots.json",
+          "src/main/resources/assets/noir_smp/models/item/aetherion_armor_helmet.json",
+          "src/main/resources/assets/noir_smp/models/item/aetherion_armor_leggings.json",
+          "src/main/resources/assets/noir_smp/models/item/aetherion_armor_chestplate.json",
+          "src/main/java/net/mcreator/noirsmp/item/AetherionArmorItem.java"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/recipes/aetherion_armor_helmet_recipe.json",
+          "src/main/resources/data/noir_smp/advancements/recipes/aetherion_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/recipes/aetherion_armor_chestplate_recipe.json",
+          "src/main/resources/data/noir_smp/advancements/recipes/aetherion_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/advancements/recipes/aetherion_armor_leggings_recipe.json",
+          "src/main/resources/data/noir_smp/recipes/aetherion_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "AetherionArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherion_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/recipes/aetherion_armor_boots_recipe.json",
+          "src/main/resources/data/noir_smp/advancements/recipes/aetherion_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "Dimensao000Grama",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensao_000_grama",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/noir_smp/models/item/dimensao_000_grama.json",
+          "src/main/java/net/mcreator/noirsmp/block/Dimensao000GramaBlock.java",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/dimensao_000_grama.json",
+          "src/main/resources/assets/noir_smp/blockstates/dimensao_000_grama.json",
+          "src/main/resources/assets/noir_smp/models/block/dimensao_000_grama.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "Dimensao000Terra",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensao_000_terra",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/block/Dimensao000TerraBlock.java",
+          "src/main/resources/assets/noir_smp/models/item/dimensao_000_terra.json",
+          "src/main/resources/assets/noir_smp/models/block/dimensao_000_terra.json",
+          "src/main/resources/data/noir_smp/loot_tables/blocks/dimensao_000_terra.json",
+          "src/main/resources/assets/noir_smp/blockstates/dimensao_000_terra.json"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "PedraDistorcida",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pedra_distorcida",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/noir_smp/loot_tables/blocks/pedra_distorcida.json",
+          "src/main/resources/assets/noir_smp/models/item/pedra_distorcida.json",
+          "src/main/resources/assets/noir_smp/blockstates/pedra_distorcida.json",
+          "src/main/resources/assets/noir_smp/models/block/pedra_distorcida.json",
+          "src/main/java/net/mcreator/noirsmp/block/PedraDistorcidaBlock.java"
+        ]
+      },
+      "path": "~/Dimensao 000"
+    },
+    {
+      "name": "CamposSinteticos",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campos_sinteticos",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/world/features/treedecorators/CamposSinteticosLeaveDecorator.java",
+          "src/main/resources/data/noir_smp/worldgen/biome/campos_sinteticos.json",
+          "src/main/java/net/mcreator/noirsmp/world/features/treedecorators/CamposSinteticosFruitDecorator.java",
+          "src/main/resources/data/noir_smp/worldgen/configured_feature/campos_sinteticos_tree.json",
+          "src/main/resources/data/noir_smp/worldgen/placed_feature/campos_sinteticos_tree.json",
+          "src/main/java/net/mcreator/noirsmp/world/features/treedecorators/CamposSinteticosTrunkDecorator.java"
+        ]
+      },
+      "path": "~/Dimensao 000/Campos Sinteticos"
+    },
+    {
+      "name": "DistorcedFluid",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "distorced_fluid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/noirsmp/block/DistorcedFluidBlock.java",
+          "src/main/resources/assets/noir_smp/models/item/distorced_fluid_bucket.json",
+          "src/main/resources/assets/noir_smp/models/block/distorced_fluid.json",
+          "src/main/java/net/mcreator/noirsmp/item/DistorcedFluidItem.java",
+          "src/main/java/net/mcreator/noirsmp/fluid/DistorcedFluidFluid.java",
+          "src/main/resources/assets/noir_smp/blockstates/distorced_fluid.json",
+          "src/main/java/net/mcreator/noirsmp/fluid/types/DistorcedFluidFluidType.java"
+        ]
+      },
+      "path": "~/Dimensao 000"
     }
   ],
   "variable_elements": [],
@@ -2035,17 +3124,27 @@
       ],
       "category": "block",
       "subtitle": ""
+    },
+    {
+      "name": "shieldboom",
+      "files": [
+        "shieldboom"
+      ],
+      "category": "player",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:AetherionPickaxe",
       "~CUSTOM:ManoplaDeSlime"
     ],
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:AetherionAxe",
       "~CUSTOM:ManoplaDeSlime"
     ],
     "ITEMS:minecraft:swords": [
-      "~CUSTOM:Umbraveu",
+      "~CUSTOM:AetherionSword",
       "~CUSTOM:MarretaGravitacional",
       "~CUSTOM:TacoComArame",
       "~CUSTOM:Rolo",
@@ -2070,7 +3169,101 @@
       "CUSTOM:ESPADA"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Dimensao000Grama",
+      "~CUSTOM:Dimensao000Terra",
+      "~CUSTOM:PedraDistorcida",
+      "~Blocks.COBBLED_DEEPSLATE",
       "~Blocks.QUARTZ_BLOCK#0"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:SinteticButton",
+      "~CUSTOM:SinteticPressurePlate",
+      "~CUSTOM:SinteticTrapdoor",
+      "~CUSTOM:SinteticDoor",
+      "~CUSTOM:SinteticFenceGate",
+      "~CUSTOM:SinteticFence",
+      "~CUSTOM:SinteticSlab",
+      "~CUSTOM:SinteticStairs",
+      "~CUSTOM:SinteticPlanks",
+      "~CUSTOM:StrippedSinteticWood",
+      "~CUSTOM:StrippedSinteticLog",
+      "~CUSTOM:SinteticWood",
+      "~CUSTOM:SinteticLog"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:SinteticLeaves"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:SinteticStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:SinteticSlab"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:SinteticFence"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:SinteticDoor"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~CUSTOM:SinteticTrapdoor"
+    ],
+    "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~CUSTOM:SinteticPressurePlate"
+    ],
+    "BLOCKS:minecraft:wooden_buttons": [
+      "~CUSTOM:SinteticButton"
+    ],
+    "BLOCKS:mod:sintetic_logs": [
+      "CUSTOM:SinteticLog",
+      "CUSTOM:SinteticWood",
+      "CUSTOM:StrippedSinteticLog",
+      "CUSTOM:StrippedSinteticWood"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:sintetic_logs",
+      "TAG:mod:ssssssssssss_logs"
+    ],
+    "BLOCKS:minecraft:planks": [
+      "CUSTOM:SinteticPlanks"
+    ],
+    "ITEMS:mod:sintetic_logs": [
+      "CUSTOM:SinteticLog",
+      "CUSTOM:SinteticWood",
+      "CUSTOM:StrippedSinteticLog",
+      "CUSTOM:StrippedSinteticWood"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:sintetic_logs",
+      "TAG:mod:ssssssssssss_logs"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:SinteticPlanks"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PedraDistorcida",
+      "~CUSTOM:AetherionBlock",
+      "~CUSTOM:AetherionOre"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:AetherionBlock",
+      "~CUSTOM:AetherionOre"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:AetherionShovel"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:AetherionHoe"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Dimensao000Terra",
+      "~CUSTOM:Dimensao000Grama"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:PedraDistorcida"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:DistorcedFluid"
     ]
   },
   "tab_element_order": {
@@ -2084,6 +3277,15 @@
       "ESPADA",
       "PEDRA",
       "SlimeMace",
+      "DoppelMask",
+      "PassosEterios",
+      "MarretaGravitacional",
+      "ArmaDeBuracoNegro",
+      "Umbraveu",
+      "SingularisItem",
+      "EgidePrismatica",
+      "BlackHoleOfCalamity",
+      "Ninjato",
       "SinoDeMarfimSpeed",
       "SinoDeMarfimRegen",
       "SinoDeMarfimStrength",
@@ -2093,9 +3295,6 @@
       "SinoDeMarfimInvisibility",
       "SinoDeMarfimResistence",
       "SinoDeMarfimAquaticRespiration",
-      "DoppelMask",
-      "PassosEterios",
-      "Ninjato",
       "Espeto",
       "Bengala",
       "Marreta",
@@ -2105,11 +3304,37 @@
       "Ripa",
       "Molotov",
       "Tijolo",
-      "MarretaGravitacional",
-      "ArmaDeBuracoNegro",
-      "BlackHoleOfCalamity",
-      "Umbraveu",
-      "SingularisItem"
+      "MedalhaoDoParasita",
+      "FragmentoDoCaos",
+      "AmuletoDaAgilidade",
+      "CoracaoCongelado",
+      "Aetherion",
+      "AetherionOre",
+      "AetherionBlock",
+      "AetherionPickaxe",
+      "AetherionAxe",
+      "AetherionSword",
+      "AetherionShovel",
+      "AetherionHoe",
+      "AetherionArmor",
+      "SinteticLog",
+      "SinteticWood",
+      "StrippedSinteticLog",
+      "StrippedSinteticWood",
+      "SinteticPlanks",
+      "SinteticLeaves",
+      "SinteticStairs",
+      "SinteticSlab",
+      "SinteticFence",
+      "SinteticFenceGate",
+      "SinteticDoor",
+      "SinteticTrapdoor",
+      "SinteticPressurePlate",
+      "SinteticButton",
+      "Dimensao000Grama",
+      "Dimensao000Terra",
+      "PedraDistorcida",
+      "DistorcedFluid"
     ]
   },
   "language_map": {
@@ -2165,11 +3390,82 @@
       "entity.noir_smp.doppel": "Doppel",
       "item.noir_smp.umbraveu": "§5§lUmbravéu",
       "entity.noir_smp.singularis": "Singularis",
-      "item.noir_smp.singularis_item": "§6§lSingularis"
+      "item.noir_smp.singularis_item": "§6§lSingularis",
+      "item.noir_smp.egide_prismatica": "§1§lÉgide Prismática",
+      "subtitles.shieldboom": "",
+      "item.noir_smp.medalhao_do_parasita": "§5§lMedalhão do Parasita",
+      "item.noir_smp.fragmento_do_caos": "§a§lFragmento do Caos",
+      "item.noir_smp.amuleto_da_agilidade": "§6§lAmuleto da Agilidade",
+      "item.noir_smp.medalhao_do_parasita.description_4": "§6§l✦ Regeneração reduzida em 75%",
+      "item.noir_smp.medalhao_do_parasita.description_0": "§4§lCada golpe alimenta algo faminto.",
+      "item.noir_smp.medalhao_do_parasita.description_1": "",
+      "item.noir_smp.medalhao_do_parasita.description_2": "§6§lEfeitos:",
+      "item.noir_smp.medalhao_do_parasita.description_3": "§6§l✦ 30% do dano causado vira vida",
+      "item.noir_smp.fragmento_do_caos.description_0": "§a§o§lA realidade odeia previsibilidade.",
+      "item.noir_smp.fragmento_do_caos.description_1": "",
+      "item.noir_smp.fragmento_do_caos.description_2": "§6§lEfeitos:",
+      "item.noir_smp.fragmento_do_caos.description_3": "§6§l✦ Cada hit converte dano aleatoriamente para: fogo,gelo,elétrico,venenoso e void",
+      "item.noir_smp.fragmento_do_caos.description_4": "§6§l✦5% de chance de: dano crítico anômalo",
+      "death.attack.danoanomalo.player": "%1$s tentou escapar de %2$s mas colapsou em uma fenda anômala",
+      "death.attack.danoanomalo": "%1$s foi desintegrado por uma anomalia do caos",
+      "death.attack.danoanomalo.item": "%1$s sofreu uma quebra de realidade causada por %2$s usando %3$s",
+      "item.noir_smp.coracao_congelado": "§b§lCoração Congelado",
+      "item.noir_smp.coracao_congelado.description_0": "§b§lO frio não protege.",
+      "item.noir_smp.coracao_congelado.description_1": "§b§lEle desacelera o inevitável.",
+      "item.noir_smp.coracao_congelado.description_2": "",
+      "item.noir_smp.coracao_congelado.description_3": "§6§lEfeitos:",
+      "item.noir_smp.coracao_congelado.description_4": "§6§l✦ Quem te ataca recebe lentidão e redução de attack speed",
+      "item.noir_smp.coracao_congelado.description_5": "§6§l✦ Chance de congelamento curto ao sofrer dano",
+      "item.noir_smp.amuleto_da_agilidade.description_2": "§6§lEfeitos:",
+      "item.noir_smp.amuleto_da_agilidade.description_1": "",
+      "item.noir_smp.amuleto_da_agilidade.description_3": "§6§l✦ +Attack Speed ",
+      "item.noir_smp.amuleto_da_agilidade.description_0": "§6§lQuem golpeia primeiro sobrevive.",
+      "block.noir_smp.sintetic_log": "Sintetic Log",
+      "block.noir_smp.sintetic_wood": "Sintetic Wood",
+      "block.noir_smp.stripped_sintetic_log": "Stripped Sintetic Log",
+      "block.noir_smp.stripped_sintetic_wood": "Stripped Sintetic Wood",
+      "block.noir_smp.sintetic_planks": "Sintetic Planks",
+      "block.noir_smp.sintetic_leaves": "Sintetic Leaves",
+      "block.noir_smp.sintetic_stairs": "Sintetic Stairs",
+      "block.noir_smp.sintetic_slab": "Sintetic Slab",
+      "block.noir_smp.sintetic_fence": "Sintetic Fence",
+      "block.noir_smp.sintetic_fence_gate": "Sintetic Fence Gate",
+      "block.noir_smp.sintetic_door": "Sintetic Door",
+      "block.noir_smp.sintetic_trapdoor": "Sintetic Trapdoor",
+      "block.noir_smp.sintetic_pressure_plate": "Sintetic Pressure Plate",
+      "block.noir_smp.sintetic_button": "Sintetic Button",
+      "item.noir_smp.aetherion": "Aetherion",
+      "block.noir_smp.aetherion_ore": "Aetherion Ore",
+      "block.noir_smp.aetherion_block": "Block of Aetherion",
+      "item.noir_smp.aetherion_pickaxe": "Aetherion Pickaxe",
+      "item.noir_smp.aetherion_axe": "Aetherion Axe",
+      "item.noir_smp.aetherion_sword": "Aetherion Sword",
+      "item.noir_smp.aetherion_shovel": "Aetherion Shovel",
+      "item.noir_smp.aetherion_hoe": "Aetherion Hoe",
+      "item.noir_smp.aetherion_armor_chestplate": "Aetherion Chestplate",
+      "item.noir_smp.aetherion_armor_boots": "Aetherion Boots",
+      "item.noir_smp.aetherion_armor_leggings": "Aetherion Leggings",
+      "item.noir_smp.aetherion_armor_helmet": "Aetherion Helmet",
+      "block.noir_smp.dimensao_000_grama": "Dimensao 000 Grama",
+      "block.noir_smp.dimensao_000_terra": "Dimensao 000 Terra",
+      "block.noir_smp.pedra_distorcida": "Pedra Distorcida",
+      "biome.noir_smp.campos_sinteticos": "Campos Sinteticos",
+      "fluid.noir_smp.distorced_fluid": "Distorced Fluid",
+      "block.noir_smp.distorced_fluid": "Distorced Fluid",
+      "fluid_type.noir_smp.distorced_fluid": "Distorced Fluid",
+      "item.noir_smp.distorced_fluid_bucket": "Distorced Fluid Bucket"
     }
   },
   "metadata": {
     "files": [
+      "src/main/resources/data/noir_smp/curios/slots/necklace.json",
+      "src/main/resources/data/curios/tags/items/necklace.json",
+      "src/main/resources/data/curios/tags/items/charm.json",
+      "src/main/resources/data/noir_smp/curios/entities/slots.json",
+      "src/main/resources/data/noir_smp/curios/slots/charm.json",
+      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModCuriosCompat.java",
+      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModFluids.java",
+      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModFluidTypes.java",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModMenus.java",
       "src/main/java/net/mcreator/noirsmp/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModScreens.java",
@@ -2178,6 +3474,7 @@
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModParticles.java",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModParticleTypes.java",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModMobEffects.java",
+      "src/main/java/net/mcreator/noirsmp/init/NoirSmpModBlocks.java",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModItems.java",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModEntities.java",
       "src/main/java/net/mcreator/noirsmp/init/NoirSmpModEntityRenderers.java",
@@ -2210,7 +3507,7 @@
         ]
       },
       {
-        "name": "armadura",
+        "name": "Equipamentos",
         "children": []
       },
       {
@@ -2235,8 +3532,53 @@
         ]
       },
       {
+        "name": "Artefatos",
+        "children": []
+      },
+      {
         "name": "Outros",
         "children": []
+      },
+      {
+        "name": "Dimensao 000",
+        "children": [
+          {
+            "name": "Campos Sinteticos",
+            "children": []
+          },
+          {
+            "name": "Floresta Eco",
+            "children": []
+          },
+          {
+            "name": "Planicies Fraturadas",
+            "children": []
+          },
+          {
+            "name": "Oceano Negativo",
+            "children": []
+          },
+          {
+            "name": "Jardim Artificial",
+            "children": []
+          },
+          {
+            "name": "Floresta de Vidro",
+            "children": []
+          },
+          {
+            "name": "Floresta Pulsante",
+            "children": []
+          },
+          {
+            "name": "Cordilheira Null",
+            "children": []
+          },
+          {
+            "name": "Planalto Obsidiano",
+            "children": []
+          }
+        ]
       }
     ]
   },
@@ -2254,7 +3596,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "photon"
+      "photon",
+      "curios_api"
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Mod feito pela equipe da NOIR SMP",

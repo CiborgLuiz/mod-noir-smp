@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/medalhao_do_parasita",
+  "textures": {
+    "0": "noir_smp:block/medalhao_do_parasita",
+    "particle": "noir_smp:item/medalhao_do_parasita"
+  }
+}

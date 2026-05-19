@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "noir_smp:aetherion_block",
+    "noir_smp:aetherion_ore"
+  ]
+}

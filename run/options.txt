@@ -35,9 +35,9 @@ renderDistance:16
 simulationDistance:16
 entityDistanceScaling:5.0
 guiScale:3
-particles:0
+particles:2
 maxFps:260
-graphicsMode:2
+graphicsMode:1
 ao:false
 prioritizeChunkUpdates:0
 biomeBlendRadius:0
@@ -118,6 +118,7 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.curios.open.desc:key.keyboard.g
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0

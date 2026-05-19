@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "noir_smp:block/stripped_sintetic_log",
+    "particle": "noir_smp:block/stripped_sintetic_log"
+  },
+  "render_type": "solid"
+}

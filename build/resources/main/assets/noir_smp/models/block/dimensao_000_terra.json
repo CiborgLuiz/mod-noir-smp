@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "noir_smp:block/dimesao_000_terra",
+    "up": "noir_smp:block/dimesao_000_terra",
+    "north": "noir_smp:block/dimesao_000_terra",
+    "east": "noir_smp:block/dimesao_000_terra",
+    "south": "noir_smp:block/dimesao_000_terra",
+    "west": "noir_smp:block/dimesao_000_terra",
+    "particle": "noir_smp:block/dimesao_000_terra"
+  },
+  "render_type": "solid"
+}

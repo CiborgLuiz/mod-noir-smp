@@ -7,7 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
 
-import net.mcreator.noirsmp.procedures.UmbraveuEntitySwingsItemProcedure;
+import net.mcreator.noirsmp.procedures.UmbraveuSlashLogicProcedure;
 
 public class UmbraveuItem extends SwordItem {
 	public UmbraveuItem() {
@@ -39,9 +39,9 @@ public class UmbraveuItem extends SwordItem {
 	}
 
 	@Override
-	public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
-		boolean retval = super.onEntitySwing(itemstack, entity);
-		UmbraveuEntitySwingsItemProcedure.execute(entity);
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		UmbraveuSlashLogicProcedure.execute(entity, sourceentity);
 		return retval;
 	}
 }

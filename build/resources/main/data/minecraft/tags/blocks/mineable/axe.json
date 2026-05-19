@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "noir_smp:stripped_sintetic_wood",
+    "noir_smp:sintetic_wood",
+    "noir_smp:sintetic_button",
+    "noir_smp:sintetic_stairs",
+    "noir_smp:sintetic_fence",
+    "noir_smp:sintetic_door",
+    "noir_smp:sintetic_pressure_plate",
+    "noir_smp:sintetic_slab",
+    "noir_smp:sintetic_trapdoor",
+    "noir_smp:sintetic_fence_gate",
+    "noir_smp:stripped_sintetic_log",
+    "noir_smp:sintetic_log",
+    "noir_smp:sintetic_planks"
+  ]
+}

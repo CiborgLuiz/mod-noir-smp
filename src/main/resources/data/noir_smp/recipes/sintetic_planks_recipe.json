@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "noir_smp:sintetic_logs"
+    }
+  ],
+  "result": {
+    "item": "noir_smp:sintetic_planks",
+    "count": 4
+  }
+}

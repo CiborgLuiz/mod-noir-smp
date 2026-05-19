@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "noir_smp:block/sintetic_planks",
+    "bottom": "noir_smp:block/sintetic_planks",
+    "top": "noir_smp:block/sintetic_planks",
+    "side": "noir_smp:block/sintetic_planks"
+  },
+  "render_type": "solid"
+}

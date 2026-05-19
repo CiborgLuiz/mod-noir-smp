@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/fragmento_do_caos",
+  "textures": {
+    "2": "noir_smp:block/fragmento_do_caos",
+    "particle": "noir_smp:item/fragmento_do_caos"
+  }
+}

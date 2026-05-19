@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "noir_smp:aetherion_block"
+    }
+  ],
+  "result": {
+    "item": "noir_smp:aetherion",
+    "count": 9
+  }
+}

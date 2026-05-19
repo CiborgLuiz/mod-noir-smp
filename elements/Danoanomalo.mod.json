@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s foi desintegrado por uma anomalia do caos",
+    "itemDeathMessage": "%1$s sofreu uma quebra de realidade causada por %2$s usando %3$s",
+    "playerDeathMessage": "%1$s tentou escapar de %2$s mas colapsou em uma fenda anômala"
+  }
+}

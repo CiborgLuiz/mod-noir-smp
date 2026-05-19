@@ -1,21 +1,29 @@
 package net.mcreator.noirsmp;
 
+import top.theillusivec4.curios.api.type.capability.ICuriosItemHandler;
+import top.theillusivec4.curios.api.CuriosApi;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.fml.util.thread.SidedThreadGroups;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.MinecraftForge;
 
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.noirsmp.init.*;
 
@@ -38,7 +46,11 @@ public class NoirSmpMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = context.getModEventBus();
+		if (ModList.get().isLoaded("curios")) {
+			bus.addListener(NoirSmpModCuriosCompat::registerCurios);
+		}
 		NoirSmpModSounds.REGISTRY.register(bus);
+		NoirSmpModBlocks.REGISTRY.register(bus);
 		NoirSmpModItems.REGISTRY.register(bus);
 		NoirSmpModEntities.REGISTRY.register(bus);
 		NoirSmpModTabs.REGISTRY.register(bus);
@@ -46,6 +58,8 @@ public class NoirSmpMod {
 		NoirSmpModMobEffects.REGISTRY.register(bus);
 		NoirSmpModMenus.REGISTRY.register(bus);
 		NoirSmpModParticleTypes.REGISTRY.register(bus);
+		NoirSmpModFluids.REGISTRY.register(bus);
+		NoirSmpModFluidTypes.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
@@ -53,7 +67,7 @@ public class NoirSmpMod {
 	// Start of user code block mod methods
 	// End of user code block mod methods
 	private static final String PROTOCOL_VERSION = "1";
-	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
+	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(ResourceLocation.fromNamespaceAndPath(MODID, MODID), () -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	private static int messageID = 0;
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder, BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
@@ -79,6 +93,19 @@ public class NoirSmpMod {
 			});
 			actions.forEach(e -> e.getKey().run());
 			workQueue.removeAll(actions);
+		}
+	}
+
+	public static class CuriosApiHelper {
+		public static IItemHandler getCuriosInventory(Player player) {
+			if (ModList.get().isLoaded("curios")) {
+				return CuriosApi.getCuriosInventory(player).map(ICuriosItemHandler::getEquippedCurios).orElse(null);
+			}
+			return null;
+		}
+
+		public static boolean isCurioItem(ItemStack itemstack) {
+			return BuiltInRegistries.ITEM.getTagNames().filter(tagKey -> tagKey.location().getNamespace().equals("curios")).anyMatch(itemstack::is);
 		}
 	}
 }

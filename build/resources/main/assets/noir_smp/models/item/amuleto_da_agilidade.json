@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/amuleto_da_agilidade",
+  "textures": {
+    "1": "noir_smp:block/amuleto_da_agilidade",
+    "particle": "noir_smp:item/amuleto_da_agilidade"
+  }
+}
