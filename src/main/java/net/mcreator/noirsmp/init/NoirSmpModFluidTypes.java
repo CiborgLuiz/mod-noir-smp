@@ -13,5 +13,5 @@ import net.mcreator.noirsmp.NoirSmpMod;
 
 public class NoirSmpModFluidTypes {
 	public static final DeferredRegister<FluidType> REGISTRY = DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, NoirSmpMod.MODID);
-	public static final RegistryObject<FluidType> DISTORCED_FLUID_TYPE = REGISTRY.register("distorced_fluid", () -> new DistorcedFluidFluidType());
+	public static final RegistryObject<FluidType> CRIOGER_TYPE = REGISTRY.register("crioger", () -> new DistorcedFluidFluidType());
 }

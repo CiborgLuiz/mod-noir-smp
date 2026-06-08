@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Tesseractita"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tesseractita"
+      },
+      {
+        "value": "CUSTOM:Tesseractita"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tesseractita"
+      },
+      {
+        "value": "CUSTOM:Tesseractita"
+      },
+      {
+        "value": "CUSTOM:Tesseractita"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TesseractitaStairs"
+    },
+    "name": "tesseractita_stairs_craft",
+    "namespace": "mod"
+  }
+}

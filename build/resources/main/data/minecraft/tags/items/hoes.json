@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "noir_smp:aetherion_hoe"
+    "noir_smp:aetherion_hoe",
+    "noir_smp:cronotita_hoe",
+    "noir_smp:eter_hoe"
   ]
 }

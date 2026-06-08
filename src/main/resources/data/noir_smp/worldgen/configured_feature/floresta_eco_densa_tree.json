@@ -1,0 +1,114 @@
+{
+  "type": "minecraft:tree",
+
+  "config": {
+
+    "force_dirt": false,
+    "ignore_vines": true,
+
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+
+      "limit": 3,
+      "lower_size": 2,
+      "upper_size": 4
+    },
+
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+
+      "state": {
+        "Name": "noir_smp:estretion"
+      }
+    },
+
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+
+      "state": {
+        "Name": "noir_smp:arborea_log",
+
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+
+      "entries": [
+
+        {
+          "data": {
+            "Name": "noir_smp:arborea_leaves",
+
+            "Properties": {
+              "distance": "7",
+              "persistent": "true",
+              "waterlogged": "false"
+            }
+          },
+
+          "weight": 9
+        },
+
+        {
+          "data": {
+            "Name": "noir_smp:arborea_leaves_glow",
+
+            "Properties": {
+              "distance": "7",
+              "persistent": "false",
+              "waterlogged": "false"
+            }
+          },
+
+          "weight": 1
+        }
+
+      ]
+    },
+
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+
+      "base_height": 18,
+      "height_rand_a": 8,
+      "height_rand_b": 14
+    },
+
+    "foliage_placer": {
+      "type": "minecraft:pine_foliage_placer",
+
+      "radius": {
+        "type": "minecraft:uniform",
+
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 4
+        }
+      },
+
+      "offset": {
+        "type": "minecraft:uniform",
+
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 1
+        }
+      },
+
+      "height": {
+        "type": "minecraft:uniform",
+
+        "value": {
+          "min_inclusive": 10,
+          "max_inclusive": 16
+        }
+      }
+    },
+
+    "decorators": []
+  }
+}

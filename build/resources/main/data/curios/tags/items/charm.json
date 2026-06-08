@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "noir_smp:fragmento_do_caos"
+    "noir_smp:fragmento_do_caos",
+    "noir_smp:fragmento_prismatico",
+    "noir_smp:relogio_da_violencia"
   ]
 }

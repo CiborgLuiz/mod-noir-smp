@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "noir_smp:block/nebulita",
+    "up": "noir_smp:block/nebulita",
+    "north": "noir_smp:block/nebulita",
+    "east": "noir_smp:block/nebulita",
+    "south": "noir_smp:block/nebulita",
+    "west": "noir_smp:block/nebulita",
+    "particle": "noir_smp:block/nebulita"
+  },
+  "render_type": "solid"
+}

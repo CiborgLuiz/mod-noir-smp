@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "noir_smp:pulse_door",
+    "noir_smp:arborea_door",
     "noir_smp:sintetic_door"
   ]
 }

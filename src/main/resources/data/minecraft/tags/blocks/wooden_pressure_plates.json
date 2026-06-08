@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "noir_smp:sintetic_pressure_plate"
+    "noir_smp:sintetic_pressure_plate",
+    "noir_smp:pulse_pressure_plate",
+    "noir_smp:arborea_pressure_plate"
   ]
 }

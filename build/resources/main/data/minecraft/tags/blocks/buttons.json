@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "noir_smp:litomorph_button",
+    "noir_smp:fractalita_button",
+    "noir_smp:estelita_button",
+    "noir_smp:tesseractita_button"
+  ]
+}

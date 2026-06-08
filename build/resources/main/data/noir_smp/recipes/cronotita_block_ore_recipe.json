@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "noir_smp:cronotita_block"
+    }
+  ],
+  "result": {
+    "item": "noir_smp:cronotita_ingot",
+    "count": 9
+  }
+}

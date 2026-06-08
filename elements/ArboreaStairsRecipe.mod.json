@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ArboreaPlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ArboreaPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ArboreaPlanks"
+      },
+      {
+        "value": "CUSTOM:ArboreaPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ArboreaPlanks"
+      },
+      {
+        "value": "CUSTOM:ArboreaPlanks"
+      },
+      {
+        "value": "CUSTOM:ArboreaPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ArboreaStairs"
+    },
+    "name": "arborea_stairs_recipe",
+    "namespace": "mod"
+  }
+}

@@ -8,9 +8,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 
 import net.minecraft.world.item.ItemStack;
 
-import net.mcreator.noirsmp.procedures.CoracaoCongeladoCuriosWhileBaubleIsEquippedTickProcedure;
-import net.mcreator.noirsmp.procedures.AmuletoDaAgilidadeCuriosBaubleIsUnequippedProcedure;
-import net.mcreator.noirsmp.procedures.AmuletoDaAgilidadeCuriosBaubleIsEquippedProcedure;
+import net.mcreator.noirsmp.procedures.*;
 
 public class NoirSmpModCuriosCompat {
 	public static void registerCurios(FMLCommonSetupEvent event) {
@@ -34,6 +32,46 @@ public class NoirSmpModCuriosCompat {
 				@Override
 				public void onUnequip(SlotContext slotContext, ItemStack newStack, ItemStack stack) {
 					AmuletoDaAgilidadeCuriosBaubleIsUnequippedProcedure.execute(slotContext.entity());
+				}
+			});
+			CuriosApi.registerCurio(NoirSmpModItems.ANEL_DO_TITA.get(), new ICurioItem() {
+				@Override
+				public void onEquip(SlotContext slotContext, ItemStack prevStack, ItemStack stack) {
+					AnelDoTitaCuriosBaubleIsEquippedProcedure.execute(slotContext.entity());
+				}
+
+				@Override
+				public void onUnequip(SlotContext slotContext, ItemStack newStack, ItemStack stack) {
+					AnelDoTitaCuriosBaubleIsUnequippedProcedure.execute(slotContext.entity());
+				}
+			});
+			CuriosApi.registerCurio(NoirSmpModItems.EMBLEMA_DO_GUERREIRO.get(), new ICurioItem() {
+				@Override
+				public void onEquip(SlotContext slotContext, ItemStack prevStack, ItemStack stack) {
+					EmblemaDoGuerreiroCuriosBaubleIsEquippedProcedure.execute(slotContext.entity());
+				}
+
+				@Override
+				public void onUnequip(SlotContext slotContext, ItemStack newStack, ItemStack stack) {
+					EmblemaDoGuerreiroCuriosBaubleIsUnequippedProcedure.execute(slotContext.entity());
+				}
+			});
+			CuriosApi.registerCurio(NoirSmpModItems.FRAGMENTO_PRISMATICO.get(), new ICurioItem() {
+				@Override
+				public void curioTick(SlotContext slotContext, ItemStack stack) {
+					FragmentoPrismaticoCuriosWhileBaubleIsEquippedTickProcedure.execute(slotContext.entity().level(), slotContext.entity().getX(), slotContext.entity().getY(), slotContext.entity().getZ(), slotContext.entity());
+				}
+			});
+			CuriosApi.registerCurio(NoirSmpModItems.SELO_DO_MARTIR.get(), new ICurioItem() {
+				@Override
+				public void curioTick(SlotContext slotContext, ItemStack stack) {
+					SeloDoMartirCuriosWhileBaubleIsEquippedTickProcedure.execute();
+				}
+			});
+			CuriosApi.registerCurio(NoirSmpModItems.RELOGIO_DA_VIOLENCIA.get(), new ICurioItem() {
+				@Override
+				public void curioTick(SlotContext slotContext, ItemStack stack) {
+					RelogioDaViolenciaCuriosWhileBaubleIsEquippedTickProcedure.execute();
 				}
 			});
 		});

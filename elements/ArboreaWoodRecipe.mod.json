@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ArboreaLog"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ArboreaLog"
+      },
+      {
+        "value": "CUSTOM:ArboreaLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ArboreaLog"
+      },
+      {
+        "value": "CUSTOM:ArboreaLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ArboreaWood"
+    },
+    "name": "arborea_wood_recipe",
+    "namespace": "mod"
+  }
+}

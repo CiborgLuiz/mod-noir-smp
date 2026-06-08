@@ -3,5 +3,6 @@
   "textures": {
     "all": "noir_smp:block/sintetic_leaves",
     "particle": "noir_smp:block/sintetic_leaves"
-  }
+  },
+  "render_type": "cutout"
 }

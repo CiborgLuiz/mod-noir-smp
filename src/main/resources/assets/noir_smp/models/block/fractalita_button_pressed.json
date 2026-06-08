@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "noir_smp:block/fractalita",
+    "particle": "noir_smp:block/fractalita"
+  },
+  "render_type": "solid"
+}

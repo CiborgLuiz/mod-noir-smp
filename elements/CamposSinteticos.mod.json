@@ -79,7 +79,7 @@
       "min": -1.0,
       "max": 1.01
     },
-    "treesPerChunk": 1,
+    "treesPerChunk": 2,
     "vanillaTreeType": "Mega pine trees",
     "treeType": 1,
     "minHeight": 7,
@@ -90,10 +90,10 @@
       "value": "CUSTOM:SinteticLeaves"
     },
     "treeVines": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeFruits": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "defaultFeatures": [
       "Caves",

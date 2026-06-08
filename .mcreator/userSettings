@@ -2,15 +2,12 @@
   "workspacePanelIconSize": "TILES",
   "workspacePanelSortType": "CREATED",
   "workspacePanelSortAscending": true,
-  "projectBrowserSplitPos": 401,
+  "projectBrowserSplitPos": 385,
   "projectBrowserState": {
     "expandedPaths": [
       "[, N.O.I.R SMP]",
       "[, N.O.I.R SMP, Resources (Gradle)]",
-      "[, N.O.I.R SMP, Resources (Gradle), /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/assets]",
-      "[, N.O.I.R SMP, Resources (Gradle), /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/assets, /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/assets/noir_smp]",
-      "[, N.O.I.R SMP, Resources (Gradle), /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/assets, /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/assets/noir_smp, /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/assets/noir_smp/textures]",
-      "[, N.O.I.R SMP, Resources (Gradle), /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/assets, /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/assets/noir_smp, /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/assets/noir_smp/textures, /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/assets/noir_smp/textures/screens]"
+      "[, N.O.I.R SMP, Resources (Gradle), /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/data]"
     ]
   }
 }

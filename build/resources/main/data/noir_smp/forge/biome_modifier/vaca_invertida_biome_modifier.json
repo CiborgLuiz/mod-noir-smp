@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#noir:noir",
+  "spawners": {
+    "type": "noir_smp:vaca_invertida",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "noir_smp:blocks/stripped_arborea_wood",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "noir_smp:stripped_arborea_wood"
+        }
+      ]
+    }
+  ]
+}

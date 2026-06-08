@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "noir_smp:block/litomorph",
+    "up": "noir_smp:block/litomorph",
+    "north": "noir_smp:block/litomorph",
+    "east": "noir_smp:block/litomorph",
+    "south": "noir_smp:block/litomorph",
+    "west": "noir_smp:block/litomorph",
+    "particle": "noir_smp:block/litomorph"
+  },
+  "render_type": "solid"
+}

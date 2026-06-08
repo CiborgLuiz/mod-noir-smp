@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/relogio_aberto",
+  "textures": {
+    "0": "noir_smp:block/relogio",
+    "particle": "noir_smp:item/relogio"
+  }
+}

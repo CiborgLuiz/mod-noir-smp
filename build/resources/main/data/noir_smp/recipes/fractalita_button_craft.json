@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "noir_smp:fractalita"
+    }
+  ],
+  "result": {
+    "item": "noir_smp:fractalita_button",
+    "count": 1
+  }
+}

@@ -1,6 +1,24 @@
 {
   "replace": false,
   "values": [
-    "noir_smp:pedra_distorcida"
+    "noir_smp:estelita",
+    "noir_smp:fractalita_pressure_plate",
+    "noir_smp:fractalita_stairs",
+    "noir_smp:tesseractita_wall",
+    "noir_smp:estelita_wall",
+    "noir_smp:tesseractita_stairs",
+    "noir_smp:fractalita_wall",
+    "noir_smp:nebulita",
+    "noir_smp:fractalita",
+    "noir_smp:tesseractita_button",
+    "noir_smp:fractalita_button",
+    "noir_smp:estelita_button",
+    "noir_smp:estelita_pressure_plate",
+    "noir_smp:tesseractita",
+    "noir_smp:tesseractita_slab",
+    "noir_smp:estelita_slab",
+    "noir_smp:tesseractita_pressure_plate",
+    "noir_smp:fractalita_slab",
+    "noir_smp:estelita_stairs"
   ]
 }

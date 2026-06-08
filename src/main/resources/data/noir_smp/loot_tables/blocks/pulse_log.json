@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "noir_smp:blocks/pulse_log",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "noir_smp:pulse_log"
+        }
+      ]
+    }
+  ]
+}

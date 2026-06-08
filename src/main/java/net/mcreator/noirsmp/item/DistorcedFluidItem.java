@@ -15,7 +15,7 @@ import javax.annotation.Nullable;
 
 public class DistorcedFluidItem extends BucketItem {
 	public DistorcedFluidItem() {
-		super(NoirSmpModFluids.DISTORCED_FLUID, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)
+		super(NoirSmpModFluids.CRIOGER, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)
 
 		);
 	}

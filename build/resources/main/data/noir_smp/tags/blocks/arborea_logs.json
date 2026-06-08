@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "noir_smp:stripped_arborea_log",
+    "noir_smp:stripped_arborea_wood",
+    "noir_smp:arborea_wood",
+    "noir_smp:arborea_log"
+  ]
+}

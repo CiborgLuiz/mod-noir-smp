@@ -2,7 +2,15 @@
   "replace": false,
   "values": [
     {
+      "id": "#noir_smp:pulse_logs",
+      "required": false
+    },
+    {
       "id": "#noir_smp:sintetic_logs",
+      "required": false
+    },
+    {
+      "id": "#noir_smp:arborea_logs",
       "required": false
     },
     {

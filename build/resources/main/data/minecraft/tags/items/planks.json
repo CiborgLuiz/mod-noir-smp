@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "noir_smp:sintetic_planks"
+    "noir_smp:arborea_planks",
+    "noir_smp:sintetic_planks",
+    "noir_smp:pulse_planks"
   ]
 }

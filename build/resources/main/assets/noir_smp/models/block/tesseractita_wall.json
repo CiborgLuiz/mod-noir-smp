@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "noir_smp:block/tesseractita",
+    "particle": "noir_smp:block/tesseractita"
+  },
+  "render_type": "solid"
+}

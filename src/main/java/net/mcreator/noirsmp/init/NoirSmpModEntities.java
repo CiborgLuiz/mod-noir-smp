@@ -39,6 +39,34 @@ public class NoirSmpModEntities {
 			EntityType.Builder.<SingularisEntity>of(SingularisEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SingularisEntity::new)
 
 					.sized(0.6f, 0.6f));
+	public static final RegistryObject<EntityType<GalinhaInvertidaEntity>> GALINHA_INVERTIDA = register("galinha_invertida",
+			EntityType.Builder.<GalinhaInvertidaEntity>of(GalinhaInvertidaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GalinhaInvertidaEntity::new)
+
+					.sized(0.4f, 0.7f));
+	public static final RegistryObject<EntityType<VacaInvertidaEntity>> VACA_INVERTIDA = register("vaca_invertida",
+			EntityType.Builder.<VacaInvertidaEntity>of(VacaInvertidaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(VacaInvertidaEntity::new)
+
+					.sized(0.9f, 1.4f));
+	public static final RegistryObject<EntityType<RaposaInvertidaEntity>> RAPOSA_INVERTIDA = register("raposa_invertida",
+			EntityType.Builder.<RaposaInvertidaEntity>of(RaposaInvertidaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RaposaInvertidaEntity::new)
+
+					.sized(0.7f, 0.7f));
+	public static final RegistryObject<EntityType<CabraInvertidaEntity>> CABRA_INVERTIDA = register("cabra_invertida",
+			EntityType.Builder.<CabraInvertidaEntity>of(CabraInvertidaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CabraInvertidaEntity::new)
+
+					.sized(0.9f, 0.9f));
+	public static final RegistryObject<EntityType<PorcoInvertidoEntity>> PORCO_INVERTIDO = register("porco_invertido",
+			EntityType.Builder.<PorcoInvertidoEntity>of(PorcoInvertidoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PorcoInvertidoEntity::new)
+
+					.sized(0.9f, 0.9f));
+	public static final RegistryObject<EntityType<ZumbiInvertidoEntity>> ZUMBI_INVERTIDO = register("zumbi_invertido",
+			EntityType.Builder.<ZumbiInvertidoEntity>of(ZumbiInvertidoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ZumbiInvertidoEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<EsqueletoInvertidoEntity>> ESQUELETO_INVERTIDO = register("esqueleto_invertido",
+			EntityType.Builder.<EsqueletoInvertidoEntity>of(EsqueletoInvertidoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EsqueletoInvertidoEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -52,6 +80,13 @@ public class NoirSmpModEntities {
 			BlackHoleOfCalamityEntity.init();
 			DoppelEntity.init();
 			SingularisEntity.init();
+			GalinhaInvertidaEntity.init();
+			VacaInvertidaEntity.init();
+			RaposaInvertidaEntity.init();
+			CabraInvertidaEntity.init();
+			PorcoInvertidoEntity.init();
+			ZumbiInvertidoEntity.init();
+			EsqueletoInvertidoEntity.init();
 		});
 	}
 
@@ -60,5 +95,12 @@ public class NoirSmpModEntities {
 		event.put(BLACK_HOLE_OF_CALAMITY.get(), BlackHoleOfCalamityEntity.createAttributes().build());
 		event.put(DOPPEL.get(), DoppelEntity.createAttributes().build());
 		event.put(SINGULARIS.get(), SingularisEntity.createAttributes().build());
+		event.put(GALINHA_INVERTIDA.get(), GalinhaInvertidaEntity.createAttributes().build());
+		event.put(VACA_INVERTIDA.get(), VacaInvertidaEntity.createAttributes().build());
+		event.put(RAPOSA_INVERTIDA.get(), RaposaInvertidaEntity.createAttributes().build());
+		event.put(CABRA_INVERTIDA.get(), CabraInvertidaEntity.createAttributes().build());
+		event.put(PORCO_INVERTIDO.get(), PorcoInvertidoEntity.createAttributes().build());
+		event.put(ZUMBI_INVERTIDO.get(), ZumbiInvertidoEntity.createAttributes().build());
+		event.put(ESQUELETO_INVERTIDO.get(), EsqueletoInvertidoEntity.createAttributes().build());
 	}
 }

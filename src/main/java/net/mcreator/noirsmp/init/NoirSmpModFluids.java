@@ -21,15 +21,15 @@ import net.mcreator.noirsmp.NoirSmpMod;
 
 public class NoirSmpModFluids {
 	public static final DeferredRegister<Fluid> REGISTRY = DeferredRegister.create(ForgeRegistries.FLUIDS, NoirSmpMod.MODID);
-	public static final RegistryObject<FlowingFluid> DISTORCED_FLUID = REGISTRY.register("distorced_fluid", () -> new DistorcedFluidFluid.Source());
-	public static final RegistryObject<FlowingFluid> FLOWING_DISTORCED_FLUID = REGISTRY.register("flowing_distorced_fluid", () -> new DistorcedFluidFluid.Flowing());
+	public static final RegistryObject<FlowingFluid> CRIOGER = REGISTRY.register("crioger", () -> new DistorcedFluidFluid.Source());
+	public static final RegistryObject<FlowingFluid> FLOWING_CRIOGER = REGISTRY.register("flowing_crioger", () -> new DistorcedFluidFluid.Flowing());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class FluidsClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
-			ItemBlockRenderTypes.setRenderLayer(DISTORCED_FLUID.get(), RenderType.translucent());
-			ItemBlockRenderTypes.setRenderLayer(FLOWING_DISTORCED_FLUID.get(), RenderType.translucent());
+			ItemBlockRenderTypes.setRenderLayer(CRIOGER.get(), RenderType.translucent());
+			ItemBlockRenderTypes.setRenderLayer(FLOWING_CRIOGER.get(), RenderType.translucent());
 		}
 	}
 }

@@ -5,6 +5,27 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:CamposSinteticos"
+      },
+      {
+        "value": "CUSTOM:FlorestaEco"
+      },
+      {
+        "value": "CUSTOM:CamposSinteticosDensos"
+      },
+      {
+        "value": "CUSTOM:FlorestaEcoReduzida"
+      },
+      {
+        "value": "CUSTOM:FlorestaEcoAberta"
+      },
+      {
+        "value": "CUSTOM:OceanoNegativo"
+      },
+      {
+        "value": "CUSTOM:FlorestaPulsante"
+      },
+      {
+        "value": "CUSTOM:CodrilheiraNull"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -25,7 +46,7 @@
     "cloudHeight": 192,
     "skyType": "NORMAL",
     "airColor": {
-      "value": -10027009,
+      "value": -16724788,
       "falpha": 0.0
     },
     "sunHeightAffectsFog": false,

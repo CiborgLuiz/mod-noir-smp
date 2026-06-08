@@ -1,7 +1,11 @@
 {
   "replace": false,
   "values": [
+    "noir_smp:eter_block",
+    "noir_smp:cronotita_ore",
     "noir_smp:aetherion_block",
+    "noir_smp:eter_ore",
+    "noir_smp:cronotita_block",
     "noir_smp:aetherion_ore"
   ]
 }

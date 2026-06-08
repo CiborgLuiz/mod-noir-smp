@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "noir_smp:block/fractalita",
+    "up": "noir_smp:block/fractalita",
+    "north": "noir_smp:block/fractalita",
+    "east": "noir_smp:block/fractalita",
+    "south": "noir_smp:block/fractalita",
+    "west": "noir_smp:block/fractalita",
+    "particle": "noir_smp:block/fractalita"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PedraDistorcida"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PedraDistorcida"
+      },
+      {
+        "value": "CUSTOM:PedraDistorcida"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PedraDistorcida"
+      },
+      {
+        "value": "CUSTOM:PedraDistorcida"
+      },
+      {
+        "value": "CUSTOM:PedraDistorcida"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EstelitaStairs"
+    },
+    "name": "estelita_stairs_craft",
+    "namespace": "mod"
+  }
+}

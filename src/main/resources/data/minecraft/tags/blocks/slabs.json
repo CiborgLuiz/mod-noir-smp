@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "noir_smp:sintetic_slab"
+    "noir_smp:arborea_slab",
+    "noir_smp:litomorph_slab",
+    "noir_smp:sintetic_slab",
+    "noir_smp:pulse_slab",
+    "noir_smp:tesseractita_slab",
+    "noir_smp:estelita_slab",
+    "noir_smp:fractalita_slab"
   ]
 }

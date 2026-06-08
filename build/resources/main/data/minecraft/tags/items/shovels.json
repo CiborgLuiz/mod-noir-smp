@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "noir_smp:cronotita_shovel",
+    "noir_smp:eter_shovel",
     "noir_smp:aetherion_shovel"
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "noir_smp:block/fractalita",
+    "particle": "noir_smp:block/fractalita"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "noir_smp:block/pulse_leaves",
+    "particle": "noir_smp:block/pulse_leaves"
+  }
+}

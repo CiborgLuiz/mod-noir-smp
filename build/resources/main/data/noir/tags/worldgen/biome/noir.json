@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "noir_smp:oceano_negativo",
+    "noir_smp:floresta_eco_densa",
+    "noir_smp:floresta_eco_aberta",
+    "noir_smp:floresta_eco_reduzida",
+    "noir_smp:campos_sinteticos",
+    "noir_smp:campos_sinteticos_densos",
+    "noir_smp:floresta_pulsante",
+    "noir_smp:codrilheira_null"
+  ]
+}

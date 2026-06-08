@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "noir_smp:block/litomorph_slab"
+    },
+    "type=top": {
+      "model": "noir_smp:block/litomorph_slab_top"
+    },
+    "type=double": {
+      "model": "noir_smp:block/litomorph_slab_full"
+    }
+  }
+}

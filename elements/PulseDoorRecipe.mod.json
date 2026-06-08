@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_door",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:PulsePlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PulsePlanks"
+      },
+      {
+        "value": "CUSTOM:PulsePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PulsePlanks"
+      },
+      {
+        "value": "CUSTOM:PulsePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PulsePlanks"
+      },
+      {
+        "value": "CUSTOM:PulsePlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PulseDoor"
+    },
+    "name": "pulse_door_recipe",
+    "namespace": "mod"
+  }
+}

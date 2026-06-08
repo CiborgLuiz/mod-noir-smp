@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:PulseLog"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PulseLog"
+      },
+      {
+        "value": "CUSTOM:PulseLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PulseLog"
+      },
+      {
+        "value": "CUSTOM:PulseLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PulseWood"
+    },
+    "name": "pulse_wood_recipe",
+    "namespace": "mod"
+  }
+}

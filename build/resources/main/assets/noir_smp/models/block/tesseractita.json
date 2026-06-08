@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "noir_smp:block/tesseractita",
+    "up": "noir_smp:block/tesseractita",
+    "north": "noir_smp:block/tesseractita",
+    "east": "noir_smp:block/tesseractita",
+    "south": "noir_smp:block/tesseractita",
+    "west": "noir_smp:block/tesseractita",
+    "particle": "noir_smp:block/tesseractita"
+  },
+  "render_type": "solid"
+}

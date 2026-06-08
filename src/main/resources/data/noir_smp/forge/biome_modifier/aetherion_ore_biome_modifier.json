@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "noir_smp:campos_sinteticos",
+  "biomes": "#noir:noir",
   "features": "noir_smp:aetherion_ore",
   "step": "underground_ores"
 }

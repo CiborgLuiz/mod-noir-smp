@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "noir_smp:litomorph"
+    }
+  },
+  "result": {
+    "item": "noir_smp:litomorph_wall",
+    "count": 6
+  }
+}

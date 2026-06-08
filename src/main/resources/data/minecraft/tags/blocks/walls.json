@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "noir_smp:litomorph_wall",
+    "noir_smp:tesseractita_wall",
+    "noir_smp:estelita_wall",
+    "noir_smp:fractalita_wall"
+  ]
+}

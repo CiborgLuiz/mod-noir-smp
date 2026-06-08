@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "noir_smp:block/arborea_log_top",
+    "up": "noir_smp:block/arborea_log_top",
+    "north": "noir_smp:block/arborea_log",
+    "east": "noir_smp:block/arborea_log",
+    "south": "noir_smp:block/arborea_log",
+    "west": "noir_smp:block/arborea_log",
+    "particle": "noir_smp:block/arborea_log_top"
+  },
+  "render_type": "solid"
+}

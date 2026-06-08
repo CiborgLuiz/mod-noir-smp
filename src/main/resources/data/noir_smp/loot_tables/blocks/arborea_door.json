@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "noir_smp:blocks/arborea_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "noir_smp:arborea_door",
+          "conditions": [
+            {
+              "block": "noir_smp:arborea_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

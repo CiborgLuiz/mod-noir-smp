@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "noir_smp:sintetic_stairs"
+    "noir_smp:litomorph_stairs",
+    "noir_smp:pulse_stairs",
+    "noir_smp:fractalita_stairs",
+    "noir_smp:sintetic_stairs",
+    "noir_smp:tesseractita_stairs",
+    "noir_smp:arborea_stairs",
+    "noir_smp:estelita_stairs"
   ]
 }

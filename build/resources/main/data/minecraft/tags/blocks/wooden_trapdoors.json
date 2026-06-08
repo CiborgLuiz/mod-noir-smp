@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "noir_smp:arborea_trapdoor",
+    "noir_smp:pulse_trapdoor",
     "noir_smp:sintetic_trapdoor"
   ]
 }

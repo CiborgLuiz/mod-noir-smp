@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "noir_smp:arborea_log"
+    }
+  },
+  "result": {
+    "item": "noir_smp:arborea_wood",
+    "count": 3
+  }
+}

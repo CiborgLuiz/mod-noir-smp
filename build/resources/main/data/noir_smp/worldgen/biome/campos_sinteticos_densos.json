@@ -1,0 +1,127 @@
+{
+  "has_precipitation": true,
+
+  "temperature": 0.35,
+  "downfall": 0.8,
+
+  "effects": {
+    "foliage_color": -12562112,
+    "grass_color": -14671590,
+    "sky_color": -16762080,
+    "fog_color": -16770520,
+    "water_color": -16775644,
+    "water_fog_color": -16775644
+  },
+
+  "spawners": {
+    "monster": [
+      {
+        "type": "noir_smp:galinha_invertida",
+        "weight": 35,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "noir_smp:vaca_invertida",
+        "weight": 25,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "noir_smp:raposa_invertida",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "noir_smp:cabra_invertida",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "noir_smp:porco_invertido",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "noir_smp:esqueleto_invertido",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "noir_smp:zumbi_invertido",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+
+  "spawn_costs": {},
+
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+
+  "features": [
+    [],
+
+    [
+      "minecraft:lake_lava_underground"
+    ],
+
+    [],
+
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
+    ],
+
+    [],
+
+    [],
+
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma"
+    ],
+
+    [],
+
+    [],
+
+    [
+      "noir_smp:campos_sinteticos_densos_tree"
+    ],
+
+    []
+  ]
+}

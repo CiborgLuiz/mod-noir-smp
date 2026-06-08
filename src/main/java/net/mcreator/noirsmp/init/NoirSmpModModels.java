@@ -18,7 +18,13 @@ public class NoirSmpModModels {
 		event.registerLayerDefinition(ModelGarrafa.LAYER_LOCATION, ModelGarrafa::createBodyLayer);
 		event.registerLayerDefinition(Modelburaconegro.LAYER_LOCATION, Modelburaconegro::createBodyLayer);
 		event.registerLayerDefinition(ModelTijoloProjetil.LAYER_LOCATION, ModelTijoloProjetil::createBodyLayer);
+		event.registerLayerDefinition(Modelfox.LAYER_LOCATION, Modelfox::createBodyLayer);
+		event.registerLayerDefinition(Modelgoat_inversa.LAYER_LOCATION, Modelgoat_inversa::createBodyLayer);
+		event.registerLayerDefinition(Modelzombie.LAYER_LOCATION, Modelzombie::createBodyLayer);
+		event.registerLayerDefinition(Modelskeleton.LAYER_LOCATION, Modelskeleton::createBodyLayer);
+		event.registerLayerDefinition(Modelcow.LAYER_LOCATION, Modelcow::createBodyLayer);
 		event.registerLayerDefinition(ModelSingularis.LAYER_LOCATION, ModelSingularis::createBodyLayer);
+		event.registerLayerDefinition(Modelpig.LAYER_LOCATION, Modelpig::createBodyLayer);
 		event.registerLayerDefinition(Modelancora.LAYER_LOCATION, Modelancora::createBodyLayer);
 	}
 }

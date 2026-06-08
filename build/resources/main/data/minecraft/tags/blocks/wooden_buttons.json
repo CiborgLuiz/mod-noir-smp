@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "noir_smp:sintetic_button"
+    "noir_smp:pulse_button",
+    "noir_smp:sintetic_button",
+    "noir_smp:arborea_button"
   ]
 }

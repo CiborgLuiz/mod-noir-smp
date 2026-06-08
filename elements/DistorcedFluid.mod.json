@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "fluid",
   "definition": {
-    "name": "Distorced Fluid",
-    "bucketName": "Distorced Fluid Bucket",
+    "name": "Crioger",
+    "bucketName": "Crioger Bucket",
     "textureStill": "distorcedfluid",
     "textureFlowing": "distorcedfluid",
     "textureRenderOverlay": "",

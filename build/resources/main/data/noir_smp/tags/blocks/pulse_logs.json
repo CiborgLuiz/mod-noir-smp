@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "noir_smp:pulse_log",
+    "noir_smp:stripped_pulse_log",
+    "noir_smp:pulse_wood",
+    "noir_smp:stripped_pulse_wood"
+  ]
+}

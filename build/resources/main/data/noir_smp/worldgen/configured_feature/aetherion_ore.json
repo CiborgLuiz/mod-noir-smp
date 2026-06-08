@@ -8,7 +8,18 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "noir_smp:pedra_distorcida"
+            "Name": "noir_smp:estelita"
+          }
+        },
+        "state": {
+          "Name": "noir_smp:aetherion_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "noir_smp:litomorph"
           }
         },
         "state": {

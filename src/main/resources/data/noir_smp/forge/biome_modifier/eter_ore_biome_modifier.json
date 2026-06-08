@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#noir:noir",
+  "features": "noir_smp:eter_ore",
+  "step": "underground_ores"
+}

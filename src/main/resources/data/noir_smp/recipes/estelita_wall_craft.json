@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "noir_smp:estelita"
+    }
+  },
+  "result": {
+    "item": "noir_smp:estelita_wall",
+    "count": 6
+  }
+}

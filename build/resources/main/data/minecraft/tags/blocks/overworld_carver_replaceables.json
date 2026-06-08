@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "noir_smp:pedra_distorcida",
+    "noir_smp:estelita",
     "minecraft:smooth_quartz",
-    "minecraft:cobbled_deepslate",
-    "noir_smp:dimensao_000_terra",
-    "noir_smp:dimensao_000_grama"
+    "noir_smp:estretion",
+    "noir_smp:litomorph",
+    "noir_smp:grametita"
   ]
 }

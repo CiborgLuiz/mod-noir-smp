@@ -11,7 +11,50 @@
     "water_fog_color": -16775644
   },
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "noir_smp:galinha_invertida",
+        "weight": 35,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "noir_smp:vaca_invertida",
+        "weight": 25,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "noir_smp:raposa_invertida",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "noir_smp:cabra_invertida",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "noir_smp:porco_invertido",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "noir_smp:esqueleto_invertido",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "noir_smp:zumbi_invertido",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
     "creature": [],
     "ambient": [],
     "axolotls": [],

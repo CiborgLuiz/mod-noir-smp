@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right",
+  "textures": {
+    "particle": "noir_smp:block/pulse_door_bottom",
+    "bottom": "noir_smp:block/pulse_door_bottom",
+    "top": "noir_smp:block/pulse_door_top"
+  },
+  "render_type": "cutout"
+}

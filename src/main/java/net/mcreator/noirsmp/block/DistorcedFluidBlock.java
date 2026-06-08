@@ -10,7 +10,7 @@ import net.mcreator.noirsmp.init.NoirSmpModFluids;
 
 public class DistorcedFluidBlock extends LiquidBlock {
 	public DistorcedFluidBlock() {
-		super(() -> NoirSmpModFluids.DISTORCED_FLUID.get(), BlockBehaviour.Properties.of().mapColor(MapColor.WARPED_WART_BLOCK).strength(100f).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).noCollission().noLootTable()
-				.liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(() -> NoirSmpModFluids.CRIOGER.get(), BlockBehaviour.Properties.of().mapColor(MapColor.WARPED_WART_BLOCK).strength(100f).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).noCollission().noLootTable().liquid()
+				.pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 }

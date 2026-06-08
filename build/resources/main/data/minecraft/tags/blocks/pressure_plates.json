@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "noir_smp:estelita_pressure_plate",
+    "noir_smp:fractalita_pressure_plate",
+    "noir_smp:litomorph_pressure_plate",
+    "noir_smp:tesseractita_pressure_plate"
+  ]
+}

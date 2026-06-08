@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "noir_smp:fractalita"
+    }
+  },
+  "result": {
+    "item": "noir_smp:fractalita_wall",
+    "count": 6
+  }
+}

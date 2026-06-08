@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "noir_smp:block/tesseractita_slab"
+    },
+    "type=top": {
+      "model": "noir_smp:block/tesseractita_slab_top"
+    },
+    "type=double": {
+      "model": "noir_smp:block/tesseractita_slab_full"
+    }
+  }
+}

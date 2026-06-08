@@ -13,8 +13,8 @@ import net.mcreator.noirsmp.init.NoirSmpModFluidTypes;
 import net.mcreator.noirsmp.init.NoirSmpModBlocks;
 
 public abstract class DistorcedFluidFluid extends ForgeFlowingFluid {
-	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> NoirSmpModFluidTypes.DISTORCED_FLUID_TYPE.get(), () -> NoirSmpModFluids.DISTORCED_FLUID.get(),
-			() -> NoirSmpModFluids.FLOWING_DISTORCED_FLUID.get()).explosionResistance(100f).bucket(() -> NoirSmpModItems.DISTORCED_FLUID_BUCKET.get()).block(() -> (LiquidBlock) NoirSmpModBlocks.DISTORCED_FLUID.get());
+	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> NoirSmpModFluidTypes.CRIOGER_TYPE.get(), () -> NoirSmpModFluids.CRIOGER.get(), () -> NoirSmpModFluids.FLOWING_CRIOGER.get())
+			.explosionResistance(100f).bucket(() -> NoirSmpModItems.CRIOGER_BUCKET.get()).block(() -> (LiquidBlock) NoirSmpModBlocks.CRIOGER.get());
 
 	private DistorcedFluidFluid() {
 		super(PROPERTIES);

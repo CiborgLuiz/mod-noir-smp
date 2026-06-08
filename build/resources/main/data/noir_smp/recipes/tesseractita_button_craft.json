@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "noir_smp:tesseractita"
+    }
+  ],
+  "result": {
+    "item": "noir_smp:tesseractita_button",
+    "count": 1
+  }
+}

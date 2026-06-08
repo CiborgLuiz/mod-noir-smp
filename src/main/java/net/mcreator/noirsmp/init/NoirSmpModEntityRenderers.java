@@ -21,5 +21,12 @@ public class NoirSmpModEntityRenderers {
 		event.registerEntityRenderer(NoirSmpModEntities.LEVIATAN_PROJECTILE.get(), LeviatanProjectileRenderer::new);
 		event.registerEntityRenderer(NoirSmpModEntities.DOPPEL.get(), DoppelRenderer::new);
 		event.registerEntityRenderer(NoirSmpModEntities.SINGULARIS.get(), SingularisRenderer::new);
+		event.registerEntityRenderer(NoirSmpModEntities.GALINHA_INVERTIDA.get(), GalinhaInvertidaRenderer::new);
+		event.registerEntityRenderer(NoirSmpModEntities.VACA_INVERTIDA.get(), VacaInvertidaRenderer::new);
+		event.registerEntityRenderer(NoirSmpModEntities.RAPOSA_INVERTIDA.get(), RaposaInvertidaRenderer::new);
+		event.registerEntityRenderer(NoirSmpModEntities.CABRA_INVERTIDA.get(), CabraInvertidaRenderer::new);
+		event.registerEntityRenderer(NoirSmpModEntities.PORCO_INVERTIDO.get(), PorcoInvertidoRenderer::new);
+		event.registerEntityRenderer(NoirSmpModEntities.ZUMBI_INVERTIDO.get(), ZumbiInvertidoRenderer::new);
+		event.registerEntityRenderer(NoirSmpModEntities.ESQUELETO_INVERTIDO.get(), EsqueletoInvertidoRenderer::new);
 	}
 }
