@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/olho_do_executor",
+  "textures": {
+    "0": "noir_smp:block/olho_do_executor",
+    "particle": "noir_smp:item/olho_do_executor"
+  }
+}

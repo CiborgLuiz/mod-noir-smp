@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Cronotita Ore",
+    "name": "§5§lCronotita Ore",
     "specialInformation": {
       "fixedValue": []
     },
@@ -58,7 +58,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:CronotitaIngot"
+      "value": ""
     },
     "dropAmount": 1,
     "xpAmountMin": 0,

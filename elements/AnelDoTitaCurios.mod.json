@@ -4,7 +4,7 @@
   "definition": {
     "item": "AnelDoTita",
     "slotType": "RING",
-    "slotAmount": 1,
+    "slotAmount": 2,
     "addSlot": true,
     "enderMask": false,
     "friendlyPigs": false,

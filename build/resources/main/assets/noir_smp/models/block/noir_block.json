@@ -1,0 +1,9 @@
+{
+  "parent": "noir_smp:custom/noirblock",
+  "textures": {
+    "all": "noir_smp:block/noirblock",
+    "particle": "noir_smp:block/noirblock",
+    "3": "noir_smp:block/noirblock"
+  },
+  "render_type": "translucent"
+}

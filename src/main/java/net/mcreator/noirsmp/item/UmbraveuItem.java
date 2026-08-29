@@ -17,7 +17,7 @@ public class UmbraveuItem extends SwordItem {
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 18f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -25,17 +25,17 @@ public class UmbraveuItem extends SwordItem {
 			}
 
 			public int getLevel() {
-				return 0;
+				return 3;
 			}
 
 			public int getEnchantmentValue() {
-				return 22;
+				return 40;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -2.5f, new Item.Properties().fireResistant());
+		}, 3, -2f, new Item.Properties().fireResistant());
 	}
 
 	@Override

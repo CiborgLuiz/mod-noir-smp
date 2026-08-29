@@ -12,28 +12,28 @@ public class CronotitaShovelItem extends ShovelItem {
 	public CronotitaShovelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 1164;
+				return 3164;
 			}
 
 			public float getSpeed() {
-				return 12f;
+				return 18f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 12f;
+				return 8f;
 			}
 
 			public int getLevel() {
-				return 3;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
-				return 42;
+				return 40;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(NoirSmpModItems.CRONOTITA_INGOT.get()));
 			}
-		}, 1, -1f, new Item.Properties());
+		}, 1, -2.8f, new Item.Properties());
 	}
 }

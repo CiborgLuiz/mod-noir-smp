@@ -1,7 +1,7 @@
 {
   "type": "minecraft:tree",
   "config": {
-    "force_dirt": true,
+    "force_dirt": false,
     "ignore_vines": true,
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",

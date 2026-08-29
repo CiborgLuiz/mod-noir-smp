@@ -2,12 +2,8 @@
   "workspacePanelIconSize": "TILES",
   "workspacePanelSortType": "CREATED",
   "workspacePanelSortAscending": true,
-  "projectBrowserSplitPos": 385,
+  "projectBrowserSplitPos": 432,
   "projectBrowserState": {
-    "expandedPaths": [
-      "[, N.O.I.R SMP]",
-      "[, N.O.I.R SMP, Resources (Gradle)]",
-      "[, N.O.I.R SMP, Resources (Gradle), /home/ciborg/MCreatorWorkspaces/noir/src/main/resources/data]"
-    ]
+    "expandedPaths": []
   }
 }

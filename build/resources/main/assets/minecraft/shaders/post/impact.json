@@ -1,0 +1,10 @@
+{
+  "targets": ["minecraft:main", "minecraft:translucent"],
+  "passes": [
+    {
+      "name": "desaturate",
+      "intarget": "minecraft:main",
+      "outtarget": "minecraft:main"
+    }
+  ]
+}

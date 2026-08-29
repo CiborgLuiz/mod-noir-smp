@@ -1,42 +1,43 @@
 package net.mcreator.noirsmp.procedures;
 
-import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.BaseFireBlock;
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.util.RandomSource;
-import net.minecraft.util.Mth;
 import net.minecraft.core.BlockPos;
-
-import java.util.Map;
+import net.minecraft.util.RandomSource;
 
 public class MolotovProjectileProjectileHitsBlockProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z) {
-		double sz = 0;
-		double sx = 0;
-		double sy = 0;
-		for (int index0 = 0; index0 < 64; index0++) {
-			sx = x + 0 + Mth.nextDouble(RandomSource.create(), -1, 1) * 4;
-			sy = y + 1;
-			sz = z + 0 + Mth.nextDouble(RandomSource.create(), -1, 1) * 4;
-			if (!((world.getBlockState(BlockPos.containing(sx, sy - 1, sz))).getBlock() == Blocks.AIR)) {
-				if ((world.getBlockState(BlockPos.containing(sx, sy, sz))).getBlock() == Blocks.AIR) {
-					{
-						BlockPos _bp = BlockPos.containing(sx, sy, sz);
-						BlockState _bs = Blocks.FIRE.defaultBlockState();
-						BlockState _bso = world.getBlockState(_bp);
-						for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-							Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
-							if (_property != null && _bs.getValue(_property) != null)
-								try {
-									_bs = _bs.setValue(_property, (Comparable) entry.getValue());
-								} catch (Exception e) {
-								}
-						}
-						world.setBlock(_bp, _bs, 3);
-					}
-				}
-			}
-		}
-	}
+    public static void execute(LevelAccessor world, double x, double y, double z) {
+        int radius = 4;
+        RandomSource random = world.getRandom();
+
+        for (int dx = -radius; dx <= radius; dx++) {
+            for (int dy = -radius; dy <= radius; dy++) {
+                for (int dz = -radius; dz <= radius; dz++) {
+                    
+                    if (dx * dx + dy * dy + dz * dz <= radius * radius) {
+                        
+                        BlockPos targetPos = BlockPos.containing(x + dx, y + dy, z + dz);
+                        
+                        BlockPos belowPos = targetPos.below(); 
+                        
+                        BlockState targetBlock = world.getBlockState(targetPos);
+                        BlockState belowBlock = world.getBlockState(belowPos);
+
+                        if (random.nextFloat() < 0.7f) {
+                            
+                            boolean isTargetValid = targetBlock.isAir() || targetBlock.canBeReplaced();
+                            
+                            boolean hasFloor = !belowBlock.isAir() && !belowBlock.canBeReplaced();
+
+                            if (isTargetValid && hasFloor) {
+                                world.setBlock(targetPos, BaseFireBlock.getState(world, targetPos), 3);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

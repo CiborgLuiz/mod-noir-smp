@@ -1,7 +1,9 @@
 {
   "has_precipitation": true,
-  "temperature": 0.5,
-  "downfall": 0.5,
+
+  "temperature": 0.05,
+  "downfall": 0.3,
+
   "effects": {
     "foliage_color": -3394816,
     "grass_color": -10092493,
@@ -10,6 +12,7 @@
     "water_color": -6724096,
     "water_fog_color": -13421824
   },
+
   "spawners": {
     "monster": [
       {
@@ -63,7 +66,9 @@
     "water_ambient": [],
     "misc": []
   },
+
   "spawn_costs": {},
+
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -71,21 +76,22 @@
       "minecraft:canyon"
     ]
   },
+
   "features": [
     [],
+
     [
       "minecraft:lake_lava_underground"
     ],
-    [
-      "minecraft:iceberg_packed",
-      "minecraft:iceberg_blue"
-    ],
-    [
-      "minecraft:fossil_upper",
-      "minecraft:fossil_lower"
-    ],
+
     [],
+
     [],
+
+    [],
+
+    [],
+
     [
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
@@ -104,14 +110,16 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma"
     ],
+
     [],
+
     [],
+
     [
       "noir_smp:floresta_eco_reduzida_tree",
       "minecraft:forest_flowers"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+
+    []
   ]
 }

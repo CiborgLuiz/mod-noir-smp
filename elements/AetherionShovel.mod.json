@@ -9,7 +9,7 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "Aetherion Shovel",
+    "name": "§6§lAetherion Shovel",
     "specialInformation": {
       "fixedValue": []
     },
@@ -19,9 +19,9 @@
       }
     ],
     "efficiency": 14.0,
-    "attackSpeed": 4.0,
-    "enchantability": 56,
-    "damageVsEntity": 18.0,
+    "attackSpeed": 1.0999999999999999,
+    "enchantability": 30,
+    "damageVsEntity": 8.0,
     "usageCount": 1741,
     "glowCondition": {
       "fixedValue": false
@@ -32,7 +32,7 @@
       }
     ],
     "immuneToFire": false,
-    "blockDropsTier": "DIAMOND",
+    "blockDropsTier": "NETHERITE",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

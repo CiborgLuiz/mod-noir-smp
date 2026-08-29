@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Eter Ore",
+    "name": "§4§lEter Ore",
     "specialInformation": {
       "fixedValue": []
     },
@@ -58,9 +58,9 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:EterDust"
+      "value": ""
     },
-    "dropAmount": 3,
+    "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
     "useLootTableForDrops": false,
@@ -151,8 +151,8 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 4,
-    "frequencyOnChunk": 7,
+    "frequencyPerChunks": 2,
+    "frequencyOnChunk": 2,
     "minGenerateHeight": -64,
     "maxGenerateHeight": 0
   }

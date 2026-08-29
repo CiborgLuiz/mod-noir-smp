@@ -9,7 +9,7 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "Aetherion Hoe",
+    "name": "§6§lAetherion Hoe",
     "specialInformation": {
       "fixedValue": []
     },
@@ -19,8 +19,8 @@
       }
     ],
     "efficiency": 14.0,
-    "attackSpeed": 12.0,
-    "enchantability": 56,
+    "attackSpeed": 3.0,
+    "enchantability": 30,
     "damageVsEntity": 4.0,
     "usageCount": 1741,
     "glowCondition": {
@@ -32,7 +32,7 @@
       }
     ],
     "immuneToFire": false,
-    "blockDropsTier": "DIAMOND",
+    "blockDropsTier": "NETHERITE",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

@@ -12,28 +12,28 @@ public class CronotitaSwordItem extends SwordItem {
 	public CronotitaSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 1164;
+				return 3164;
 			}
 
 			public float getSpeed() {
-				return 12f;
+				return 18f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 14f;
+				return 22f;
 			}
 
 			public int getLevel() {
-				return 3;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
-				return 42;
+				return 40;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(NoirSmpModItems.CRONOTITA_INGOT.get()));
 			}
-		}, 3, 1f, new Item.Properties());
+		}, 3, -2f, new Item.Properties());
 	}
 }

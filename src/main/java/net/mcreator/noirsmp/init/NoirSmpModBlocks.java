@@ -91,6 +91,10 @@ public class NoirSmpModBlocks {
 	public static final RegistryObject<Block> PULSE_TRAPDOOR;
 	public static final RegistryObject<Block> PULSE_PRESSURE_PLATE;
 	public static final RegistryObject<Block> PULSE_BUTTON;
+	public static final RegistryObject<Block> NOIR_BLOCK;
+	public static final RegistryObject<Block> SINTETIC_SAPLING;
+	public static final RegistryObject<Block> ARBOREA_SAPLING;
+	public static final RegistryObject<Block> PULSE_SAPLING;
 	static {
 		PROJETO_ZERO_PORTAL = REGISTRY.register("projeto_zero_portal", ProjetoZeroPortalBlock::new);
 		SINTETIC_LOG = REGISTRY.register("sintetic_log", SinteticLogBlock::new);
@@ -169,6 +173,10 @@ public class NoirSmpModBlocks {
 		PULSE_TRAPDOOR = REGISTRY.register("pulse_trapdoor", PulseTrapdoorBlock::new);
 		PULSE_PRESSURE_PLATE = REGISTRY.register("pulse_pressure_plate", PulsePressurePlateBlock::new);
 		PULSE_BUTTON = REGISTRY.register("pulse_button", PulseButtonBlock::new);
+		NOIR_BLOCK = REGISTRY.register("noir_block", NOIRBlockBlock::new);
+		SINTETIC_SAPLING = REGISTRY.register("sintetic_sapling", SinteticSaplingBlock::new);
+		ARBOREA_SAPLING = REGISTRY.register("arborea_sapling", ArboreaSaplingBlock::new);
+		PULSE_SAPLING = REGISTRY.register("pulse_sapling", PulseSaplingBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

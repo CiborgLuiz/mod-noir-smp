@@ -184,6 +184,16 @@ public class NoirSmpModItems {
 	public static final RegistryObject<Item> ESQUELETO_INVERTIDO_SPAWN_EGG;
 	public static final RegistryObject<Item> SELO_DO_MARTIR;
 	public static final RegistryObject<Item> RELOGIO_DA_VIOLENCIA;
+	public static final RegistryObject<Item> OLHO_DO_EXECUTOR;
+	public static final RegistryObject<Item> QUEBRA_MUNDOS;
+	public static final RegistryObject<Item> NOIR_BLOCK;
+	public static final RegistryObject<Item> MARCA_DO_CARNICEIRO;
+	public static final RegistryObject<Item> TOTEM_DA_CACADA;
+	public static final RegistryObject<Item> MASCARA_DA_RAPOSA;
+	public static final RegistryObject<Item> SINTETIC_SAPLING;
+	public static final RegistryObject<Item> ARBOREA_SAPLING;
+	public static final RegistryObject<Item> PULSE_SAPLING;
+	public static final RegistryObject<Item> MACA_INSTAVEL;
 	static {
 		MANOPLA_DE_SLIME = REGISTRY.register("manopla_de_slime", ManoplaDeSlimeItem::new);
 		DADO_FEURAL = REGISTRY.register("dado_feural", DadoFeuralItem::new);
@@ -342,6 +352,16 @@ public class NoirSmpModItems {
 		ESQUELETO_INVERTIDO_SPAWN_EGG = REGISTRY.register("esqueleto_invertido_spawn_egg", () -> new ForgeSpawnEggItem(NoirSmpModEntities.ESQUELETO_INVERTIDO, -3342337, -16777063, new Item.Properties()));
 		SELO_DO_MARTIR = REGISTRY.register("selo_do_martir", SeloDoMartirItem::new);
 		RELOGIO_DA_VIOLENCIA = REGISTRY.register("relogio_da_violencia", RelogioDaViolenciaItem::new);
+		OLHO_DO_EXECUTOR = REGISTRY.register("olho_do_executor", OlhoDoExecutorItem::new);
+		QUEBRA_MUNDOS = REGISTRY.register("quebra_mundos", QuebraMundosItem::new);
+		NOIR_BLOCK = block(NoirSmpModBlocks.NOIR_BLOCK, new Item.Properties().fireResistant());
+		MARCA_DO_CARNICEIRO = REGISTRY.register("marca_do_carniceiro", MarcaDoCarniceiroItem::new);
+		TOTEM_DA_CACADA = REGISTRY.register("totem_da_cacada", TotemDaCacadaItem::new);
+		MASCARA_DA_RAPOSA = REGISTRY.register("mascara_da_raposa", MascaraDaRaposaItem::new);
+		SINTETIC_SAPLING = block(NoirSmpModBlocks.SINTETIC_SAPLING);
+		ARBOREA_SAPLING = block(NoirSmpModBlocks.ARBOREA_SAPLING);
+		PULSE_SAPLING = block(NoirSmpModBlocks.PULSE_SAPLING);
+		MACA_INSTAVEL = REGISTRY.register("maca_instavel", MacaInstavelItem::new);
 	}
 
 	// Start of user code block custom items

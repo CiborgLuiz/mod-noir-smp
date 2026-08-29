@@ -9,7 +9,7 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "Eter Axe",
+    "name": "§4§lEter Axe",
     "specialInformation": {
       "fixedValue": []
     },
@@ -18,11 +18,11 @@
         "value": "CUSTOM:NOIRSmp"
       }
     ],
-    "efficiency": 13.0,
-    "attackSpeed": 3.0,
-    "enchantability": 49,
-    "damageVsEntity": 32.0,
-    "usageCount": 1444,
+    "efficiency": 16.5,
+    "attackSpeed": 1.2,
+    "enchantability": 35,
+    "damageVsEntity": 27.0,
+    "usageCount": 2444,
     "glowCondition": {
       "fixedValue": false
     },
@@ -32,7 +32,7 @@
       }
     ],
     "immuneToFire": false,
-    "blockDropsTier": "DIAMOND",
+    "blockDropsTier": "NETHERITE",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

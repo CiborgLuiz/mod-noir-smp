@@ -18,9 +18,9 @@
         "value": "CUSTOM:NOIRSmp"
       }
     ],
-    "efficiency": 4.0,
-    "attackSpeed": 1.5,
-    "enchantability": 22,
+    "efficiency": 18.0,
+    "attackSpeed": 2.0,
+    "enchantability": 40,
     "damageVsEntity": 14.5,
     "usageCount": 0,
     "glowCondition": {
@@ -28,7 +28,7 @@
     },
     "repairItems": [],
     "immuneToFire": true,
-    "blockDropsTier": "WOOD",
+    "blockDropsTier": "DIAMOND",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,

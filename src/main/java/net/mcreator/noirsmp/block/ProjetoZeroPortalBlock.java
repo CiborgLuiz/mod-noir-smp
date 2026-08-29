@@ -32,7 +32,7 @@ import java.util.Optional;
 
 public class ProjetoZeroPortalBlock extends NetherPortalBlock {
 	public ProjetoZeroPortalBlock() {
-		super(BlockBehaviour.Properties.of().noCollission().randomTicks().pushReaction(PushReaction.BLOCK).strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 1).noLootTable());
+		super(BlockBehaviour.Properties.of().noCollission().randomTicks().pushReaction(PushReaction.BLOCK).strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 15).noLootTable());
 	}
 
 	@Override

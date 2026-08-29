@@ -7,8 +7,10 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.*;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.level.Level;
 
 import net.mcreator.noirsmp.init.NoirSmpModMobEffects;
+import net.mcreator.noirsmp.ImpactFrame;
 
 import java.util.List;
 
@@ -76,11 +78,7 @@ public class BuracoNegroOnEntityTickUpdateProcedure {
                 alvo.setDeltaMovement(alvo.getDeltaMovement().add(puxao));
             }
             if (dist < 5 && alvo instanceof LivingEntity living && !isCorpse) {
-                living.addEffect(new MobEffectInstance(
-                        NoirSmpModMobEffects.ESPAGETIFICACAO.get(),
-                        40,
-                        1
-                ));
+                living.addEffect(new MobEffectInstance(NoirSmpModMobEffects.ESPAGETIFICACAO.get(), 40, 1));
             }
             if (dist < 2) {
                 if (alvo instanceof LivingEntity living) {
@@ -95,16 +93,25 @@ public class BuracoNegroOnEntityTickUpdateProcedure {
     }
 
     private static void explodir(LevelAccessor world, double x, double y, double z, Entity entity) {
+        if (world.isClientSide()) {
+            net.mcreator.noirsmp.ImpactFrame.trigger(x, y, z, entity.level().dimension().location().toString());
+        }
+
         if (world instanceof ServerLevel level) {
-            level.explode(null, x, y, z, 10f, ServerLevel.ExplosionInteraction.BLOCK);
-            for (Entity e : level.getEntities(entity, new AABB(x, y, z, x, y, z).inflate(20))) {
+            level.explode(entity, x, y, z, 40f, Level.ExplosionInteraction.BLOCK);
+
+            for (Entity e : level.getEntities(entity, new AABB(x, y, z, x, y, z).inflate(50))) {
                 String name = e.getType().getDescriptionId().toLowerCase();
                 if (name.contains("corpse") || e.getClass().getSimpleName().toLowerCase().contains("corpse")) 
                     continue;
 
                 Vec3 dir = e.position().subtract(new Vec3(x, y, z)).normalize();
-                e.setDeltaMovement(dir.scale(2.5));
+                e.setDeltaMovement(dir.scale(5.0));
                 e.hurtMarked = true;
+                
+                if (e instanceof LivingEntity living) {
+                    living.hurt(level.damageSources().explosion(null), 100f);
+                }
             }
         }
         entity.discard();

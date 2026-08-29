@@ -22,5 +22,6 @@ public class RelogioDaViolenciaItem extends Item {
 		list.add(Component.translatable("item.noir_smp.relogio_da_violencia.description_2"));
 		list.add(Component.translatable("item.noir_smp.relogio_da_violencia.description_3"));
 		list.add(Component.translatable("item.noir_smp.relogio_da_violencia.description_4"));
+		list.add(Component.translatable("item.noir_smp.relogio_da_violencia.description_5"));
 	}
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/marca_do_carniceiro",
+  "textures": {
+    "0": "noir_smp:block/marca_do_carniceiro",
+    "particle": "noir_smp:item/marca_do_carniceiro"
+  }
+}

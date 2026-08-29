@@ -30,14 +30,14 @@ glintSpeed:0.5
 glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
-gamma:0.5
+gamma:1.0
 renderDistance:32
 simulationDistance:32
 entityDistanceScaling:1.0
 guiScale:0
 particles:0
 maxFps:260
-graphicsMode:0
+graphicsMode:1
 ao:false
 prioritizeChunkUpdates:0
 biomeBlendRadius:2

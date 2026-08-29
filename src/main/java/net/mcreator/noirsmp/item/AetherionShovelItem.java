@@ -20,20 +20,20 @@ public class AetherionShovelItem extends ShovelItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 16f;
+				return 6f;
 			}
 
 			public int getLevel() {
-				return 3;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
-				return 56;
+				return 30;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(NoirSmpModItems.AETHERION.get()));
 			}
-		}, 1, 0f, new Item.Properties());
+		}, 1, -2.9f, new Item.Properties());
 	}
 }

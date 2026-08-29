@@ -9,7 +9,7 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "Cronotita Axe",
+    "name": "§5§lCronotita Axe",
     "specialInformation": {
       "fixedValue": []
     },
@@ -18,11 +18,11 @@
         "value": "CUSTOM:NOIRSmp"
       }
     ],
-    "efficiency": 12.0,
-    "attackSpeed": 3.0,
-    "enchantability": 42,
-    "damageVsEntity": 27.0,
-    "usageCount": 1164,
+    "efficiency": 18.0,
+    "attackSpeed": 1.3,
+    "enchantability": 40,
+    "damageVsEntity": 30.0,
+    "usageCount": 3164,
     "glowCondition": {
       "fixedValue": false
     },
@@ -32,7 +32,7 @@
       }
     ],
     "immuneToFire": false,
-    "blockDropsTier": "DIAMOND",
+    "blockDropsTier": "NETHERITE",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

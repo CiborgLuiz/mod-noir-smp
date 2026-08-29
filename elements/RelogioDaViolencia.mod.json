@@ -37,7 +37,8 @@
         "§6§lMas antes disso… ele enlouquece.",
         "",
         "§6§lEfeitos:",
-        "§6§l✦A cada 30s em combate:  entra em Frenesi por 10s Durante Frenesi dano dobrado speed aumentado perde vida lentamente"
+        "§6§l✦ A cada 30s em combate:",
+        "§6§lEntra em Frenesi por 10s Durante Frenesi dano dobrado speed aumentado perde vida lentamente"
       ]
     },
     "glowCondition": {

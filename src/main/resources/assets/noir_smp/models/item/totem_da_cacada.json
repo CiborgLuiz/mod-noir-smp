@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/totem_da_cacada",
+  "textures": {
+    "1": "noir_smp:block/totem_da_cacada",
+    "particle": "noir_smp:item/totem_da_cacada"
+  }
+}

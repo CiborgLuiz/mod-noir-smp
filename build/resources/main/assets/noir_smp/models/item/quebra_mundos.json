@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/quebra_mundos",
+  "textures": {
+    "1": "noir_smp:block/quebra_mundos",
+    "particle": "noir_smp:item/quebra_mundos"
+  }
+}

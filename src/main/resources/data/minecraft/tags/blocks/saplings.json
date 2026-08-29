@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "noir_smp:arborea_sapling",
+    "noir_smp:sintetic_sapling",
+    "noir_smp:pulse_sapling"
+  ]
+}

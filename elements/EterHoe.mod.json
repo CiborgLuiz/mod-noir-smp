@@ -9,7 +9,7 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "Eter Hoe",
+    "name": "§4§lEter Hoe",
     "specialInformation": {
       "fixedValue": []
     },
@@ -18,11 +18,11 @@
         "value": "CUSTOM:NOIRSmp"
       }
     ],
-    "efficiency": 13.0,
-    "attackSpeed": 11.0,
-    "enchantability": 49,
+    "efficiency": 16.5,
+    "attackSpeed": 4.2,
+    "enchantability": 35,
     "damageVsEntity": 4.0,
-    "usageCount": 1444,
+    "usageCount": 2444,
     "glowCondition": {
       "fixedValue": false
     },
@@ -32,7 +32,7 @@
       }
     ],
     "immuneToFire": false,
-    "blockDropsTier": "DIAMOND",
+    "blockDropsTier": "NETHERITE",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

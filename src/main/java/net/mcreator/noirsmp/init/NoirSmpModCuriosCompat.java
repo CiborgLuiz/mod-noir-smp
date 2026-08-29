@@ -74,6 +74,30 @@ public class NoirSmpModCuriosCompat {
 					RelogioDaViolenciaCuriosWhileBaubleIsEquippedTickProcedure.execute();
 				}
 			});
+			CuriosApi.registerCurio(NoirSmpModItems.OLHO_DO_EXECUTOR.get(), new ICurioItem() {
+				@Override
+				public void curioTick(SlotContext slotContext, ItemStack stack) {
+					OlhoDoExecutorCuriosWhileBaubleIsEquippedTickProcedure.execute();
+				}
+			});
+			CuriosApi.registerCurio(NoirSmpModItems.MARCA_DO_CARNICEIRO.get(), new ICurioItem() {
+				@Override
+				public void curioTick(SlotContext slotContext, ItemStack stack) {
+					MarcaDoCarniceiroCuriosWhileBaubleIsEquippedTickProcedure.execute(slotContext.entity().level(), slotContext.entity());
+				}
+			});
+			CuriosApi.registerCurio(NoirSmpModItems.TOTEM_DA_CACADA.get(), new ICurioItem() {
+				@Override
+				public void curioTick(SlotContext slotContext, ItemStack stack) {
+					TotemDaCacadaCuriosWhileBaubleIsEquippedTickProcedure.execute(slotContext.entity().level(), slotContext.entity().getX(), slotContext.entity().getY(), slotContext.entity().getZ());
+				}
+			});
+			CuriosApi.registerCurio(NoirSmpModItems.MASCARA_DA_RAPOSA.get(), new ICurioItem() {
+				@Override
+				public void curioTick(SlotContext slotContext, ItemStack stack) {
+					MascaraDaRaposaCuriosWhileBaubleIsEquippedTickProcedure.execute(slotContext.entity());
+				}
+			});
 		});
 	}
 }

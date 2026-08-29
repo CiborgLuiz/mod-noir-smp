@@ -7,9 +7,6 @@
         "value": "CUSTOM:CamposSinteticos"
       },
       {
-        "value": "CUSTOM:FlorestaEco"
-      },
-      {
         "value": "CUSTOM:CamposSinteticosDensos"
       },
       {
@@ -58,7 +55,7 @@
     "fixedTimeValue": 0,
     "coordinateScale": 1.0,
     "infiniburnTag": "minecraft:infiniburn_overworld",
-    "bedWorks": false,
+    "bedWorks": true,
     "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
     "piglinSafe": true,
@@ -72,7 +69,7 @@
     "portalParticles": {
       "value": "PORTAL"
     },
-    "portalLuminance": 1,
+    "portalLuminance": 15,
     "portalSound": {
       "value": "block.portal.ambient"
     },

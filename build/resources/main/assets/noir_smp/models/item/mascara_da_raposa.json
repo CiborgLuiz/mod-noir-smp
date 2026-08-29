@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/mascara_da_raposa",
+  "textures": {
+    "2": "noir_smp:block/mascara_da_raposa",
+    "particle": "noir_smp:item/mascara_da_raposa"
+  }
+}

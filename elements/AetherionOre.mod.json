@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Aetherion Ore",
+    "name": "§6§lAetherion Ore",
     "specialInformation": {
       "fixedValue": []
     },
@@ -58,7 +58,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Aetherion"
+      "value": ""
     },
     "dropAmount": 1,
     "xpAmountMin": 0,
@@ -154,8 +154,8 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 25,
-    "frequencyOnChunk": 2,
+    "frequencyPerChunks": 3,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": -64,
     "maxGenerateHeight": 30
   }

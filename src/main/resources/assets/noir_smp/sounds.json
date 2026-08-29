@@ -57,5 +57,14 @@
         "stream": false
       }
     ]
+  },
+  "impact": {
+    "subtitle": "subtitles.impact",
+    "sounds": [
+      {
+        "name": "noir_smp:impact",
+        "stream": false
+      }
+    ]
   }
 }

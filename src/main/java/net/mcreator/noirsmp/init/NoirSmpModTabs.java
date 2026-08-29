@@ -16,7 +16,7 @@ import net.mcreator.noirsmp.NoirSmpMod;
 public class NoirSmpModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, NoirSmpMod.MODID);
 	public static final RegistryObject<CreativeModeTab> NOIR_SMP = REGISTRY.register("noir_smp",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.noir_smp.noir_smp")).icon(() -> new ItemStack(NoirSmpModItems.DADO_FEURAL.get())).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.noir_smp.noir_smp")).icon(() -> new ItemStack(NoirSmpModBlocks.NOIR_BLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(NoirSmpModItems.DADO_FEURAL.get());
 				tabData.accept(NoirSmpModItems.MANOPLA_DE_SLIME.get());
 				tabData.accept(NoirSmpModItems.MANOPLA_DA_CALAMIDADE.get());
@@ -34,6 +34,7 @@ public class NoirSmpModTabs {
 				tabData.accept(NoirSmpModItems.SINGULARIS_ITEM.get());
 				tabData.accept(NoirSmpModItems.EGIDE_PRISMATICA.get());
 				tabData.accept(NoirSmpModItems.NINJATO.get());
+				tabData.accept(NoirSmpModItems.QUEBRA_MUNDOS.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_SPEED.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_REGEN.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_STRENGTH.get());
@@ -61,6 +62,11 @@ public class NoirSmpModTabs {
 				tabData.accept(NoirSmpModItems.FRAGMENTO_PRISMATICO.get());
 				tabData.accept(NoirSmpModItems.SELO_DO_MARTIR.get());
 				tabData.accept(NoirSmpModItems.RELOGIO_DA_VIOLENCIA.get());
+				tabData.accept(NoirSmpModItems.OLHO_DO_EXECUTOR.get());
+				tabData.accept(NoirSmpModItems.MARCA_DO_CARNICEIRO.get());
+				tabData.accept(NoirSmpModItems.TOTEM_DA_CACADA.get());
+				tabData.accept(NoirSmpModItems.MASCARA_DA_RAPOSA.get());
+				tabData.accept(NoirSmpModBlocks.NOIR_BLOCK.get().asItem());
 				tabData.accept(NoirSmpModBlocks.GRAMETITA.get().asItem());
 				tabData.accept(NoirSmpModBlocks.ESTRETION.get().asItem());
 				tabData.accept(NoirSmpModBlocks.ESTELITA.get().asItem());
@@ -89,6 +95,7 @@ public class NoirSmpModTabs {
 				tabData.accept(NoirSmpModBlocks.LITOMORPH_WALL.get().asItem());
 				tabData.accept(NoirSmpModBlocks.NEBULITA.get().asItem());
 				tabData.accept(NoirSmpModItems.CRIOGER_BUCKET.get());
+				tabData.accept(NoirSmpModBlocks.SINTETIC_SAPLING.get().asItem());
 				tabData.accept(NoirSmpModBlocks.SINTETIC_LOG.get().asItem());
 				tabData.accept(NoirSmpModBlocks.SINTETIC_WOOD.get().asItem());
 				tabData.accept(NoirSmpModBlocks.STRIPPED_SINTETIC_LOG.get().asItem());
@@ -103,6 +110,7 @@ public class NoirSmpModTabs {
 				tabData.accept(NoirSmpModBlocks.SINTETIC_TRAPDOOR.get().asItem());
 				tabData.accept(NoirSmpModBlocks.SINTETIC_PRESSURE_PLATE.get().asItem());
 				tabData.accept(NoirSmpModBlocks.SINTETIC_BUTTON.get().asItem());
+				tabData.accept(NoirSmpModBlocks.ARBOREA_SAPLING.get().asItem());
 				tabData.accept(NoirSmpModBlocks.ARBOREA_LOG.get().asItem());
 				tabData.accept(NoirSmpModBlocks.ARBOREA_WOOD.get().asItem());
 				tabData.accept(NoirSmpModBlocks.STRIPPED_ARBOREA_LOG.get().asItem());
@@ -117,6 +125,7 @@ public class NoirSmpModTabs {
 				tabData.accept(NoirSmpModBlocks.ARBOREA_TRAPDOOR.get().asItem());
 				tabData.accept(NoirSmpModBlocks.ARBOREA_PRESSURE_PLATE.get().asItem());
 				tabData.accept(NoirSmpModBlocks.ARBOREA_BUTTON.get().asItem());
+				tabData.accept(NoirSmpModBlocks.PULSE_SAPLING.get().asItem());
 				tabData.accept(NoirSmpModBlocks.PULSE_LOG.get().asItem());
 				tabData.accept(NoirSmpModBlocks.PULSE_WOOD.get().asItem());
 				tabData.accept(NoirSmpModBlocks.STRIPPED_PULSE_LOG.get().asItem());
@@ -131,6 +140,7 @@ public class NoirSmpModTabs {
 				tabData.accept(NoirSmpModBlocks.PULSE_TRAPDOOR.get().asItem());
 				tabData.accept(NoirSmpModBlocks.PULSE_PRESSURE_PLATE.get().asItem());
 				tabData.accept(NoirSmpModBlocks.PULSE_BUTTON.get().asItem());
+				tabData.accept(NoirSmpModItems.MACA_INSTAVEL.get());
 				tabData.accept(NoirSmpModBlocks.AETHERION_ORE.get().asItem());
 				tabData.accept(NoirSmpModBlocks.AETHERION_BLOCK.get().asItem());
 				tabData.accept(NoirSmpModItems.AETHERION.get());

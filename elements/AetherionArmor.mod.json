@@ -16,10 +16,10 @@
       }
     ],
     "armorTextureFile": "aetherion",
-    "helmetName": "Aetherion Helmet",
-    "bodyName": "Aetherion Chestplate",
-    "leggingsName": "Aetherion Leggings",
-    "bootsName": "Aetherion Boots",
+    "helmetName": "§6§lAetherion Helmet",
+    "bodyName": "§6§lAetherion Chestplate",
+    "leggingsName": "§6§lAetherion Leggings",
+    "bootsName": "§6§lAetherion Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },
@@ -32,22 +32,22 @@
     "bootsSpecialInformation": {
       "fixedValue": []
     },
-    "helmetModelName": "Default",
-    "helmetModelPart": "Helmet",
-    "helmetModelTexture": "From armor",
-    "bodyModelName": "Default",
+    "helmetModelName": "ModelAetherion",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "aetherion.png",
+    "bodyModelName": "ModelAetherion",
     "bodyModelPart": "Body",
-    "armsModelPartL": "Arms L",
-    "armsModelPartR": "Arms R",
-    "bodyModelTexture": "From armor",
-    "leggingsModelName": "Default",
-    "leggingsModelPartL": "Leggings L",
-    "leggingsModelPartR": "Leggings R",
-    "leggingsModelTexture": "From armor",
-    "bootsModelName": "Default",
-    "bootsModelPartL": "Boots L",
-    "bootsModelPartR": "Boots R",
-    "bootsModelTexture": "From armor",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "aetherion.png",
+    "leggingsModelName": "ModelAetherion",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "aetherion.png",
+    "bootsModelName": "ModelAetherion",
+    "bootsModelPartL": "LeftBoot",
+    "bootsModelPartR": "RightBoot",
+    "bootsModelTexture": "aetherion.png",
     "helmetItemRenderType": 0,
     "helmetItemCustomModelName": "Normal",
     "bodyItemRenderType": 0,
@@ -56,10 +56,10 @@
     "leggingsItemCustomModelName": "Normal",
     "bootsItemRenderType": 0,
     "bootsItemCustomModelName": "Normal",
-    "helmetImmuneToFire": false,
-    "bodyImmuneToFire": false,
-    "leggingsImmuneToFire": false,
-    "bootsImmuneToFire": false,
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
     "helmetGlowCondition": {
       "fixedValue": false
     },
@@ -84,16 +84,16 @@
     "bootsPiglinNeutral": {
       "fixedValue": false
     },
-    "maxDamage": 60,
-    "damageValueHelmet": 8,
-    "damageValueBody": 24,
-    "damageValueLeggings": 20,
-    "damageValueBoots": 8,
+    "maxDamage": 70,
+    "damageValueHelmet": 4,
+    "damageValueBody": 10,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 4,
     "enchantability": 36,
-    "toughness": 0.0,
-    "knockbackResistance": 0.0,
+    "toughness": 4.0,
+    "knockbackResistance": 0.15,
     "equipSound": {
-      "value": ""
+      "value": "item.armor.equip_netherite"
     },
     "repairItems": [
       {

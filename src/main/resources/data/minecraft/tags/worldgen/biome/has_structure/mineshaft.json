@@ -1,8 +1,7 @@
 {
   "replace": false,
   "values": [
-    "noir_smp:floresta_eco_densa",
-    "noir_smp:floresta_eco_aberta",
-    "noir_smp:floresta_eco_reduzida"
+    "noir_smp:floresta_eco_reduzida",
+    "noir_smp:campos_sinteticos_densos"
   ]
 }

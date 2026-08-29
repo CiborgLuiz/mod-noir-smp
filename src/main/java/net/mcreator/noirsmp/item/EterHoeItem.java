@@ -12,11 +12,11 @@ public class EterHoeItem extends HoeItem {
 	public EterHoeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 1444;
+				return 2444;
 			}
 
 			public float getSpeed() {
-				return 13f;
+				return 16.5f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -24,16 +24,16 @@ public class EterHoeItem extends HoeItem {
 			}
 
 			public int getLevel() {
-				return 3;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
-				return 49;
+				return 35;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(NoirSmpModItems.ETER_DUST.get()));
 			}
-		}, 0, 7f, new Item.Properties());
+		}, 0, 0.2f, new Item.Properties());
 	}
 }

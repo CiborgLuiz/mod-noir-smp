@@ -9,7 +9,7 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "Aetherion Sword",
+    "name": "§6§lAetherion Sword",
     "specialInformation": {
       "fixedValue": []
     },
@@ -19,9 +19,9 @@
       }
     ],
     "efficiency": 14.0,
-    "attackSpeed": 6.0,
-    "enchantability": 56,
-    "damageVsEntity": 24.0,
+    "attackSpeed": 1.8,
+    "enchantability": 30,
+    "damageVsEntity": 22.0,
     "usageCount": 1741,
     "glowCondition": {
       "fixedValue": false
@@ -32,7 +32,7 @@
       }
     ],
     "immuneToFire": false,
-    "blockDropsTier": "DIAMOND",
+    "blockDropsTier": "NETHERITE",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
