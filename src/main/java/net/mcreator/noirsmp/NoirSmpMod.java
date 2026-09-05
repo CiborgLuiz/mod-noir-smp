@@ -11,6 +11,7 @@ import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.NetworkEvent;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.fml.util.thread.SidedThreadGroups;
+import net.minecraftforge.fml.loading.FMLEnvironment;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.ModList;
@@ -18,6 +19,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
@@ -48,6 +50,8 @@ public class NoirSmpMod {
 		IEventBus bus = context.getModEventBus();
 		if (ModList.get().isLoaded("curios")) {
 			bus.addListener(NoirSmpModCuriosCompat::registerCurios);
+			if (FMLEnvironment.dist == Dist.CLIENT)
+				bus.addListener(NoirSmpModCuriosRenderers::registerRenderers);
 		}
 		NoirSmpModSounds.REGISTRY.register(bus);
 		NoirSmpModBlocks.REGISTRY.register(bus);

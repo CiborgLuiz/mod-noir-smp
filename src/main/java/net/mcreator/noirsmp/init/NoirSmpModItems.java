@@ -194,6 +194,9 @@ public class NoirSmpModItems {
 	public static final RegistryObject<Item> ARBOREA_SAPLING;
 	public static final RegistryObject<Item> PULSE_SAPLING;
 	public static final RegistryObject<Item> MACA_INSTAVEL;
+	public static final RegistryObject<Item> OCULOS_DA_VERDADE;
+	public static final RegistryObject<Item> LAMINA_DE_CONTENCAO_MKI;
+	public static final RegistryObject<Item> LAMINA_DE_CONTENCAO_MKII;
 	static {
 		MANOPLA_DE_SLIME = REGISTRY.register("manopla_de_slime", ManoplaDeSlimeItem::new);
 		DADO_FEURAL = REGISTRY.register("dado_feural", DadoFeuralItem::new);
@@ -362,6 +365,9 @@ public class NoirSmpModItems {
 		ARBOREA_SAPLING = block(NoirSmpModBlocks.ARBOREA_SAPLING);
 		PULSE_SAPLING = block(NoirSmpModBlocks.PULSE_SAPLING);
 		MACA_INSTAVEL = REGISTRY.register("maca_instavel", MacaInstavelItem::new);
+		OCULOS_DA_VERDADE = REGISTRY.register("oculos_da_verdade", OculosDaVerdadeItem::new);
+		LAMINA_DE_CONTENCAO_MKI = REGISTRY.register("lamina_de_contencao_mki", LaminaDeContencaoMKIItem::new);
+		LAMINA_DE_CONTENCAO_MKII = REGISTRY.register("lamina_de_contencao_mkii", LaminaDeContencaoMKIIItem::new);
 	}
 
 	// Start of user code block custom items

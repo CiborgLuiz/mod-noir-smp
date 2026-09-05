@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/oculos_da_verdade",
+  "textures": {
+    "0": "noir_smp:block/oculos_da_verdade",
+    "particle": "noir_smp:item/oculos_da_verdade"
+  }
+}

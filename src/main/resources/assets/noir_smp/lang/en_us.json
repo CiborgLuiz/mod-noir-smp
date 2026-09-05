@@ -278,5 +278,12 @@
   "block.noir_smp.sintetic_sapling": "Sintetic Sapling",
   "block.noir_smp.arborea_sapling": "Arborea Sapling",
   "block.noir_smp.pulse_sapling": "Pulse Sapling",
-  "item.noir_smp.maca_instavel": "Maça Instavel"
+  "item.noir_smp.maca_instavel": "Maça Instavel",
+  "item.noir_smp.oculos_da_verdade.description_3": "§6§l✦ Consegue ver certas entidades que são invisiveis",
+  "item.noir_smp.oculos_da_verdade.description_2": "§6§lEfeitos:",
+  "item.noir_smp.oculos_da_verdade.description_1": "",
+  "item.noir_smp.oculos_da_verdade.description_0": "§6§lExistem coisas que não foram feitas para serem vistas.",
+  "item.noir_smp.oculos_da_verdade": "§6§lOculos Da Verdade",
+  "item.noir_smp.lamina_de_contencao_mki": "§6§lLâmina de Contenção MK-I ",
+  "item.noir_smp.lamina_de_contencao_mkii": "§4§lLâmina de Contenção MK-II"
 }

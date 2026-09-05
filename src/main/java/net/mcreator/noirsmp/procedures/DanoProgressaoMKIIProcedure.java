@@ -1,0 +1,45 @@
+package net.mcreator.noirsmp.procedures;
+
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.living.LivingHurtEvent;
+
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
+
+import net.mcreator.noirsmp.init.NoirSmpModItems;
+
+@Mod.EventBusSubscriber
+public class DanoProgressaoMKIIProcedure {
+
+    @SubscribeEvent
+    public static void onLivingHurt(LivingHurtEvent event) {
+
+        Entity attacker = event.getSource().getEntity();
+
+        if (!(attacker instanceof Player player))
+            return;
+
+        ItemStack stack = player.getMainHandItem();
+
+        if (stack.isEmpty())
+            return;
+
+        if (stack.getItem() != NoirSmpModItems.LAMINA_DE_CONTENCAO_MKII.get())
+            return;
+
+        if (event.getSource().getDirectEntity() != player)
+            return;
+
+        float damage = event.getAmount();
+
+        if (damage <= 0)
+            return;
+            
+        stack.getOrCreateTag().putDouble(
+            "dano",
+            stack.getOrCreateTag().getDouble("dano") + damage
+        );
+    }
+}

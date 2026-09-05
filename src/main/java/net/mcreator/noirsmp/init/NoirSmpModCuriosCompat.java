@@ -7,6 +7,7 @@ import top.theillusivec4.curios.api.CuriosApi;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.monster.EnderMan;
 
 import net.mcreator.noirsmp.procedures.*;
 
@@ -96,6 +97,12 @@ public class NoirSmpModCuriosCompat {
 				@Override
 				public void curioTick(SlotContext slotContext, ItemStack stack) {
 					MascaraDaRaposaCuriosWhileBaubleIsEquippedTickProcedure.execute(slotContext.entity());
+				}
+			});
+			CuriosApi.registerCurio(NoirSmpModItems.OCULOS_DA_VERDADE.get(), new ICurioItem() {
+				@Override
+				public boolean isEnderMask(SlotContext slotContext, EnderMan enderMan, ItemStack stack) {
+					return true;
 				}
 			});
 		});

@@ -1,0 +1,7 @@
+{
+  "parent": "noir_smp:custom/lamina_de_contencao_mk-i",
+  "textures": {
+    "0": "noir_smp:block/lamina_de_contencao_mk-i",
+    "particle": "noir_smp:item/lamina_de_contencao_mk-i"
+  }
+}

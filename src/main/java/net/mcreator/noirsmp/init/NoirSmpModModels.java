@@ -20,6 +20,7 @@ public class NoirSmpModModels {
 		event.registerLayerDefinition(Modelskeleton.LAYER_LOCATION, Modelskeleton::createBodyLayer);
 		event.registerLayerDefinition(Modelancora.LAYER_LOCATION, Modelancora::createBodyLayer);
 		event.registerLayerDefinition(ModelBotas_Etereas_Model.LAYER_LOCATION, ModelBotas_Etereas_Model::createBodyLayer);
+		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
 		event.registerLayerDefinition(ModelGarrafa.LAYER_LOCATION, ModelGarrafa::createBodyLayer);
 		event.registerLayerDefinition(Modelburaconegro.LAYER_LOCATION, Modelburaconegro::createBodyLayer);
 		event.registerLayerDefinition(ModelTijoloProjetil.LAYER_LOCATION, ModelTijoloProjetil::createBodyLayer);

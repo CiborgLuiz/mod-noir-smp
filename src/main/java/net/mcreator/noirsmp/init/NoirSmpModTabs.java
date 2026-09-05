@@ -35,6 +35,8 @@ public class NoirSmpModTabs {
 				tabData.accept(NoirSmpModItems.EGIDE_PRISMATICA.get());
 				tabData.accept(NoirSmpModItems.NINJATO.get());
 				tabData.accept(NoirSmpModItems.QUEBRA_MUNDOS.get());
+				tabData.accept(NoirSmpModItems.LAMINA_DE_CONTENCAO_MKI.get());
+				tabData.accept(NoirSmpModItems.LAMINA_DE_CONTENCAO_MKII.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_SPEED.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_REGEN.get());
 				tabData.accept(NoirSmpModItems.SINO_DE_MARFIM_STRENGTH.get());
@@ -66,6 +68,7 @@ public class NoirSmpModTabs {
 				tabData.accept(NoirSmpModItems.MARCA_DO_CARNICEIRO.get());
 				tabData.accept(NoirSmpModItems.TOTEM_DA_CACADA.get());
 				tabData.accept(NoirSmpModItems.MASCARA_DA_RAPOSA.get());
+				tabData.accept(NoirSmpModItems.OCULOS_DA_VERDADE.get());
 				tabData.accept(NoirSmpModBlocks.NOIR_BLOCK.get().asItem());
 				tabData.accept(NoirSmpModBlocks.GRAMETITA.get().asItem());
 				tabData.accept(NoirSmpModBlocks.ESTRETION.get().asItem());

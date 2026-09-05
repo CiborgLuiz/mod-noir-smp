@@ -21,7 +21,7 @@ public class UmbraveuItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 10.5f;
+				return 16f;
 			}
 
 			public int getLevel() {
