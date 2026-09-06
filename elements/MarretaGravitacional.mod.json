@@ -11,7 +11,13 @@
     "guiTexture": "",
     "name": "§5§lMarreta Gravitacional",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§5§lNem mesmo a distância é capaz de escapar.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Ao ativar, atrai entidades próximas até você",
+        "§6§l✦ A atração causa Lentidão e Fraqueza ao usuário"
+      ]
     },
     "creativeTabs": [
       {

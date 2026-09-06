@@ -11,7 +11,14 @@
     "guiTexture": "",
     "name": "§1§lÉgide Prismática",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§b§lNão se deixe enganar pela aparência. ",
+        "§b§lEla sabe afastar o que importa.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Bloquear um ataque libera uma onda de impacto",
+        "§6§l✦ A onda repele entidades próximas"
+      ]
     },
     "creativeTabs": [
       {

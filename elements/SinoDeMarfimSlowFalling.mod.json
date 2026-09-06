@@ -32,7 +32,12 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§f§lNem todo caminho precisa terminar no chão.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Concede Queda Lenta ao tocar o sino"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

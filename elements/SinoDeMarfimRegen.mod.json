@@ -32,7 +32,12 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§d§lMesmo a carne quebrada pode se recompor.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Concede Regeneração ao tocar o sino"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

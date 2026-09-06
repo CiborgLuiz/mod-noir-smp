@@ -32,7 +32,12 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§b§lO caminho se torna pequeno para quem não para.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Concede Velocidade ao tocar o sino"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

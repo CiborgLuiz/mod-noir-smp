@@ -32,7 +32,14 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§8§lO acesso a esta arma é... singular.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Dispara uma singularidade instável",
+        "§6§l✦ Ao atingir um alvo, cria um buraco negro",
+        "§6§lque erradica tudo ao seu redor"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

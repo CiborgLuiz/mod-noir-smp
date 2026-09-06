@@ -11,7 +11,14 @@
     "guiTexture": "",
     "name": "§5§lUmbravéu",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§5§lO primeiro corte é o único que você vê.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Ao atingir uma entidade,",
+        "§6§ldesencadeia uma sequência de cortes ilusórios",
+        "§6§l✦ Os cortes ilusórios causam dano adicional"
+      ]
     },
     "creativeTabs": [
       {

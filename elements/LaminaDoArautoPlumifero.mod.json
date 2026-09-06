@@ -11,7 +11,9 @@
     "guiTexture": "",
     "name": "§6§lLâmina do Arauto Plumífero",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§6§lO arauto anuncia a morte antes que ela chegue. "
+      ]
     },
     "creativeTabs": [
       {

@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "tool",
   "definition": {
-    "toolType": "Sword",
+    "toolType": "Axe",
     "renderType": 1,
     "blockingRenderType": 0,
     "texture": "resto",
@@ -11,7 +11,13 @@
     "guiTexture": "",
     "name": "§6§lP.E.D.R.A",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§7§lSe uma lâmina não basta, mude a resposta.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Pode ser transformada entre suas três formas",
+        "§6§l✦ Forma especializada em golpes pesados"
+      ]
     },
     "creativeTabs": [
       {

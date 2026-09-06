@@ -32,7 +32,12 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§8§lO que não pode ser visto não pode ser encontrado.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Concede Invisibilidade ao tocar o sino"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

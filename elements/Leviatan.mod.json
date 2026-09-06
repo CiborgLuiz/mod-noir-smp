@@ -11,7 +11,14 @@
     "guiTexture": "",
     "name": "§3§lLeviatan",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§9§lNão importa quem lançou a âncora.",
+        "§9§lNo fim, algo sempre será puxado.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Atingir um bloco puxa você até ele",
+        "§6§l✦ Atingir uma criatura puxa-a até você"
+      ]
     },
     "creativeTabs": [
       {

@@ -32,7 +32,12 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§a§lO chão não é tão importante assim.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Concede Super Pulo ao tocar o sino"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

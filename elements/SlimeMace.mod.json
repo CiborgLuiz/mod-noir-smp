@@ -11,7 +11,14 @@
     "guiTexture": "",
     "name": "§6§lS.L.I.M.E",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§a§lTrês armas.",
+        "§a§lUma só vontade.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Pode ser transformada entre suas três formas",
+        "§6§l✦ Forma especializada em impactos devastadores"
+      ]
     },
     "creativeTabs": [
       {

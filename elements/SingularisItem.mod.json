@@ -32,7 +32,13 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§c§lUm olho basta para encontrar qualquer alvo.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Invoca um Singularis que orbita o usuário",
+        "§6§l✦ O Singularis dispara feixes de energia contra inimigos próximos"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

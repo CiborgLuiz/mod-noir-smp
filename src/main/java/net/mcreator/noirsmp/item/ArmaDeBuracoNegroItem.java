@@ -2,6 +2,7 @@ package net.mcreator.noirsmp.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
@@ -11,8 +12,11 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.network.chat.Component;
 
 import net.mcreator.noirsmp.entity.MiniBuracoNegroEntity;
+
+import java.util.List;
 
 public class ArmaDeBuracoNegroItem extends Item {
 	public ArmaDeBuracoNegroItem() {
@@ -27,6 +31,17 @@ public class ArmaDeBuracoNegroItem extends Item {
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
 		return 72000;
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
+		list.add(Component.translatable("item.noir_smp.arma_de_buraco_negro.description_0"));
+		list.add(Component.translatable("item.noir_smp.arma_de_buraco_negro.description_1"));
+		list.add(Component.translatable("item.noir_smp.arma_de_buraco_negro.description_2"));
+		list.add(Component.translatable("item.noir_smp.arma_de_buraco_negro.description_3"));
+		list.add(Component.translatable("item.noir_smp.arma_de_buraco_negro.description_4"));
+		list.add(Component.translatable("item.noir_smp.arma_de_buraco_negro.description_5"));
 	}
 
 	@Override

@@ -32,7 +32,12 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§e§lA escuridão esconde apenas o que você não consegue ver.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Concede Visão Noturna ao tocar o sino"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

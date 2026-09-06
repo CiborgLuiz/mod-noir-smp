@@ -11,7 +11,12 @@
     "guiTexture": "",
     "name": "§e§lNinjato",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§c§lUm corte basta. O sangue fará o resto.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Ataques aplicam Sangramento ao alvo"
+      ]
     },
     "creativeTabs": [
       {

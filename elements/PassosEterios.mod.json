@@ -33,7 +33,15 @@
       "fixedValue": []
     },
     "bootsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§5§lAos pés do impossível, a gravidade se torna opcional.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Permite caminhar livremente pelo ar",
+        "§6§l✦ A gravidade permanece suspensa enquanto equipado",
+        "§6§l✦ Segure §f§lShift §6§lpara descer lentamente",
+        "§6§l✦ Pressione §f§lEspaço §6§lpara restaurar a gravidade"
+      ]
     },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",

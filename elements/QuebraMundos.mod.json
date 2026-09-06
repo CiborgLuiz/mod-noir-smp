@@ -11,7 +11,15 @@
     "guiTexture": "",
     "name": "§8§lQuebra Mundos",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§5§lNão é o mundo que se parte.",
+        "§5§lÉ a realidade que cede.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Ataques abrem uma fenda dimensional",
+        "§6§l✦ Após alguns segundos, a fenda suga entidades próximas",
+        "§6§l✦ A fenda implode, causando um dano devastadora"
+      ]
     },
     "creativeTabs": [
       {

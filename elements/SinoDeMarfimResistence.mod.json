@@ -32,7 +32,12 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§7§lPermaneça de pé quando tudo ao redor cair.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Concede Resistência ao tocar o sino"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

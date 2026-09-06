@@ -32,7 +32,12 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§c§lQue o próximo golpe seja o último.",
+        "",
+        "§6§lEfeitos:",
+        "§6§lEfeitos:"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

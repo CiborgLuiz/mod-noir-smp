@@ -11,7 +11,12 @@
     "guiTexture": "",
     "name": "§4§lManopla Da Calamidade",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§4§lUm único golpe pode rasgar a realidade.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ 20% de chance de desencadear um impacto devastador"
+      ]
     },
     "creativeTabs": [
       {

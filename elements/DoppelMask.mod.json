@@ -32,7 +32,18 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§5§lVocê nunca está sozinho. ",
+        "§5§lÀs vezes, você é dois.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Ao equipar, cria um Doppelgänger",
+        "§6§lque replica seus equipamentos",
+        "§6§l✦ O Doppelgänger luta ao seu lado",
+        "§6§l✦ Ao morrer, o Doppelgänger coloca a máscara em cooldown",
+        "§6§l✦ Se você morrer enquanto ele estiver ativo, ",
+        "§6§lsua morte é transferida para o Doppelgänger"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

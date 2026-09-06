@@ -6,6 +6,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
@@ -16,6 +17,7 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.network.chat.Component;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.Minecraft;
@@ -25,6 +27,7 @@ import net.mcreator.noirsmp.client.model.ModelBotas_Etereas_Model;
 
 import java.util.function.Consumer;
 import java.util.Map;
+import java.util.List;
 import java.util.Collections;
 
 import com.google.common.collect.Iterables;
@@ -100,6 +103,18 @@ public abstract class PassosEteriosItem extends ArmorItem {
 					return armorModel;
 				}
 			});
+		}
+
+		@Override
+		public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, level, list, flag);
+			list.add(Component.translatable("item.noir_smp.passos_eterios_boots.description_0"));
+			list.add(Component.translatable("item.noir_smp.passos_eterios_boots.description_1"));
+			list.add(Component.translatable("item.noir_smp.passos_eterios_boots.description_2"));
+			list.add(Component.translatable("item.noir_smp.passos_eterios_boots.description_3"));
+			list.add(Component.translatable("item.noir_smp.passos_eterios_boots.description_4"));
+			list.add(Component.translatable("item.noir_smp.passos_eterios_boots.description_5"));
+			list.add(Component.translatable("item.noir_smp.passos_eterios_boots.description_6"));
 		}
 
 		@Override

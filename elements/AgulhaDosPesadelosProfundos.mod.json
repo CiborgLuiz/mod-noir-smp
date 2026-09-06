@@ -11,7 +11,9 @@
     "guiTexture": "",
     "name": "§1§lAgulha Dos Pesadelos Profundos",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§8§lHá pesadelos que não precisam ser sonhados. "
+      ]
     },
     "creativeTabs": [
       {

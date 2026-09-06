@@ -11,7 +11,12 @@
     "guiTexture": "",
     "name": "§a§lManopla De Slime",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§a§lA gravidade é apenas uma sugestão.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Ataques lançam o alvo violentamente para o alto"
+      ]
     },
     "creativeTabs": [
       {

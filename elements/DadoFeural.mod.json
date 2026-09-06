@@ -32,7 +32,15 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§d§lVocê não controla o resultado. ",
+        "§d§lApenas decide se vai arriscar.",
+        "",
+        "§6§lEfeitos: ",
+        "§6§l✦ Clique com o botão direito para rolar o dado",
+        "§6§l✦ 1–3: Resultados negativos",
+        "§6§l✦ 4–6: Resultado positivo"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

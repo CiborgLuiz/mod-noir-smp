@@ -11,7 +11,13 @@
     "guiTexture": "",
     "name": "§6§lE.S.P.A.D.A",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§b§lUma arma nunca precisa ter apenas uma forma.",
+        "",
+        "§6§lEfeitos:",
+        "§6§l✦ Pode ser transformada entre suas três formas",
+        "§6§l✦ Forma especializada em ataques rápidos"
+      ]
     },
     "creativeTabs": [
       {
